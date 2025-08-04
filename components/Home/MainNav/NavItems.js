@@ -9,7 +9,7 @@ export const navItems = [
                     { name: "Strategic Plan", href: "https://sviet.org.in/wp-content/uploads/Strategic-Plan_0001-3.pdf" },
                     { name: "Governing Body", href: "/governing-body" },
                     { name: "Administration", href: "/administration" },
-                    { name: "Statutory Committee", href: "#" },
+                    { name: "Statutory Committee", href: "/committee" },
                     { name: "IQAC", href: "/iqac" },
                 ]
             },

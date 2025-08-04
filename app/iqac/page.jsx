@@ -129,12 +129,7 @@ export default function IqacPage() {
                     <section className="py-16 bg-white">
                         <div className="container mx-auto px-4">
                             <div className="max-w-6xl mx-auto">
-                                <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                                    Members of IQAC
-                                </h2>
-                                <p className="text-gray-700 mb-8">
-                                    The following member of Internal Quality Assurance cell (IQAC) to work towards realization of the goal of quality enhancement and develop a system for conscious, consistant and catalytic improvement in the overall preformance of the institution.
-                                </p>
+                               
                                 <div className="block">
                                     <Card className="shadow-lg pt-0 overflow-hidden ">
                                         <CardContent className="p-0">
@@ -142,11 +137,11 @@ export default function IqacPage() {
                                                 <TableHeader>
                                                     <TableRow className="bg-blue-50">
 
-                                                        <TableHead className="font-bold py-4 px-10 text-blue-900">
+                                                        <TableHead className="font-bold w-1  text-blue-900">
                                                             Sr. No
                                                         </TableHead>
 
-                                                        <TableHead className="font-bold py-4  px-10 text-blue-900">
+                                                        <TableHead className="font-bold py-4 max-w-[200px] whitespace-normal break-words px-10 text-blue-900">
                                                             Position
                                                         </TableHead>
                                                         <TableHead className="font-bold py-4 px-10 text-blue-900">
@@ -156,10 +151,10 @@ export default function IqacPage() {
                                                 </TableHeader>
                                                 <TableBody >
                                                     <TableRow className=" hover:bg-gray-50">
-                                                        <TableCell className="font-semibold py-4 px-10">
+                                                        <TableCell className=" font-semibold px-4">
                                                             {1}
                                                         </TableCell>
-                                                        <TableCell className="py-4 font-medium px-10 text-blue-900">
+                                                        <TableCell className="py-4 max-w-[300px] whitespace-normal break-words font-medium px-10 text-blue-900">
                                                             Chairperson
                                                         </TableCell>
                                                         <TableCell className="font-semibold py-4 px-10">
@@ -168,10 +163,10 @@ export default function IqacPage() {
 
                                                     </TableRow>
                                                     <TableRow className=" hover:bg-gray-50">
-                                                        <TableCell className="font-semibold py-4 px-10">
+                                                        <TableCell className="font-semibold px-4">
                                                             {2}
                                                         </TableCell>
-                                                        <TableCell className="py-4 font-medium px-10 text-blue-900">
+                                                        <TableCell className="py-4 max-w-[300px] whitespace-normal break-words font-medium px-10 text-blue-900">
                                                             Administrative Officers
                                                         </TableCell>
                                                         <TableCell className="font-semibold py-4 px-10">
@@ -179,10 +174,10 @@ export default function IqacPage() {
 
                                                     </TableRow>
                                                     <TableRow className=" hover:bg-gray-50">
-                                                        <TableCell className="font-semibold py-4 px-10">
+                                                        <TableCell className="font-semibold px-4">
                                                             {3}
                                                         </TableCell>
-                                                        <TableCell className="py-4 font-medium px-10 text-blue-900">
+                                                        <TableCell className="py-4 max-w-[300px] whitespace-normal break-words font-medium px-10 text-blue-900">
                                                             Faculty Representative                    </TableCell>
                                                         <TableCell className="font-semibold py-4 px-10">
                                                             <div>Ms. Vandana</div>
@@ -192,10 +187,10 @@ export default function IqacPage() {
 
                                                     </TableRow>
                                                     <TableRow className=" hover:bg-gray-50">
-                                                        <TableCell className="font-semibold py-4 px-10">
+                                                        <TableCell className="font-semibold px-4">
                                                             {4}
                                                         </TableCell>
-                                                        <TableCell className="py-4 font-medium px-10 text-blue-900">
+                                                        <TableCell className="py-4 max-w-[300px] whitespace-normal break-words font-medium px-10 text-blue-900">
                                                             Management Representative
                                                         </TableCell>
                                                         <TableCell className="font-semibold py-4 px-10">
@@ -204,10 +199,10 @@ export default function IqacPage() {
 
                                                     </TableRow>
                                                     <TableRow className=" hover:bg-gray-50">
-                                                        <TableCell className="font-semibold py-4 px-10">
+                                                        <TableCell className="font-semibold px-4 ">
                                                             {5}
                                                         </TableCell>
-                                                        <TableCell className="py-4 font-medium px-10 text-blue-900">
+                                                        <TableCell className="py-4 max-w-[300px] whitespace-normal break-words font-medium px-10 text-blue-900">
                                                             Nominees from local society, students and alumini                     </TableCell>
                                                         <TableCell className="font-semibold py-4 px-10">
                                                             <div>Ms. Pooja (Society Representative)</div>
@@ -217,10 +212,10 @@ export default function IqacPage() {
 
                                                     </TableRow>
                                                     <TableRow className=" hover:bg-gray-50">
-                                                        <TableCell className="font-semibold py-4 px-10">
+                                                        <TableCell className="font-semibold px-4">
                                                             {6}
                                                         </TableCell>
-                                                        <TableCell className="py-4 font-medium px-10 text-blue-900">
+                                                        <TableCell className="py-4 max-w-[300px] whitespace-normal break-words font-medium px-10 text-blue-900">
                                                             Employer/Industrialist Nominees                     </TableCell>
                                                         <TableCell className="font-semibold py-4 px-10">
                                                             <div>Mr. Varun Garg (CEO, S-Digital Solutions),</div>
@@ -228,10 +223,10 @@ export default function IqacPage() {
 
                                                     </TableRow>
                                                     <TableRow className=" hover:bg-gray-50">
-                                                        <TableCell className="font-semibold py-4 px-10">
+                                                        <TableCell className="font-semibold px-4">
                                                             {7}
                                                         </TableCell>
-                                                        <TableCell className="py-4 font-medium px-10 text-blue-900">
+                                                        <TableCell className="py-4 max-w-[300px] whitespace-normal break-words font-medium px-10 text-blue-900">
                                                             IQAC Director                     </TableCell>
                                                         <TableCell className="font-semibold py-4 px-10">
                                                             Dr. Ashok Goyal                    </TableCell>
