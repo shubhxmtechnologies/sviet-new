@@ -47,7 +47,7 @@ export function CollegeOverview() {
             <div className="container mx-auto px-4 md:px-6">
                 <h2 className="mb-4 text-center text-2xl font-bold text-[#003366] md:text-3xl">
                     Discover the Best Engineering Programs at SVIET                </h2>
-                <p className="mx-auto mb-10 max-w-3xl text-center text-gray-700">
+                <p className="mx-auto mb-10 max-w-4xl text-justify text-gray-700">
                     SVIET (Swami Vivekanand Institute of Engineering & Technology) offers comprehensive engineering programs  designed  to  provide  students  with  cutting-edge  knowledge,  practical  skills,  and industry-relevant  experience.  Our  programs  combine  theoretical  excellence  with  hands-on  learning  to  create competent engineers.
                 </p>
 

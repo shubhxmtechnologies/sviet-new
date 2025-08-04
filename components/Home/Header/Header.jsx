@@ -17,19 +17,25 @@ export function Header() {
         <header className="bg-white py-4 shadow-sm">
             <div className="px-4 flex items-center justify-between w-full  md:px-6">
                 {/* Left Section: Logo and College Name */}
-                <div className="px-10">
-                    <Link
-                        className="flex items-center gap-4"
-                        href={"/"}>
-                        <Image
-                            src="/Home/SVIET.jpg"
-                            alt="College Logo"
-                            height={100}
-                            width={100}
-                        />
-
-                    </Link>
-
+                <div className="flex items-center gap-4 md:px-10">
+                    <Image
+                        src="/SVIET.jpg"
+                        alt="College Logo 1"
+                        width={100}
+                        height={100}
+                    />
+                    <Image
+                        src="/NAAC.png"
+                        alt="College Logo 2"
+                        width={100}
+                        height={100}
+                    />
+                    <div className="hidden md:block">
+                        <h1 className="text-lg font-bold text-[#003366] md:text-xl">
+                            Swami Vivekanand Institute of Engineering & Technology
+                        </h1>
+                        <p className="text-xs text-gray-600">ESTD. 2004 Approved by AICTE, Affiliated to IKGPTU</p>
+                    </div>
                 </div>
 
                 <Sheet>

@@ -64,7 +64,7 @@ export function HeroSection() {
                 <CarouselContent>
                     {images.map((_, index) => (
                         <CarouselItem key={index}>
-                            <div className="relative flex h-[450px] items-center justify-center bg-gray-100 md:h-[550px] lg:h-[650px]">
+                            <div className="relative flex h-[550px] items-center justify-center bg-gray-100 md:h-[650px] lg:h-[750px]">
                                 <Image
                                     src={images[index]}
                                     alt={`College Banner ${index + 1}`}

@@ -18,13 +18,13 @@ export const keyHighlights = [
         title: "World-Class Infrastructure",
         description:
             "With two decades of educational excellence, SVIET has built a legacy of trust, quality, and student success across technical and professional domains.",
-        imageQuery:"/Highlights/AddmissionCell.jpeg"
+        imageQuery:"/Herosection/11.jpeg"
     },
     {
         title: "Expert Faculty & Mentorship",
         description:
             "Our highly qualified faculty blend academic knowledge with real-world experience to mentor students and guide them towards innovation, research, and entrepreneurship.",
-        imageQuery:"/Highlights/mentorship.JPG"
+        imageQuery: "/Herosection/8.JPG",
     },
     {
         title: "Industry-Aligned Curriculum",
