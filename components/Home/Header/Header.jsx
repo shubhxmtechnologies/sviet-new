@@ -17,15 +17,15 @@ export function Header() {
         <header className="bg-white py-4 shadow-sm">
             <div className="px-4 flex items-center justify-between w-full  md:px-6">
                 {/* Left Section: Logo and College Name */}
-                <div className="">
+                <div className="px-10">
                     <Link
                         className="flex items-center gap-4"
                         href={"/"}>
                         <Image
-                            src="/college-logo.webp"
+                            src="/Home/SVIET.jpg"
                             alt="College Logo"
-                            width={250}
-                            height={300}
+                            height={100}
+                            width={100}
                         />
 
                     </Link>

@@ -49,9 +49,7 @@ export function HeroSection() {
                 <div className="max-w-3xl text-left">
                     <h2 className="text-3xl font-bold md:text-4xl lg:text-5xl">
                         Shaping Visionaries Through Education and Innovation Since 2004                    </h2>
-                    <p className="mt-4 text-md md:text-lg">
-                        Founded  in  2004,  <span className="font-medium italic">"Swami  Vivekanand  Institute  of  Engineering  &  Technology  (SVIET)"</span>  is  a  NAAC-accredited  institute  known  for  providing  quality  technical  education.  It  is  the  premier  institute  under  the Swami  Vivekanand  Group  of  Institutes  (SVGOI),  managed  by  the  Shri  Raghu  Nath  Rai  Memorial Educational  &  Charitable  Trust.  With  modern  facilities,  experienced  teachers,  and  a  career-focused approach, SVIET helps students grow into skilled and responsible professionals.
-                    </p>
+
                 </div>
             </div>
             <Carousel

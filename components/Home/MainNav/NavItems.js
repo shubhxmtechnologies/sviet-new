@@ -8,9 +8,9 @@ export const navItems = [
                     { name: "About SVIET", href: "/About-Sviet" },
                     { name: "Strategic Plan", href: "https://sviet.org.in/wp-content/uploads/Strategic-Plan_0001-3.pdf" },
                     { name: "Governing Body", href: "/governing-body" },
-                    { name: "Administration", href: "#" },
+                    { name: "Administration", href: "/administration" },
                     { name: "Statutory Committee", href: "#" },
-                    { name: "IQAC", href: "#" },
+                    { name: "IQAC", href: "/iqac" },
                 ]
             },
 
