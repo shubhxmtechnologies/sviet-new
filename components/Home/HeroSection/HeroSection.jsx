@@ -1,13 +1,10 @@
 "use client"
 
 import Image from "next/image"
-import { Button } from "@/components/ui/button"
 import {
     Carousel,
     CarouselContent,
     CarouselItem,
-    CarouselNext,
-    CarouselPrevious
 } from "@/components/ui/carousel"
 import React from "react" // Import React for useState and useEffect
 import { images } from "./HeroData"
@@ -47,6 +44,16 @@ export function HeroSection() {
 
     return (
         <section className="relative w-full overflow-hidden">
+            <div className="absolute inset-0 z-20 flex flex-col items-start justify-center p-8 text-white bg-black/50">
+                {/* Inner div for text content: removed its background and padding */}
+                <div className="max-w-3xl text-left">
+                    <h2 className="text-3xl font-bold md:text-4xl lg:text-5xl">
+                        Shaping Visionaries Through Education and Innovation Since 2004                    </h2>
+                    <p className="mt-4 text-md md:text-lg">
+                        Founded  in  2004,  <span className="font-medium italic">"Swami  Vivekanand  Institute  of  Engineering  &  Technology  (SVIET)"</span>  is  a  NAAC-accredited  institute  known  for  providing  quality  technical  education.  It  is  the  premier  institute  under  the Swami  Vivekanand  Group  of  Institutes  (SVGOI),  managed  by  the  Shri  Raghu  Nath  Rai  Memorial Educational  &  Charitable  Trust.  With  modern  facilities,  experienced  teachers,  and  a  career-focused approach, SVIET helps students grow into skilled and responsible professionals.
+                    </p>
+                </div>
+            </div>
             <Carousel
                 className="w-full"
                 // Set the API for programmatic control
@@ -56,9 +63,9 @@ export function HeroSection() {
                 }}
             >
                 <CarouselContent>
-                    {Array.from({ length: 3 }).map((_, index) => (
+                    {images.map((_, index) => (
                         <CarouselItem key={index}>
-                            <div className="relative flex h-[400px] items-center justify-center bg-gray-100 md:h-[500px] lg:h-[600px]">
+                            <div className="relative flex h-[450px] items-center justify-center bg-gray-100 md:h-[550px] lg:h-[650px]">
                                 <Image
                                     src={images[index]}
                                     alt={`College Banner ${index + 1}`}
@@ -67,60 +74,13 @@ export function HeroSection() {
                                     className="absolute inset-0 z-0"
                                 />
                                 <div className="relative z-10 flex flex-col items-center justify-center p-4 text-center text-white">
-                                    
-                                    {/* <h2 className="text-2xl font-bold md:text-4xl lg:text-5xl">
-                                        B.M.S. COLLEGE OF ENGINEERING
-                                    </h2>
-                                    <p className="mt-2 text-sm md:text-lg">
-                                        AUTONOMOUS INSTITUTE AFFILIATED TO VTU BELAGAVI
-                                    </p>
-                                    <h3 className="mt-4 text-xl font-semibold text-red-500 md:text-2xl lg:text-3xl">
-                                        NATIONAL SERVICE SCHEME
-                                    </h3>
-                                    <div className="mt-6 rounded-lg bg-white/80 p-4 text-left text-gray-800 shadow-lg md:p-6">
-                                        <h4 className="mb-2 text-lg font-bold md:text-xl">
-                                            ELIGIBILITY CRITERIA OF YUVA NIDHI YOJANA
-                                        </h4>
-                                        <ul className="list-disc pl-5 text-sm md:text-base">
-                                            <li>Resident of Karnataka.</li>
-                                            <li>You must not be self-employed.</li>
-                                            <li>
-                                                Not taken loans under the state and central schemes or
-                                                banks.
-                                            </li>
-                                            <li>
-                                                The bank account you provide must be linked to your
-                                                Aadhaar.
-                                            </li>
-                                            <li>
-                                                You must not be already getting benefits from similar
-                                                schemes.
-                                            </li>
-                                            <li>
-                                                Not have a job 6 months after completing your PG, UG or
-                                                diploma.
-                                            </li>
-                                            <li>
-                                                Have passed your PG, UG or diploma in the academic year
-                                                2022-23.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div className="mt-6 flex flex-col gap-3 md:flex-row">
-                                        <Button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-md">
-                                            Documents Required
-                                        </Button>
-                                        <Button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-md">
-                                            Seva Sindhu Link
-                                        </Button>
-                                    </div> */}
+
+
                                 </div>
                             </div>
                         </CarouselItem>
                     ))}
                 </CarouselContent>
-                <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 " />
-                <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 " />
             </Carousel>
         </section>
     )

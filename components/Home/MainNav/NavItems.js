@@ -1,40 +1,23 @@
 export const navItems = [
     {
         name: "ABOUT US",
-        href: "#",
         dropdown: [
             {
                 title: "", // No title for the first column as per image
                 links: [
-                    { name: "About BMSCE", href: "#" },
-                    { name: "Governing Body", href: "#" },
+                    { name: "About SVIET", href: "/About-Sviet" },
+                    { name: "Strategic Plan", href: "https://sviet.org.in/wp-content/uploads/Strategic-Plan_0001-3.pdf" },
+                    { name: "Governing Body", href: "/governing-body" },
                     { name: "Administration", href: "#" },
-                    { name: "Staff Details", href: "#" },
-                    { name: "Statutory Committee", href: "#" }
+                    { name: "Statutory Committee", href: "#" },
+                    { name: "IQAC", href: "#" },
                 ]
             },
-            {
-                title: "",
-                links: [
-                    { name: "Executive Council", href: "#" },
-                    { name: "e-Governance", href: "#" },
-                    { name: "Institute Industry Interaction Cell (IIIC)", href: "#" },
-                    { name: "Internal Quality Assurance Cell (IQAC)", href: "#" },
-                    { name: "Annual Reports (Finance)", href: "#" }
-                ]
-            },
-            {
-                title: "",
-                links: [
-                    { name: "Life at BMSCE", href: "#" },
-                    { name: "Group Institutions", href: "#" },
-                    { name: "Tenders", href: "#" }
-                ]
-            }
+
         ]
     },
     {
-        name: "ACADEMICS",
+        name: "PROGRAMS",
         href: "#",
         dropdown: [
             {
@@ -55,14 +38,14 @@ export const navItems = [
             }
         ]
     }, // Example dropdown for Academics
-    { name: "ADMISSIONS", href: "#", dropdown: [] },
-    { name: "RESEARCH", href: "#", dropdown: [] },
-    { name: "INNOVATION", href: "#", dropdown: [] },
-    { name: "SKILL LABS", href: "#", dropdown: [] },
-    { name: "COE", href: "#", dropdown: [] },
-    { name: "TEQIP", href: "#", dropdown: [] },
-    { name: "FACILITIES", href: "#", dropdown: [] },
+    { name: "NAAC", href: "#", dropdown: [] },
     { name: "PLACEMENTS", href: "#", dropdown: [] },
+    { name: "RESEARCH", href: "#", dropdown: [] },
+    { name: "OUTREACH", href: "#", dropdown: [] },
+    { name: "FEEDBACK", href: "#", dropdown: [] },
     { name: "CONTACT US", href: "#", dropdown: [] },
-    { name: "ACTIVITIES", href: "#", dropdown: [] }
+    { name: "GREEN & CLEAN CAMPUS", href: "#", dropdown: [] },
+    { name: "WE ARE INTERNATIONAL", href: "#", dropdown: [] },
+    { name: "HR MANUAL", href: "#", dropdown: [] },
+
 ]

@@ -3,4 +3,9 @@ import { Header } from "./Header/Header";
 import { MainNav } from "./MainNav/Main-Nav";
 import { HeroSection } from "./HeroSection/HeroSection";
 import { NewsEvents } from "./NewsEvent/News-Event";
-export { Header, MainNav, TopBanner, HeroSection, NewsEvents }
+import { CollegeOverview } from "./CollegeOverview/CollegeOverview";
+import CurrentInitiative from "./CurrentInitiave/CurrentInitiative";
+import { Highlights } from "./Highlights/Highlights";
+import { BoardOfManagement } from "./BoardOfManagement/BoardOfManagement";
+import { Recruter } from "./Recruter/Recruter";
+export { BoardOfManagement, Recruter, Header, Highlights, MainNav, CurrentInitiative, CollegeOverview, TopBanner, HeroSection, NewsEvents }

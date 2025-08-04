@@ -11,6 +11,11 @@ export const newsItems = [
         isNew: true,
     },
     {
+        date: { day: "21", month: "MAR" },
+        title: "Reg-Blood Donation Drive",
+        isNew: true,
+    },
+    {
         date: { day: "05", month: "MAR" },
         title: "IP awareness talk on 12th March 2025",
         isNew: true,

@@ -15,17 +15,14 @@ const NewsEvents = () => {
                         <BellRingIcon className="h-6 w-6 text-red-600" />
                         News & Events
                     </h2>
-                    <div className="max-h-[600px] overflow-y-auto pr-2 space-y-6">
+                    <div className="max-h-[600px] border overflow-y-auto rounded-md p-2 space-y-6">
                         {" "}
                         {/* Added max-h and overflow-y-auto */}
                         {newsItems.map((item, index) => (
                             <div key={index} className="flex items-start gap-4">
-                                <div className="flex flex-col items-center rounded-md bg-[#007bff] p-2 text-white">
-                                    <span className="text-2xl font-bold">{item.date.day}</span>
-                                    <span className="text-xs">{item.date.month}</span>
-                                </div>
+                               
                                 <div className="flex-1">
-                                    <p className="text-base font-medium text-gray-800">
+                                    <p className="text-sm font-medium text-gray-800">
                                         {item.title}
                                         {item.isNew && (
                                             <Badge variant="destructive" className="ml-2 bg-red-500 text-white">
@@ -86,7 +83,6 @@ const NewsEvents = () => {
                                     </div>
                                 </div>
                             ))}
-                            <Button className="mt-8 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-md">View All</Button>
                         </TabsContent>
                         <TabsContent value="coe-notifications" className="mt-4 max-h-[600px] overflow-y-auto pr-2 space-y-4">
                             {" "}
