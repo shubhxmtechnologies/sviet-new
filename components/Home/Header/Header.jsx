@@ -34,7 +34,7 @@ export function Header() {
                         <h1 className="text-lg font-bold text-[#003366] md:text-xl">
                             Swami Vivekanand Institute of Engineering & Technology
                         </h1>
-                        <p className="text-xs text-gray-600">ESTD. 2004 Approved by AICTE, Affiliated to IKGPTU</p>
+                        <p className="text-xs text-gray-600">ESTD. 2004, Approved by AICTE, Affiliated to IKGPTU</p>
                     </div>
                 </div>
 
