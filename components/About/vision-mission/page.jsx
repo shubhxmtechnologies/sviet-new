@@ -60,10 +60,10 @@ const VisonAndMission = () => {
                             {/* Mission Section */}
                             <div className="relative">
                                 <div className="mb-16">
-                                    <h2 className="text-6xl md:text-7xl font-bold text-gray-900 tracking-tight">
+                                    <h2 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight">
                                         MISSION
                                     </h2>
-                                    <div className="w-20 h-1 bg-yellow-400 mt-4"></div>
+                                    <div className="w-18 h-1 bg-yellow-400 mt-4"></div>
                                 </div>
 
                                 <div className="relative pl-8">
@@ -74,16 +74,16 @@ const VisonAndMission = () => {
                                         {missionPoints.map((point, index) => (
                                             <div key={index} className="relative">
                                                 {/* Enhanced Number Circle */}
-                                                <div className="absolute -left-8 flex-shrink-0 w-14 h-14 bg-gradient-to-br from-orange-400 to-orange-600 text-white rounded-full flex items-center justify-center font-bold text-xl shadow-lg border-4 border-white z-10">
+                                                <div className="absolute -left-8 flex-shrink-0 w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-600 text-white rounded-full flex items-center justify-center font-bold text-xl shadow-lg border-4 border-white z-10">
                                                     {index + 1}
                                                 </div>
 
                                                 {/* Enhanced Content Card */}
                                                 <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-blue-100">
-                                                    <h3 className="text-2xl font-bold text-blue-900 mb-4 leading-tight">
+                                                    <h3 className="text-xl font-bold text-blue-900 mb-4 leading-tight">
                                                         {point.title}
                                                     </h3>
-                                                    <p className="text-gray-700 leading-relaxed text-lg">
+                                                    <p className="text-gray-700 leading-relaxed text-sm">
                                                         {point.description}
                                                     </p>
                                                     <div className="mt-4 w-12 h-1 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-full"></div>
@@ -97,10 +97,10 @@ const VisonAndMission = () => {
                             {/* Vision Section */}
                             <div className="relative">
                                 <div className="mb-16 text-right">
-                                    <h2 className="text-6xl md:text-7xl font-bold text-gray-900 tracking-tight">
+                                    <h2 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight">
                                         VISION
                                     </h2>
-                                    <div className="w-20 h-1 bg-yellow-400 mt-4 ml-auto"></div>
+                                    <div className="w-18 h-1 bg-yellow-400 mt-4 ml-auto"></div>
                                 </div>
 
                                 <div className="relative pr-8">
@@ -111,16 +111,16 @@ const VisonAndMission = () => {
                                         {visionPoints.map((point, index) => (
                                             <div key={index} className="relative">
                                                 {/* Enhanced Number Circle */}
-                                                <div className="absolute -right-8 flex-shrink-0 w-14 h-14 bg-gradient-to-br from-orange-400 to-orange-600 text-white rounded-full flex items-center justify-center font-bold text-xl shadow-lg border-4 border-white z-10">
+                                                <div className="absolute -right-8 flex-shrink-0 w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-600 text-white rounded-full flex items-center justify-center font-bold text-xl shadow-lg border-4 border-white z-10">
                                                     {index + 1}
                                                 </div>
 
                                                 {/* Enhanced Content Card */}
                                                 <div className="bg-gradient-to-bl from-green-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-green-100">
-                                                    <h3 className="text-2xl font-bold text-blue-900 mb-4 leading-tight text-right">
+                                                    <h3 className="text-xl font-bold text-blue-900 mb-4 leading-tight text-right">
                                                         {point.title}
                                                     </h3>
-                                                    <p className="text-gray-700 leading-relaxed text-lg text-right">
+                                                    <p className="text-gray-700 leading-relaxed text-sm text-right">
                                                         {point.description}
                                                     </p>
                                                     <div className="mt-4 w-12 h-1 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-full ml-auto"></div>

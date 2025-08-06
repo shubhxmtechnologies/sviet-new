@@ -39,13 +39,13 @@ export default function AdministrationPage() {
                 Meet Our Administration
             </h1>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-20 md:gap-x-40">
                 {adminMembers.map((person, index) => (
                     <div
                         key={index}
                         className="bg-white shadow-lg rounded-2xl overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300"
                     >
-                        <div className="flex flex-col items-center p-6">
+                        <div className="flex flex-col  items-center p-6">
                             <div className="w-28 h-28 md:w-32 md:h-32 rounded-full overflow-hidden border-4 border-[#003366] shadow-sm mb-4">
                                 <Image
                                     src={person.imageUrl}

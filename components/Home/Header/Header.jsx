@@ -17,7 +17,7 @@ export function Header() {
         <header className="bg-white py-4 shadow-sm">
             <div className="px-4 flex items-center justify-between w-full  md:px-6">
                 {/* Left Section: Logo and College Name */}
-                <div className="flex items-center w-full justify-between md:px-10">
+                <div className="flex items-center w-full justify-left gap-5 md:gap-0 md:justify-between md:px-10">
                     <div className="flex items-center gap-4 ">
                         <Image
                             src="/SVIET.jpg"

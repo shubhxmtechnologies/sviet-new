@@ -27,4 +27,8 @@ export const timelineData = [
         year: "2021",
         text:"Swami Vivekanand College of Law"
     },
+    {
+        year: "2025",
+        text:"Swami Vivekanand Institute of Pharmacy"
+    },
 ];

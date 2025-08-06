@@ -6,16 +6,16 @@ export const navItems = [
                 title: "", // No title for the first column as per image
                 links: [
                     { name: "About SVIET", href: "/About-Sviet" },
-                    { name: "Strategic Plan", href: "https://sviet.org.in/wp-content/uploads/Strategic-Plan_0001-3.pdf" },
                     { name: "Governing Body", href: "/governing-body" },
                     { name: "Administration", href: "/administration" },
                     { name: "Statutory Committee", href: "/committee" },
-                    { name: "IQAC", href: "/iqac" },
                 ]
             },
 
         ]
     },
+    { name: "IQAC", href: "/iqac" },
+
     {
         name: "PROGRAMS",
         href: "#",
