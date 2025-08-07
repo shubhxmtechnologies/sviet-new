@@ -26,7 +26,7 @@ export function Header() {
                             height={100}
                         />
 
-                      
+
                         <div className="hidden md:flex flex-col">
                             {/* Punjabi Title */}
                             <h2 className="text-base font-bold text-[#003366] ">
@@ -46,12 +46,38 @@ export function Header() {
                             </p>
                         </div>
                     </div>
-                    <Image
-                        src="/NAAC.png"
-                        alt="College Logo 2"
-                        width={100}
-                        height={100}
-                    />
+                    <div className=" flex items-center ">
+                        <Image
+                            className="hidden sm:block"
+                            src="/Ranks/1.png"
+                            alt="Rank 1"
+                            width={100}
+                            height={100}
+                        />
+                        <Image
+                            className="hidden sm:block"
+
+                            src="/Ranks/2.png"
+                            alt="Rank 2"
+                            width={100}
+                            height={100}
+                        />
+                        <Image
+                            className="hidden sm:block"
+
+                            src="/Ranks/3.png"
+                            alt="Rank 3"
+                            width={100}
+                            height={100}
+                        />
+
+                        <Image
+                            src="/NAAC.png"
+                            alt="College Logo 2"
+                            width={100}
+                            height={100}
+                        />
+                    </div>
                 </div>
 
                 <Sheet>

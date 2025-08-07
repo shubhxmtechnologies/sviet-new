@@ -14,12 +14,12 @@ const quickLinks = [
     { title: "Contact Us", href: "https://www.sviet.ac.in/contact-us", target: true },
     {
         title: "Student ERP Login",
-        href: "http://uj.servergi.com:8089/iSIMSVIET/Login",
+        href: "https://uj.servergi.com:8079/ISIMSVIET/login",
         target: true
     },
     {
         title: "Faculty ERP Login",
-        href: "http://uj.servergi.com:8089/SIMWEBSVIET/Login",
+        href: "https://uj.servergi.com:8079/SIMWEBSVIET/Login",
         target: true
     },
     {

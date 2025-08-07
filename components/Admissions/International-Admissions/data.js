@@ -1,53 +1,73 @@
+import {
+    Globe,
+    Users,
+    LifeBuoy,
+    Briefcase,
+    GraduationCap,
+    CheckCircle2,
+    ShieldCheck,
+    BadgeDollarSign,
+} from "lucide-react"
+
 export const keyHighlights = [
     {
         title: "Globally Recognized",
         description:
             "NAAC-accredited institution with a strong academic reputation in engineering, management, pharmacy, law, and more.",
-        imageQuery: "/Collegeoverview/sports.jpg",
+        icon: Globe,
+        color: "bg-blue-50 text-blue-600",
     },
     {
         title: "Multicultural Campus",
         description:
             "A welcoming environment with over 800 international students from diverse backgrounds.",
-        imageQuery: "/Collegeoverview/sports.jpg",
+        icon: Users,
+        color: "bg-purple-50 text-purple-600",
     },
     {
         title: "Student-Centric Support",
         description:
             "Dedicated International Affairs team for 24/7 assistance with hostel, health, legal, and academic needs.",
-        imageQuery: "/Collegeoverview/sports.jpg",
+        icon: LifeBuoy,
+        color: "bg-green-50 text-green-600",
     },
     {
         title: "Global Industry Tie-Ups",
         description:
             "Collaborations with top companies to facilitate global career opportunities.",
-        imageQuery: "/Collegeoverview/sports.jpg",
+        icon: Briefcase,
+        color: "bg-yellow-50 text-yellow-600",
     },
     {
         title: "Industry-Driven Learning",
         description:
             "Practical, real-world training integrated into every program.",
-        imageQuery: "/Collegeoverview/sports.jpg",
+        icon: GraduationCap,
+        color: "bg-indigo-50 text-indigo-600",
     },
     {
         title: "Career Success",
         description:
             "Consistent placement records and internships across major multinational companies.",
-        imageQuery: "/Collegeoverview/sports.jpg",
+        icon: CheckCircle2,
+        color: "bg-teal-50 text-teal-600",
     },
     {
         title: "Safe and Supportive Campus",
         description:
             "Secure, inclusive, and culturally rich environment with modern infrastructure.",
-        imageQuery: "/Collegeoverview/sports.jpg",
+        icon: ShieldCheck,
+        color: "bg-pink-50 text-pink-600",
     },
     {
         title: "Scholarship Programs",
         description:
             "We offer financial aid opportunities to deserving students, making a quality education accessible.",
-        imageQuery: "/Collegeoverview/sports.jpg",
+        icon: BadgeDollarSign,
+        color: "bg-red-50 text-red-600",
     },
-];
+]
+
 
 
 export const managementTeam = [
@@ -57,7 +77,7 @@ export const managementTeam = [
         position: "Director –International Affairs",
         image: "/Management/sunil.jpeg",
         message:
-            `Swami  Vivekanand  Institute  of  Engineering  &  Technology(SVIET)  has  established  itself  as  a  dynamic educational hub, attracting students from around the world who seek quality education, global exposure, and a supportive academic environment.In an era defined by globalization, education must empower individuals to think beyond borders and respond to  international  challenges  with  competence  and  compassion.  At  SVIET,  we  are  committed  to  providing  a globally-relevant, interdisciplinary education that prepares students to become responsible global citizens.The Department of International Affairs serves as the central coordinating body for all international student admissions and support services. We facilitate seamless access to information regarding academic programs, eligibility,  admissions  procedures,  visa  support,  and  cultural  integration.  Our  goal  is  to  ensure  that  every international student at SVIETfeels welcomed, supported, and inspired throughout their academic journey.SVIET’s modern infrastructure, research-oriented approach, and industry-aligned curriculum make it one ofthe  most  sought-after  destinations  for  international  students.  We  take  pride  in  fostering  an  inclusive  and intellectually stimulating environment that nurtures leadership, innovation, and cross-cultural understanding.We  are  honored  to  host  students  fromdiverse  backgrounds  and  look  forward  to  their  contributions  both within our institution and as ambassadors of Indian education in their home countries.`
+            `Swami  Vivekanand  Institute  of  Engineering  &  Technology (SVIET)  has  established  itself  as  a  dynamic educational hub, attracting students from around the world who seek quality education, global exposure, and a supportive academic environment. In an era defined by globalization, education must empower individuals to think beyond borders and respond to  international  challenges  with  competence  and  compassion.  At  SVIET,  we  are  committed  to  providing  a globally-relevant, interdisciplinary education that prepares students to become responsible global citizens. The Department of International Affairs serves as the central coordinating body for all international student admissions and support services. We facilitate seamless access to information regarding academic programs, eligibility,  admissions  procedures,  visa  support,  and  cultural  integration.  Our  goal  is  to  ensure  that  every international student at SVIET feels welcomed, supported, and inspired throughout their academic journey. SVIET’s modern infrastructure, research-oriented approach, and industry-aligned curriculum make it one of the  most  sought-after  destinations  for  international  students.  We  take  pride  in  fostering  an  inclusive  and intellectually stimulating environment that nurtures leadership, innovation, and cross-cultural understanding. We  are  honored  to  host  students  from diverse  backgrounds  and  look  forward  to  their  contributions  both within our institution and as ambassadors of Indian education in their home countries.`
     },
 
 

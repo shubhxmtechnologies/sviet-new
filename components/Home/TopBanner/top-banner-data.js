@@ -1,23 +1,19 @@
-export const bannerContent = [
+
+export const skillList = [
     {
-        text:
-            "Students who hold Overseas Citizen of India (OCI) status or foreign passports are eligible to submit application!",
-        linkText: "Click here to download brochure!",
-        linkHref: "/download-brochure"
+        title: "Elevate 2.0",
+        description: 'Induction programme for the 2025 batch on 11th September. Don’t miss it!',
     },
     {
-        text: "Important Announcement: Admissions for 2025-26 are now open!",
-        linkText: "Apply now!",
-        linkHref: "/admissions"
+        title: "Join Us",
+        description: `AICTE-ATAL Faculty Development Programme on “VLSI Design Concepts – Semiconductor Industry Training” from 1st to 6th September 2025.`,
     },
     {
-        text: "Scholarship opportunities available for eligible students.",
-        linkText: "Learn more!",
-        linkHref: "/scholarships"
+        title: "Important Announcement",
+        description: 'Convocation 2025 is scheduled for 20th September 2025. Detailed guidelines will be shared soon.',
     },
     {
-        text: "Join our upcoming webinar on career guidance.",
-        linkText: "Register here!",
-        linkHref: "/webinar"
-    }
-]   
+        description: 'International Conference on Multidisciplinary Research for a Sustainable Future on 1st November 2025. Call for papers now open!',
+    },
+
+]

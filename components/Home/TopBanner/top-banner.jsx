@@ -1,29 +1,82 @@
+"use client"
+let marqueeAnim = null
+import { useEffect, useRef, useState } from "react"
+import { skillList } from "./top-banner-data"
 import Link from "next/link"
-import { bannerContent } from "./top-banner-data"
-export function TopBanner() {
-  return (
-    <div className="bg-[#007bff]  py-2 text-center text-sm text-white overflow-hidden">
-      <div className="whitespace-nowrap  marquee-animation inline-block py-0.5">
-        {" "}
-        {/* Changed class name */}
-        {/* Duplicate content for seamless looping */}
-        {bannerContent.map((item, i) => (
-          <span key={`first-${i}`} className="px-8 font-medium">
-            {item.text}{" "}
-            <Link href={item.linkHref} className="text-yellow-300 hover:underline">
-              {item.linkText}
-            </Link>
-          </span>
-        ))}
-        {bannerContent.map((item, i) => (
-          <span key={`second-${i}`} className="px-8">
-            {item.text}{" "}
-            <Link href={item.linkHref} className="text-yellow-300 hover:underline">
-              {item.linkText}
-            </Link>
-          </span>
-        ))}
-      </div>
-    </div>
+
+const marqueeAnimation = (element, speed = 50) => {
+  const totalWidth = element.scrollWidth / 2 // since we're duplicating
+  const duration = (totalWidth / speed) * 1000 // px/sec -> ms
+
+  return element.animate(
+    [
+      { transform: "translateX(0)" },
+      { transform: `translateX(-${totalWidth}px)` }
+    ],
+    {
+      duration,
+      iterations: Infinity,
+      easing: "linear",
+    }
   )
 }
+
+
+const TopBanner = ({ skills = skillList }) => {
+  const skillsElementRef = useRef(null)
+  const [windowWidth, setWindowWidth] = useState(0)
+  useEffect(() => {
+    const element = skillsElementRef.current
+    if (!element) return
+
+    marqueeAnim = marqueeAnimation(element, 60) // speed in px/sec
+
+    const handleMouseEnter = () => marqueeAnim?.pause()
+    const handleMouseLeave = () => marqueeAnim?.play()
+
+    element.addEventListener("mouseenter", handleMouseEnter)
+    element.addEventListener("mouseleave", handleMouseLeave)
+
+    return () => {
+      element.removeEventListener("mouseenter", handleMouseEnter)
+      element.removeEventListener("mouseleave", handleMouseLeave)
+      marqueeAnim?.cancel()
+      marqueeAnim = null
+    }
+  }, [skills])
+
+  const handleResize = () => setWindowWidth(window.innerWidth)
+  useEffect(() => {
+    window.addEventListener("resize", handleResize)
+    return () => window.removeEventListener("resize", handleResize)
+  }, [])
+
+  return (
+    <div className="relative bg-[#f7f7f7] overflow-hidden text-white">
+      <div
+        id="skills"
+        className=" w-max whitespace-nowrap py-2 px-5 lg:px-7 flex"
+        ref={skillsElementRef}
+      >
+        <div className="flex gap-8 lg:gap-24">
+          {[...skills, ...skills].map((skill, index) => (
+            <span key={index} className="flex items-center text-sm whitespace-nowrap">
+              {skill.title && <span className="text-red-400 font-medium">
+                {skill.title} :
+              </span>}
+              {skill.description && <span className="ml-1 text-[#28a745] font-normal">
+                {skill.description}
+              </span>}
+              {skill.linkRef && <Link href={skill.linkRef} className="ml-1 underline font-light text-[#007bff] hover:underline">
+                click here to see.
+              </Link>}
+            </span>
+          ))}
+        </div>
+      </div>
+    </div>
+
+  )
+}
+
+export { TopBanner }

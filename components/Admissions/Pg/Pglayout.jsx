@@ -168,7 +168,7 @@ const PgLayout = ({ title, programs }) => {
 
 
 
-            <div className="max-w-5xl mx-auto mt-10">
+            <div className="max-w-5xl mx-auto mt-10 px-4">
                 <h2 className="text-3xl font-bold text-gray-900 mb-2">                    For Admission related information:
                 </h2>
 

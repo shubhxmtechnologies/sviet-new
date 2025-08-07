@@ -31,9 +31,7 @@ const UgLayout = ({ eligibilityCriteria, title, overview }) => {
                     </h2>
                     <div className="space-y-4 text-gray-700 leading-relaxed">
                         <h3 className='font-bold text-lg my-4'>
-                            Four Years Bachelor
-                            of Engineering (B.E) Programs in
-                            :
+                            Four Years Bachelor of Technology (B.Tech) Programs in:
                         </h3>
                         {overview.map((overv, index) => (
                             <div key={index} className="pl-5 flex text-sm items-start gap-3">
@@ -104,7 +102,7 @@ const UgLayout = ({ eligibilityCriteria, title, overview }) => {
                 </div>
             </div>
 
-            <div className="max-w-5xl mx-auto mt-10">
+            <div className="max-w-5xl mx-auto mt-10 px-4">
 
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
                     Mode of Admission
@@ -116,7 +114,7 @@ const UgLayout = ({ eligibilityCriteria, title, overview }) => {
                 </h2>
             </div>
 
-            <div className="max-w-5xl mx-auto mt-10">
+            <div className="max-w-5xl mx-auto mt-10 px-4">
                 <h2 className="text-3xl font-bold text-gray-900 mb-2">                    For Admission related information:
                 </h2>
 

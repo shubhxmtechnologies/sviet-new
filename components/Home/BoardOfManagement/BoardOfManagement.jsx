@@ -4,8 +4,8 @@ import React from 'react'
 
 const BoardOfManagement = ({ managementTeam, isInt = false }) => {
     return (
-        <section className={`py-16 ${isInt ? "bg-white" : "bg-gray-50"} `}>
-            <div className="container mx-auto px-4">
+        <section className={` ${isInt ? "bg-white pt-4" : "bg-gray-50 py-16"} `}>
+            <div className={`container mx-auto ${isInt ? "" : "px-4"}`}>
 
 
                 <div className="space-y-16">
@@ -16,7 +16,7 @@ const BoardOfManagement = ({ managementTeam, isInt = false }) => {
                                 }`}
                         >
                             <div
-                                className={`space-y-6 ${index % 2 === 1 ? "lg:col-start-2" : ""
+                                className={`${isInt ? "space-y-0" : "space-y-6"} ${index % 2 === 1 ? "lg:col-start-2" : ""
                                     }`}
                             >
                                 <div>
