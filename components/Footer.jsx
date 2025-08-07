@@ -9,7 +9,7 @@ import {
 import { Button } from "@/components/ui/button";
 
 const quickLinks = [
-    { title: "About", href: "/about" },
+    { title: "About", href: "/About-Sviet" },
     { title: "Courses", href: "/computer-science-engineering" },
     { title: "Contact Us", href: "https://www.sviet.ac.in/contact-us", target: true },
     {

@@ -36,7 +36,7 @@ export function MainNav() {
                                 >
                                     <DropdownMenuTrigger asChild>
                                        <span
-                                            className={`cursor-pointer p-3 whitespace-nowrap   block transition-colors duration-200
+                                            className={`cursor-pointer p-3 whitespace-nowrap   block transition-colors duration-200 uppercase
                         ${activeDropdown === item.name
                                                     ? "bg-white text-[#007bff]"
                                                     : "hover:bg-white hover:text-[#007bff]"
@@ -83,7 +83,7 @@ export function MainNav() {
                             ) : (
                                 <Link
                                     href={item.href}
-                                    className={`whitespace-nowrap p-3 block transition-colors duration-200 hover:bg-white hover:text-[#007bff]`}
+                                    className={`whitespace-nowrap p-3 block transition-colors duration-200 hover:bg-white uppercase hover:text-[#007bff]`}
                                 >
                                     {item.name}
                                 </Link>

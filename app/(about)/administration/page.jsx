@@ -39,7 +39,7 @@ export default function AdministrationPage() {
                 Meet Our Administration
             </h1>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-20 md:gap-x-40">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 p-6 md:px-20 md:gap-20 ">
                 {adminMembers.map((person, index) => (
                     <div
                         key={index}

@@ -2,9 +2,9 @@ import { Badge } from '@/components/ui/badge'
 import Image from 'next/image'
 import React from 'react'
 
-const BoardOfManagement = ({ managementTeam }) => {
+const BoardOfManagement = ({ managementTeam, isInt = false }) => {
     return (
-        <section className="py-16 bg-gray-50">
+        <section className={`py-16 ${isInt ? "bg-white" : "bg-gray-50"} `}>
             <div className="container mx-auto px-4">
 
 
@@ -27,21 +27,21 @@ const BoardOfManagement = ({ managementTeam }) => {
                                         {member.name}
                                     </h3>
                                 </div>
-                                <p className="text-gray-700 text-lg leading-relaxed italic">
+                                <p className="text-gray-700 text-sm text-justify leading-relaxed italic">
                                     "{member.message}"
                                 </p>
 
                             </div>
 
                             <div
-                                className={`relative aspect-square ${index % 2 === 1 ? "lg:col-start-1 lg:row-start-1" : ""
+                                className={`relative rounded-lg shadow-md w-full h-96 ${index % 2 === 1 ? "lg:col-start-1 lg:row-start-1" : ""
                                     }`}
                             >
                                 <Image
                                     src={member.image || "/placeholder.svg"}
                                     alt={member.name}
                                     fill
-                                    className="rounded-lg shadow-md   object-contain"
+                                    className="   object-contain"
                                 />
                                 <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-lg ">
                                     <div className="text-center">

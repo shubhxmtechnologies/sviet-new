@@ -14,30 +14,23 @@ export const navItems = [
 
         ]
     },
-    { name: "IQAC", href: "/iqac" },
 
+    { name: "Academics", href: "/iqac" },
     {
-        name: "PROGRAMS",
-        href: "#",
+        name: "Admissions",
+        href: "",
         dropdown: [
             {
-                title: "Programs",
                 links: [
-                    { name: "Undergraduate", href: "#" },
-                    { name: "Postgraduate", href: "#" },
-                    { name: "Ph.D.", href: "#" }
+                    { name: "Under Graduation", href: "/Under-Graduation" },
+                    { name: "Post Graduation", href: "/Post-Graduation" },
+                    { name: "International Admissions", href: "/International-Admissions" }
                 ]
             },
-            {
-                title: "Departments",
-                links: [
-                    { name: "Computer Science", href: "#" },
-                    { name: "Electronics", href: "#" },
-                    { name: "Mechanical", href: "#" }
-                ]
-            }
+            
         ]
-    }, // Example dropdown for Academics
+    },
+    { name: "IQAC", href: "/iqac" },
     { name: "NAAC", href: "#", dropdown: [] },
     { name: "PLACEMENTS", href: "#", dropdown: [] },
     { name: "RESEARCH", href: "#", dropdown: [] },
@@ -45,7 +38,6 @@ export const navItems = [
     { name: "FEEDBACK", href: "#", dropdown: [] },
     { name: "CONTACT US", href: "#", dropdown: [] },
     { name: "GREEN & CLEAN CAMPUS", href: "#", dropdown: [] },
-    { name: "WE ARE INTERNATIONAL", href: "#", dropdown: [] },
     { name: "HR MANUAL", href: "#", dropdown: [] },
 
 ]

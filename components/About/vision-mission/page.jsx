@@ -79,11 +79,11 @@ const VisonAndMission = () => {
                                                 </div>
 
                                                 {/* Enhanced Content Card */}
-                                                <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-blue-100">
-                                                    <h3 className="text-xl font-bold text-blue-900 mb-4 leading-tight">
+                                                <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border max-h-40 h-40 border-blue-100">
+                                                    <h3 className="text-[1.15rem] font-bold text-blue-900 mb-4 leading-tight">
                                                         {point.title}
                                                     </h3>
-                                                    <p className="text-gray-700 leading-relaxed text-sm">
+                                                    <p className="text-gray-700 leading-relaxed text-[0.775rem]">
                                                         {point.description}
                                                     </p>
                                                     <div className="mt-4 w-12 h-1 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-full"></div>
@@ -116,14 +116,14 @@ const VisonAndMission = () => {
                                                 </div>
 
                                                 {/* Enhanced Content Card */}
-                                                <div className="bg-gradient-to-bl from-green-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-green-100">
-                                                    <h3 className="text-xl font-bold text-blue-900 mb-4 leading-tight text-right">
+                                                <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border max-h-40 h-40 border-blue-100">
+                                                    <h3 className="text-[1.15rem] font-bold text-blue-900 mb-4 leading-tight">
                                                         {point.title}
                                                     </h3>
-                                                    <p className="text-gray-700 leading-relaxed text-sm text-right">
+                                                    <p className="text-gray-700 leading-relaxed text-[0.775rem]">
                                                         {point.description}
                                                     </p>
-                                                    <div className="mt-4 w-12 h-1 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-full ml-auto"></div>
+                                                    <div className="mt-4 w-12 h-1 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-full"></div>
                                                 </div>
                                             </div>
                                         ))}

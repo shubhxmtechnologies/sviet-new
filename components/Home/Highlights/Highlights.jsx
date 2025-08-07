@@ -1,11 +1,10 @@
 "use client"
 import React from 'react'
-import { keyHighlights } from './KeyHighlight'
 import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 import { Carousel, CarouselContent, CarouselItem, } from "@/components/ui/carousel"
 
-const Highlights = () => {
+const Highlights = ({ keyHighlights }) => {
     const [api, setApi] = React.useState()
     const [current, setCurrent] = React.useState(0)
     const [count, setCount] = React.useState(0)
@@ -41,7 +40,7 @@ const Highlights = () => {
 
     return (
 
-        <section className="bg-gray-100 py-12 md:py-16 lg:py-20">
+        <section className="bg-gray-50 py-12 md:py-16 lg:py-20">
             <div className="container mx-auto px-4  md:px-6">
                 <h2 className="mb-10 text-center text-3xl font-bold text-[#003366] md:text-4xl">Why Choose Us?</h2>
                 <Carousel

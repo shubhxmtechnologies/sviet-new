@@ -36,7 +36,7 @@ const Timeline = () => {
                                 className="bg-white shadow-md flex gap-2 rounded-md p-2 mb-4 border-l-4 border-orange-400"
                             >
                                 <p className="text-orange-600 font-semibold">{item.year}:</p>
-                                <p className="text-gray-700">{item.text}</p>
+                                <p className="text-gray-700 text-sm">{item.text}</p>
                             </div>
                         ))}
 
