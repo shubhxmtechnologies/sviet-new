@@ -54,7 +54,7 @@ const Highlights = ({ keyHighlights }) => {
                     <CarouselContent className="-ml-6  py-6">
                         {keyHighlights.map((item, index) => (
                             <CarouselItem key={index} className="pl-6  basis-full sm:basis-1/2 lg:basis-1/3">
-                                <Card className="overflow-hidden min-h-80 h-8min-h-80 max-h-8min-h-80 pt-0 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 rounded-lg shadow-lg">
+                                <Card className="overflow-hidden min-h-80 h-80  max-h-80  pt-0 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 rounded-lg shadow-lg">
                                     <CardContent className="p-0">
                                         <div className="relative h-56 w-full">
                                             <Image
