@@ -113,35 +113,40 @@ export const internationalComplaintData = [
     {
         srNo: 1,
         position: "Presiding Officer",
-        nameAndDesignation: "Dr. Vandana\nAssociate Professor & Head-CA",
+        name: "Dr. Vandana",
+        Designation: "Associate Professor & Hod (CA)",
         contact: "9877797457"
     },
     {
         srNo: 2,
         position: "Member (Teaching Faculty Representatives)",
-        nameAndDesignation:
-            "Er. Jarnail Singh\nAssistant Professor & Head-CSE\n\nEr. Shivani Guleria\nAssistant Professor & Head-CE",
-        contact: "8437391235\n\n\n6239138362"
+        name:
+            "Er. Jarnail Singh\n\nEr. Shivani Guleria",
+        contact: "8437391235\n\n6239138362",
+        Designation: "Assistant Professor & Hod (CSE)\n\nAssistant Professor & Hod (CE)"
     },
     {
         srNo: 3,
+        Designation: "Admission Counsellor\n\nHR Manager",
         position: "Member (Non-Teaching Faculty Representatives)",
-        nameAndDesignation:
-            "Ms. Rupinder Kaur\nAdmission Counsellor\n\nMs. Jyotsna Duggal\nHR Manager",
-        contact: "7087421722\n\n\n7888744295"
+        name:
+            "Ms. Rupinder Kaur\n\nMs. Jyotsna Duggal",
+        contact: "7087421722\n\n7888744295"
     },
     {
         srNo: 4,
         position: "Member (Non-Govt. Organization)",
-        nameAndDesignation: "Mr. Manpreet Singh Brar\nAbroad Educare, Zirakpur",
-        contact: "9417431947"
+        name: "Mr. Manpreet Singh Brar",
+        contact: "9417431947",
+        Designation: "Abroad Educare, Zirakpur"
     },
     {
         srNo: 5,
         position: "Member (Student Representatives)",
-        nameAndDesignation:
-            "Ms. Swikrty Biswas\nB.TECH-CSD/4th Semester\n\nMr. Gaurav\nB.TECH-ECE/4th Semester",
-        contact: "9836214958\n\n\n7876680378"
+        name:
+            "Ms. Swikrty Biswas\n\nMr. Gaurav",
+        contact: "9836214958\n\n7876680378",
+        Designation:"Student (B.TECH-CSD,4th Semester)\n\nStudent (B.TECH-ECE,4th Semester)"
     }
 ]
 export const obcData = [
