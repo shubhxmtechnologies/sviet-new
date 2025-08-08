@@ -40,7 +40,7 @@ const importantLinks = [
     { title: "RTI", href: "/rti" },
     {
         title: "IQAC",
-        href: "https://sviet.org.in/wp-content/uploads/Composition-of-IQAC.pdf",
+        href: "/iqacpdf/ReformationofIQAC.pdf",
         target: true
     },
     { title: "NAAC", href: "http://naac.gov.in/index.php/en/", target: true },
