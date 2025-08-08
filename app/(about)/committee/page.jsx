@@ -24,7 +24,10 @@ const Page = () => {
                                             Composition of SGRC
                                         </th>
                                         <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
-                                            Name & Designation
+                                            Name
+                                        </th>
+                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
+                                            Designation
                                         </th>
 
 
@@ -41,9 +44,16 @@ const Page = () => {
                                                 {item.composition}
                                             </td>
                                             <td className="border border-gray-300 px-4 py-3">
-                                                <ul className="list-disc pl-4">
+                                                <ul className="">
                                                     {item.members.map((member, idx) => (
-                                                        <li key={idx}>{member}</li>
+                                                        <li className='mb-2' key={idx}>{member}</li>
+                                                    ))}
+                                                </ul>
+                                            </td>
+                                            <td className="border border-gray-300 px-4 py-3">
+                                                <ul className="">
+                                                    {item.designation.map((des, idx) => (
+                                                        <li className='mb-2' key={idx}>{des}</li>
                                                     ))}
                                                 </ul>
                                             </td>
@@ -78,9 +88,9 @@ const Page = () => {
                                         </th>
 
 
-                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
+                                        {/* <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
                                             Email
-                                        </th>
+                                        </th> */}
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -94,9 +104,9 @@ const Page = () => {
                                         <td className="border border-gray-300 px-4 py-3">
                                             {item.Designation}
                                         </td>
-                                        <td className="border border-gray-300 px-4 py-3">
+                                        {/* <td className="border border-gray-300 px-4 py-3">
                                             {item.Emails}
-                                        </td>
+                                        </td> */}
 
                                     </tr>))}
 
@@ -225,9 +235,9 @@ const Page = () => {
                                 <tbody>
                                     {internationalComplaintData.map((item, index) => (
                                         <tr key={index}>
-                                            <td className="border border-gray-300 px-4 py-3 align-top">{item.srNo}</td>
-                                            <td className="border border-gray-300 px-4 py-3 align-top">{item.position}</td>
-                                            <td className="border w-72 min-w-72 max-w-72 border-gray-300 px-4 py-3 whitespace-pre-line">{item.nameAndDesignation}</td>
+                                            <td className="border border-gray-300 px-4 w-20 min-w-20 max-w-20 py-3 align-top">{item.srNo}</td>
+                                            <td className="border border-gray-300 px-4 py-3 w-56 max-w-56 min-w-56 align-top">{item.position}</td>
+                                            <td className="border border-gray-300 px-4 py-3 whitespace-pre-line w-96 min-w-96 max-w-96">{item.nameAndDesignation}</td>
                                             <td className="border border-gray-300 px-4 py-3 whitespace-pre-line">{item.contact}</td>
                                         </tr>
                                     ))}
@@ -261,9 +271,9 @@ const Page = () => {
                                         </th>
 
 
-                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
+                                        {/* <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
                                             Email
-                                        </th>
+                                        </th> */}
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -277,9 +287,9 @@ const Page = () => {
                                         <td className="border border-gray-300 px-4 py-3">
                                             {item.Designation}
                                         </td>
-                                        <td className="border border-gray-300 px-4 py-3">
+                                        {/* <td className="border border-gray-300 px-4 py-3">
                                             {item.Emails}
-                                        </td>
+                                        </td> */}
 
                                     </tr>))}
 

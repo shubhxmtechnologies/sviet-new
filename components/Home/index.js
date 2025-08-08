@@ -8,4 +8,5 @@ import CurrentInitiative from "./CurrentInitiave/CurrentInitiative";
 import { Highlights } from "./Highlights/Highlights";
 import { BoardOfManagement } from "./BoardOfManagement/BoardOfManagement";
 import { Recruter } from "./Recruter/Recruter";
-export { BoardOfManagement, Recruter, Header, Highlights, MainNav, CurrentInitiative, CollegeOverview, TopBanner, HeroSection, NewsEvents }
+import { DistinguishedLeaders } from "./distinguished-leaders/distinguished-leaders";
+export { BoardOfManagement, Recruter, Header, Highlights, MainNav, CurrentInitiative, CollegeOverview, TopBanner, HeroSection, NewsEvents, DistinguishedLeaders }

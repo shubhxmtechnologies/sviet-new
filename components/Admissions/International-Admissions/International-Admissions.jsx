@@ -8,6 +8,8 @@ import {
 } from '@/components/ui/carousel'
 import { Card, CardContent } from '@/components/ui/card'
 import Image from 'next/image'
+import { EmpowerYourFuture } from './EmpowerYourFuture'
+import { StudentTestimonials } from './StudentTestimonials'
 const InternationalAdmissions = ({ overviews }) => {
     const [api, setApi] = React.useState()
     const [current, setCurrent] = React.useState(0)
@@ -163,6 +165,7 @@ const InternationalAdmissions = ({ overviews }) => {
                     </div>
                 </div>
             </section>
+            <EmpowerYourFuture />
             <section className="pt-5  md:py-0 md:pt-0 bg-white">
                 <div className="container mx-auto px-4">
                     <div className="max-w-full  overflow-visible mx-auto">
@@ -176,6 +179,7 @@ const InternationalAdmissions = ({ overviews }) => {
                 </div>
             </section>
 
+            <StudentTestimonials />
             <section className="pt-15  pb-5 md:pt-15  ">
                 <div className="container mx-auto px-4 md:px-6">
                     <h2 className="mb-4 text-center text-2xl font-bold text-[#003366] md:text-3xl">

@@ -5,9 +5,22 @@ const nextConfig = {
             {
                 protocol: 'https',
                 hostname: 'images.pexels.com',
-                port: '',
                 pathname: '/**',
-                search: '',
+            },
+            {
+                protocol: 'https',
+                hostname: "utfs.io",
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'sviet.org.in',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'www.sviet.ac.in',
+                pathname: '/**',
             },
         ],
     }

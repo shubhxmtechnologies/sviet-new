@@ -10,7 +10,7 @@
 
 # new tasks
 
-- on home page add review 5 to 6 and some from the apply link  and visited by leaders
+- on home page add review 5 to 6 and some from the apply link  and visited by leaders : done
 - remove joing us properly : done
 - from governing  remove  vishal ,pricnical, director acedmics change mesage  : done
-- international emopower your future,review
+- international emopower your future,review : done

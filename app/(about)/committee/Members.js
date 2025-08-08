@@ -21,24 +21,35 @@ export const sgrcData = [
     {
         srNo: 1,
         composition: "Chairperson",
-        members: ["Mr. Sarabjeet Singh, Dean (Student Welfare)"],
+        members: ["Mr. Sarabjeet Singh"],
+        designation: ["Dean (Student Welfare)"]
     },
     {
         srNo: 2,
         composition: "Senior Faculty Members",
         members: [
-            "Dr. Neeraj Kumar, Associate Professor & Head (MBA)",
-            "Dr. Indu Batra, Associate Professor (Applied Sciences)",
-            "Ms. Gurwinder Kaur, Assistant Professor & Head (Applied Sciences)"
+            "Dr. Neeraj Kumar",
+            "Dr. Indu Batra",
+            "Ms. Gurwinder Kaur"
         ],
+        designation: [
+
+            "Associate Professor & Hod (MBA)",
+            "Associate Professor (Applied Sciences)"
+            , "Assistant Professor & Hod (Applied Sciences)"
+        ]
     },
     {
         srNo: 3,
         composition: "Students as Members",
         members: [
-            "Ms. Shital Kumari, B.TECH-CSE/6th Semester",
-            "Mr. Bibek Kumar Yadav, B.TECH-CE/6th Semester"
+            "Ms. Shital Kumari",
+            "Mr. Bibek Kumar Yadav"
         ],
+        designation: [
+            "Student (B.TECH-CSE,6th Semester)",
+            "Student (B.TECH-CE,6th Semester)"
+        ]
     }
 ]
 
@@ -110,14 +121,14 @@ export const internationalComplaintData = [
         position: "Member (Teaching Faculty Representatives)",
         nameAndDesignation:
             "Er. Jarnail Singh\nAssistant Professor & Head-CSE\n\nEr. Shivani Guleria\nAssistant Professor & Head-CE",
-        contact: "8437391235\n6239138362"
+        contact: "8437391235\n\n\n6239138362"
     },
     {
         srNo: 3,
         position: "Member (Non-Teaching Faculty Representatives)",
         nameAndDesignation:
             "Ms. Rupinder Kaur\nAdmission Counsellor\n\nMs. Jyotsna Duggal\nHR Manager",
-        contact: "7087421722\n7888744295"
+        contact: "7087421722\n\n\n7888744295"
     },
     {
         srNo: 4,
@@ -130,7 +141,7 @@ export const internationalComplaintData = [
         position: "Member (Student Representatives)",
         nameAndDesignation:
             "Ms. Swikrty Biswas\nB.TECH-CSD/4th Semester\n\nMr. Gaurav\nB.TECH-ECE/4th Semester",
-        contact: "9836214958\n7876680378"
+        contact: "9836214958\n\n\n7876680378"
     }
 ]
 export const obcData = [

@@ -91,3 +91,75 @@ export const images = [
     "/Campus-Life/5.jpg",
     "/Campus-Life/6.jpeg",
 ]
+
+export const empowerUrFuture = [
+
+    {
+        title: "Global Seed Program",
+        description:
+            "SVGOI's Global Seed initiative nurtures entrepreneurial dreams by providing a platform for students to cultivate their startup ideas. Under this program, we offer startup facilities to students, allowing them to bring their ideas to life. Our dedicated entrepreneurship team trains them on the life cycle of entrepreneurship and the startup journey. With support from SVGOI management, including funding and space, students can start their own companies while continuing their studies. By fostering innovation and entrepreneurship, SVGOI empowers students to launch successful careers and make a lasting impact on the global stage.",
+        imageQuery: "https://sviet.org.in/wp-content/uploads/IMG_1197-scaled-1.jpg",
+
+    },
+    {
+        title: "Faculty Exchange Program",
+        description:
+            "Our International Faculty Exchange Program brings experienced educators from around the world to SVGOI, enriching our academic environment with diverse perspectives and global expertise. This initiative not only enhances the quality of education but also provides students and faculty with unique opportunities for cross-cultural learning and collaboration. Participants in the program benefit from engaging with cutting-edge research, innovative teaching methodologies, and a broad network of international peers.",
+        imageQuery: "https://utfs.io/f/de690804-6f23-4d08-bb2b-d5504f8d7071-bsrrb6.jpg",
+    },
+
+    {
+        title: "Earn While Learn Program",
+        description:
+            "Explore a transformative educational journey with SVGOI's Earn While Learn program. Crafted to equip students with practical expertise, this innovative initiative guides participants through every aspect of professional development, from crafting compelling resumes to securing lucrative job opportunities. By seamlessly integrating flexible shifts with ongoing academic pursuits, students not only earn a steady income but also gain invaluable hands-on experience in fields like banking, pharmaceuticals, IT, marketing, and more. What sets this program apart is its international appeal, as the experiences gained here in India serve as valuable additions to resumes, paving the way for paid internship in foreign countries. Join us today and elevate your educational experience into a global pathway to success.",
+        imageQuery: "https://sviet.org.in/wp-content/uploads/IMG_1545-scaled-1.jpg",
+    },
+]
+
+
+
+export const testimonials = [
+    {
+        id: 1,
+        name: "Chinonso Okafor",
+        designation: "Software Engineer",
+        review: "As an international student at SVIET, I found the faculty to be exceptionally supportive. The campus is vibrant, and the diverse student body made me feel at home. The facilities are top-notch, and I particularly enjoyed the cultural exchange programs.",
+        image: "https://utfs.io/f/dfd119d6-c31e-4a1a-bc99-7025cc0bd82c-r8134l.jpg"
+    },
+    {
+        id: 2,
+        name: "Jamal Roberts",
+        designation: "Software Developer",
+        review: "SVIET exceeded my expectations in every way. The curriculum is rigorous yet flexible, allowing me to explore my interests. The student services team was always ready to help with any issues, from academic to personal. I am proud to be part of this community.",
+        image: "https://utfs.io/f/d2373622-0993-4041-8583-15dd07088244-r8135g.jpg"
+    },
+    {
+        id: 3,
+        review: "The program provided me with the skills and knowledge needed to excel in the field of software development. Highly recommended!",
+        name: "Adaeze Chukwu",
+        designation: "Software Engineer",
+        image: "https://utfs.io/f/979ff15a-0111-4efc-b054-824350b1a676-r8134k.jpg"
+    },
+    {
+        id: 4,
+        review: "The instructors are top-notch and the curriculum is well-structured. I feel well-prepared for my career in data science.",
+        name: "Darnell Johnson",
+        designation: "Software Developer",
+        image: "https://utfs.io/f/f5babd37-91a1-4be7-adbb-198e79bbade5-r8134i.jpg"
+    },
+    {
+        id: 5,
+        review: "Studying at SVIET has been an enriching experience. The professors are knowledgeable and approachable, and the practical learning approach helped me gain valuable skills. The campus life is engaging with numerous clubs and activities that cater to various interests.",
+        name: "Omolara Adebayo",
+        designation: "Software Engineer",
+        image: "https://utfs.io/f/a8b0ca85-b5f5-43db-a070-bb708ade5307-r8135c.jpg",
+    },
+    {
+        id: 6,
+        review: "SVIET offers a perfect blend of academic excellence and cultural diversity. The infrastructure is impressive, and the hands-on learning opportunities have prepared me well for my career. I appreciated the efforts of the international office in making my transition smooth.",
+        name: "Kareem Thompson",
+        designation: "Software Developer",
+        image: 'https://utfs.io/f/5b43a844-2dfa-468a-b083-1f56a5a09f00-r8135f.jpg'
+    }
+
+]

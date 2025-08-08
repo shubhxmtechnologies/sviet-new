@@ -1,4 +1,5 @@
-import { BoardOfManagement, CollegeOverview, CurrentInitiative, HeroSection, Highlights, NewsEvents, Recruter, } from "@/components/Home";
+import { StudentTestimonials } from "@/components/Admissions";
+import { BoardOfManagement, CollegeOverview, CurrentInitiative, DistinguishedLeaders, HeroSection, Highlights, NewsEvents, Recruter, } from "@/components/Home";
 const keyHighlights = [
 
   {
@@ -58,6 +59,51 @@ export const images = [
   "/Herosection/10.jpg",
   "/Herosection/11.jpeg",
 ]
+export const testimonials = [
+  {
+    id: 1,
+    name: "Gaurav Sharma",
+    designation: "SDE",
+    review: "Great learning experience and the college provided me with the opportunities needed. Truly outstanding! and really really thankful for the support",
+    image: "https://www.sviet.ac.in/_next/static/media/rahul.9757b907.webp"
+  },
+  {
+    id: 2,
+    name: "Yash Khandelwal",
+    designation: "System Engineer",
+    review: "It have broadened my horizons and helped me advance my career. The college and management is incredibly supportive towards their students and also providing great learning experience for all",
+    image: "https://www.sviet.ac.in/_next/static/media/yash.cd160865.jpeg"
+  },
+  {
+    id: 3,
+    review: "The program provided me with the skills and knowledge needed to excel in the field of software development. Highly recommended!",
+    name: "Adaeze Chukwu",
+    designation: "Software Engineer",
+    image: "https://utfs.io/f/979ff15a-0111-4efc-b054-824350b1a676-r8134k.jpg"
+  },
+  {
+    id: 4,
+    review: "The instructors are top-notch and the curriculum is well-structured. I feel well-prepared for my career in data science.",
+    name: "Darnell Johnson",
+    designation: "Software Developer",
+    image: "https://utfs.io/f/f5babd37-91a1-4be7-adbb-198e79bbade5-r8134i.jpg"
+  },
+  {
+    id: 5,
+    review: "Studying at SVIET has been an enriching experience. The professors are knowledgeable and approachable, and the practical learning approach helped me gain valuable skills. The campus life is engaging with numerous clubs and activities that cater to various interests.",
+    name: "Omolara Adebayo",
+    designation: "Software Engineer",
+    image: "https://utfs.io/f/a8b0ca85-b5f5-43db-a070-bb708ade5307-r8135c.jpg",
+  },
+  {
+    id: 6,
+    review: "SVIET offers a perfect blend of academic excellence and cultural diversity. The infrastructure is impressive, and the hands-on learning opportunities have prepared me well for my career. I appreciated the efforts of the international office in making my transition smooth.",
+    name: "Kareem Thompson",
+    designation: "Software Developer",
+    image: 'https://utfs.io/f/5b43a844-2dfa-468a-b083-1f56a5a09f00-r8135f.jpg'
+  }
+
+]
 export default function HomePage() {
   const managementTeam = [
     {
@@ -74,16 +120,13 @@ export default function HomePage() {
       message:
         "SVIET  has  experienced  remarkable  growth  in  recent  years,  earning  widespread  acclaim  for  its rapid advancement.  Our  journey  from  inception  to  our  current  standing  is  a  testament  to  our  unwavering dedication, exceptional faculty, and enriching learning environment. With a focus on quality education, we offer  diverse  programs  affiliated  with  both  national  and  international  universities.  We  celebrate  the achievements of our faculty, staff, and partners, employing modern teaching methods that empower students to realize their full potential. Emphasizing hands-on experience over mere theoretical knowledge, SVIET is dedicated   to   providing   practical   solutions   and   fostering   intellectual   brilliance   through   research   and development. Let's collaborate in building a skilled society together. "
     },
-
-
   ]
   return (
     <div className="flex min-h-screen flex-col">
 
       <main className="flex-1">
-        <HeroSection images={images}/>
+        <HeroSection images={images} />
         <NewsEvents />
-
 
         <section className="py-12  md:py-16 bg-gray-100 lg:pb-10">
           <div className="container mx-auto px-4 md:px-6">
@@ -100,6 +143,8 @@ export default function HomePage() {
         <Highlights keyHighlights={keyHighlights} />
         <BoardOfManagement managementTeam={managementTeam} />
         <Recruter />
+        <StudentTestimonials testimonials={testimonials} />
+        <DistinguishedLeaders />
       </main>
     </div>
   )

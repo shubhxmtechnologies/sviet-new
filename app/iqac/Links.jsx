@@ -14,7 +14,7 @@ const Links = () => {
                 onClick={() => window.open("/iqacpdf/ReformationofIQAC.pdf")}
                 className="cursor-pointer inline-block px-6 py-3 text-white bg-[#003366] rounded-lg hover:bg-[#0055a5] transition"
             >
-                🏗️ Reformation of IQAC
+                🏗️ List Of Members
             </span>
         </div>
     )

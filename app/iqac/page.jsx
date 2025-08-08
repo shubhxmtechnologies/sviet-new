@@ -122,6 +122,9 @@ export default function IqacPage() {
                                                 <TableHead className="font-bold py-4 px-10 text-blue-900">
                                                     Name
                                                 </TableHead>
+                                                <TableHead className="font-bold py-4 px-10 text-blue-900">
+                                                    Designation
+                                                </TableHead>
                                             </TableRow>
                                         </TableHeader>
                                         <TableBody>
@@ -131,7 +134,10 @@ export default function IqacPage() {
                                                     Chairperson
                                                 </TableCell>
                                                 <TableCell className="font-semibold py-4 px-10">
-                                                    Prof. (Dr.) Sanjeev Saini (Director Academics)
+                                                    Prof. (Dr.) Sanjeev Saini
+                                                </TableCell>
+                                                <TableCell className="font-semibold py-4 px-10">
+                                                    Director Academics
                                                 </TableCell>
                                             </TableRow>
 
@@ -141,11 +147,18 @@ export default function IqacPage() {
                                                     Teachers
                                                 </TableCell>
                                                 <TableCell className="font-semibold py-4 px-10 space-y-1">
-                                                    <div>Dr. Vandana (HOD, CSE)</div>
-                                                    <div>Dr. Neeraj Kumar (HOD, MBA)</div>
-                                                    <div>Er. Jarnail Singh (HOD, MCA)</div>
-                                                    <div>Ms. Gurwinder Kaur (HOD, Applied Science)</div>
-                                                    <div>Dr. Indu Batra (Associate Professor)</div>
+                                                    <div>Dr. Vandana </div>
+                                                    <div>Dr. Neeraj Kumar</div>
+                                                    <div>Er. Jarnail Singh</div>
+                                                    <div>Ms. Gurwinder Kaur</div>
+                                                    <div>Dr. Indu Batra</div>
+                                                </TableCell>
+                                                <TableCell className="font-semibold py-4 px-10 space-y-1">
+                                                    <div>HOD, CSE</div>
+                                                    <div>HOD, MBA</div>
+                                                    <div>HOD, MCA</div>
+                                                    <div>HOD, Applied Science</div>
+                                                    <div>Associate Professor</div>
                                                 </TableCell>
                                             </TableRow>
 
@@ -155,7 +168,11 @@ export default function IqacPage() {
                                                     Management Member
                                                 </TableCell>
                                                 <TableCell className="font-semibold py-4 px-10 space-y-1">
-                                                    <div>Er. Vishal Garg (Director Secretarial & Administration, Management Representative)</div>
+                                                    <div>Er. Vishal Garg </div>
+
+                                                </TableCell>
+                                                <TableCell className="font-semibold py-4 px-10 space-y-1">
+                                                    <div>Director Secretarial & Administration</div>
 
                                                 </TableCell>
                                             </TableRow>
@@ -166,10 +183,16 @@ export default function IqacPage() {
                                                     Senior Administrative Officers
                                                 </TableCell>
                                                 <TableCell className="font-semibold py-4 px-10 space-y-1">
-                                                    <div>Dr. Pertik Garg (Principal)</div>
-                                                    <div>Adv. Shubham Garg (Director Training & Placement)</div>
-                                                    <div>Er. Ankur Gill (Director Operations)</div>
-                                                    <div>Mr. Sarabjeet Singh (Dean, DSW)</div>
+                                                    <div>Dr. Pertik Garg</div>
+                                                    <div>Adv. Shubham Garg</div>
+                                                    <div>Er. Ankur Gill </div>
+                                                    <div>Mr. Sarabjeet Singh</div>
+                                                </TableCell>
+                                                <TableCell className="font-semibold py-4 px-10 space-y-1">
+                                                    <div>Principal</div>
+                                                    <div>Director Training & Placement</div>
+                                                    <div>Director Operations</div>
+                                                    <div>Dean, DSW</div>
                                                 </TableCell>
                                             </TableRow>
 
@@ -179,10 +202,16 @@ export default function IqacPage() {
                                                     Local Society, Students and Alumni
                                                 </TableCell>
                                                 <TableCell className="font-semibold py-4 px-10 space-y-1">
-                                                    <div>Mr. Gaurav Garg (Local Society)</div>
-                                                    <div>Mr. Neeraj Kumar (Student, B.Tech CSE)</div>
-                                                    <div>Ms. Vaishnavi Bajpai (Student, B.Tech CSE)</div>
-                                                    <div>Mr. Siddharth Miglani (Alumnus, B.Tech CSE)</div>
+                                                    <div>Mr. Gaurav Garg </div>
+                                                    <div>Mr. Neeraj Kumar </div>
+                                                    <div>Ms. Vaishnavi Bajpai </div>
+                                                    <div>Mr. Siddharth Miglani</div>
+                                                </TableCell>
+                                                <TableCell className="font-semibold py-4 px-10 space-y-1">
+                                                    <div>Local Society</div>
+                                                    <div>Student, B.Tech CSE</div>
+                                                    <div>Student, B.Tech CSE</div>
+                                                    <div>Alumnus, B.Tech CSE</div>
                                                 </TableCell>
                                             </TableRow>
 
@@ -192,8 +221,12 @@ export default function IqacPage() {
                                                     Nominee from Employers/ Industrialists/ Stakeholders
                                                 </TableCell>
                                                 <TableCell className="font-semibold py-4 px-10 space-y-1">
-                                                    <div>Mr. Barjinder Singh Suri (Managing Director, M/s Rise N Shine)</div>
-                                                    <div>Mr. Varun Garg (Director, Appyez Financial Services)</div>
+                                                    <div>Mr. Barjinder Singh Suri</div>
+                                                    <div>Mr. Varun Garg</div>
+                                                </TableCell>
+                                                <TableCell className="font-semibold py-4 px-10 space-y-1">
+                                                    <div>Managing Director, M/s Rise N Shine</div>
+                                                    <div>Director, Appyez Financial Services</div>
                                                 </TableCell>
                                             </TableRow>
 
@@ -203,7 +236,10 @@ export default function IqacPage() {
                                                     Coordinator
                                                 </TableCell>
                                                 <TableCell className="font-semibold py-4 px-10">
-                                                    Er. Shivani Guleria (HOD, CIVIL)
+                                                    Er. Shivani Guleria
+                                                </TableCell>
+                                                <TableCell className="font-semibold py-4 px-10">
+                                                    HOD, CIVIL
                                                 </TableCell>
                                             </TableRow>
                                         </TableBody>
