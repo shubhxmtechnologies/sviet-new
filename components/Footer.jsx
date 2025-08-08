@@ -73,24 +73,7 @@ export default function Footer() {
     return (
         <footer className="w-full">
             {/* Top Section - Call to Action */}
-            <div className="bg-gradient-to-r from-blue-50 to-white py-12 md:py-16">
-                <div className="container mx-auto px-4 text-center">
-                    <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-blue-600 mb-4">
-                        Join Us
-                    </h2>
-                    <p className="text-xl md:text-2xl lg:text-3xl font-semibold text-blue-700 mb-6 max-w-4xl mx-auto leading-tight">
-                        And Give Your Learning The Flight it Deserves
-                    </p>
-                    <Button
-                        variant="outline"
-                        size="lg"
-                        className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-colors bg-transparent"
-                        asChild
-                    >
-                        <a href="/">Apply</a>
-                    </Button>
-                </div>
-            </div>
+           
 
             {/* Main Footer Section */}
             <div className="bg-slate-800 text-white py-12 md:py-16">

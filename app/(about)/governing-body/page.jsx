@@ -15,28 +15,16 @@ const managementTeam = [
         message:
             "SVIET  has  experienced  remarkable  growth  in  recent  years,  earning  widespread  acclaim  for  its rapid advancement.  Our  journey  from  inception  to  our  current  standing  is  a  testament  to  our  unwavering dedication, exceptional faculty, and enriching learning environment. With a focus on quality education, we offer  diverse  programs  affiliated  with  both  national  and  international  universities.  We  celebrate  the achievements of our faculty, staff, and partners, employing modern teaching methods that empower students to realize their full potential. Emphasizing hands-on experience over mere theoretical knowledge, SVIET is dedicated   to   providing   practical   solutions   and   fostering   intellectual   brilliance   through   research   and development. Let's collaborate in building a skilled society together."
     },
+   
     {
-        name: "Mr. Vishal Garg",
-        position: "Director Secretarial and Administration",
-        image: "/Management/vishalsir.jpg",
-        message:
-            "At  SVIET,  we  prioritize  global  standards  in  academia,  fostering  active  engagement  among  teachers, students,  and  industry.  Our  focus  is  on  holistic  education,  preparing  students  for  the  challenges  of  a globalized  world.  With  dedicated  faculty  and  staff,  we  aim  to  excel  in  shaping  individuals'  futures  and elevate  SVIET's  standing  in  the  academic  realm.  Our  commitment  to  excellence  is  reflected  in  the diverse student  body,  including  foreign  exchange  students,  enriching  our  campus  culture.  Join  us  in  experiencing exceptional intellectual and academic opportunities, shaping the future of learning together."
-    },
-    {
-        name: "(Prof.) Dr. Sanjeev Saini",
-        position: "Director Academics",
-        image: "/Management/1.jpeg",
+        name: "Adv. Shubham Garg",
+        position: "Secretary",
+        image: "/Management/2.jpg",
         message:
             "At  Swami  Vivekanand  Institute  of  Engineering  &  Technology  (SVIET),  we  are  committed  to  building  a learning environment that not only imparts knowledge but also nurtures innovation, leadership,  and ethical values.  Since  our  inception  in  2004,  we  have  continuously  evolved  to  meet  the  changing  needs  of  the industry and society by offering forward-thinking, outcome-based academic programs. We believe that academic success is deeply rooted in a student-centric approach backed by strong academic planning, transparent systems, and digital integration.  To  ensure  holistic  development,  we  regularly  organize  national  and  international  conferences,  technical workshops, guest lectures, industrial visits, and cultural events.  At  SVIET,  we  are  not  just  teaching  subjects—we  are  shaping  futures.  Our  focus  remains  on  developing competent, confident, and socially conscious graduates who are ready to lead in an ever-changing world."
     },
 
-    {
-        name: "(Prof.) Dr. Pertik Garg",
-        position: "Principal, SVIET",
-        image: "/Management/pertik.webp",
-        message:
-            "At SVIET, we stand at the threshold of excellence, driven by the spirit of innovation, integrity, and inclusivity. As the Principal, I am honored to lead this esteemed institution, where we nurture the minds that shape the future.Our commitment to academic excellence, coupled with a holistic approach to education, empowers our students to become not just engineers and technologists but leaders of tomorrow. We believe in providing a conducive environment where creativity thrives, ideas flourish, and aspirations take flight. As we embark on this journey together, let us remember the words of Swami Vivekananda, “Arise, awake, and stop not till the goal is reached.” Let us strive for excellence in all our endeavors, embracing challenges as opportunities for growth and learning."
-    },
+  
 
 
 ]
