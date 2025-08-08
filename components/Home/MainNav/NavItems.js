@@ -15,7 +15,22 @@ export const navItems = [
         ]
     },
 
-    { name: "Academics", href: "/iqac" },
+    {
+        name: "Academics", href: "",
+        dropdown: [
+            {
+                links: [
+                    { name: "COMPUTER SCIENCE AND ENGINEERING", href: "/academics/Civil-Engineering-About" },
+                    { name: "ELECTRONICS & COMMUNICATION ENGINEERING", href: "/Under-Graduation" },
+                    { name: "ELECTRICAL ENGINEERING", href: "/Under-Graduation" },
+                    { name: "MECHANICAL ENGINEERING", href: "/Under-Graduation" },
+                    { name: "CIVIL ENGINEERING", href: "/Under-Graduation" },
+                    { name: "COMPUTER APPLICATIONS", href: "/Under-Graduation" },
+                    { name: "BUSINESS ADMINISTRATION", href: "/Under-Graduation" },
+                ]
+            },
+        ]
+    },
     {
         name: "Admissions",
         href: "",
@@ -27,7 +42,7 @@ export const navItems = [
                     { name: "International Admissions", href: "/International-Admissions" }
                 ]
             },
-            
+
         ]
     },
     { name: "IQAC", href: "/iqac" },

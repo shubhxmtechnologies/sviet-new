@@ -1,5 +1,5 @@
 import React from 'react'
-import { CheckCircle, Settings } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 const qualityAssuranceActivities
     = [{
         id: 1,
@@ -38,7 +38,7 @@ const data = [
 const ScSt = () => {
     return (
         <>
-           
+
 
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-4">
@@ -49,18 +49,15 @@ const ScSt = () => {
                         </h2>
                         <div className="space-y-4 text-gray-700 leading-relaxed">
                             <div className="flex items-start gap-3">
-                                <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                                <p>
+                                <p className='text-justify'>
                                     In the College, a Standing Committee has been constituted to oversee the welfare of SC/ST students. The committee is headed by the Principal who serves as the Chairman. Its primary objective is to ensure the well-being and support of students belonging to Scheduled Castes and Scheduled Tribes.                             </p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                                <p>
+                                <p className='text-justify'>
                                     Additionally, a Special Cell has been established in the college specifically dedicated to the welfare of SC/ST students. The main purpose of this cell is to effectively implement various schemes provided by the UGC (University Grants Commission), Government of India, and State Governments. These schemes include scholarships, stipends, and other forms of financial assistance.                         </p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                                <p>
+                                <p className='text-justify'>
                                     To ensure transparency and awareness, the college notifies and displays the guidelines for different types of scholarships and stipends. These guidelines are revised periodically by the Central and State Governments. By making them publicly available on notice boards, students can easily access the necessary information regarding eligibility, application procedures, and other relevant details.                       </p>
                             </div>
 
@@ -81,8 +78,8 @@ const ScSt = () => {
                             {qualityAssuranceActivities.map(item => (
 
                                 <div key={item.id} className="flex items-start gap-3">
-                                    <Settings className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                                    <p>
+                                    <ChevronRight className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
+                                    <p className='text-justify'>
                                         {item.text}
                                     </p>
                                 </div>))}

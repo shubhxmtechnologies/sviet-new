@@ -29,7 +29,7 @@ const quickLinks = [
     },
     { title: "SVGOI", href: "http://sviet.ac.in/", target: true },
     { title: "Examination Cell", href: "/exam-committee" },
-    {
+    {   
         title: "Mandatory Disclosure",
         href: "https://sviet.org.in/wp-content/uploads/Mandatory-Disclosure-SVIET-1-1.pdf",
         target: true
@@ -59,7 +59,6 @@ const statutoryCells = [
     { title: "Grievance Redressal Committee", href: "/grievance-redressal-committee" },
     { title: "Women Grievances Cell", href: "/womens-cell" },
     { title: "Anti-ragging Committee", href: "/anti-ragging-policy" },
-    { title: "OBC Cell", href: "/obc-cell-2" },
     { title: "Internal Complaints Cell", href: "/internal-complaint-cell" },
     { title: "Women Helpline", href: "https://sviet.org.in/wp-content/uploads/WhatsApp-Image-2024-04-09-at-19.17.31_881ebde6.jpg", target: true },
 ];
@@ -88,7 +87,7 @@ export default function Footer() {
                         className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-colors bg-transparent"
                         asChild
                     >
-                        <a target="_blank" href="https://admission.sviet.ac.in/">Apply</a>
+                        <a href="/">Apply</a>
                     </Button>
                 </div>
             </div>

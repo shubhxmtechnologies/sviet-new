@@ -65,11 +65,7 @@ const PgLayout = ({ title, programs }) => {
                                                 {item.title}
                                             </AccordionTrigger>
                                             <AccordionContent className="bg-white px-4 py-4 text-sm text-gray-700">
-                                                {/* <ul className="list-disc list-inside space-y-1">
-                                                    {item.requirements.map((req, idx) => (
-                                                        <li key={idx}>{req}</li>
-                                                    ))}
-                                                </ul> */}
+                                                
                                                 <div className="space-y-4 text-gray-700 leading-relaxed">
 
                                                     {item.data.length > 0 && item.data.map((overv, index) => (

@@ -10,7 +10,7 @@ const Timeline = () => {
             id="director-message"
             className="py-16 bg-gray-50"
         >
-            <div className='flex justify-center mb-3'>
+            <div className='flex px-4 justify-center mb-3'>
 
                 <h2 className="text-3xl md:text-4xl font-bold text-blue-900 ">
                     Our Expanding Educational Legacy
@@ -18,13 +18,13 @@ const Timeline = () => {
 
             </div>
             <div className="container  mx-auto px-4">
-                <div className="flex items-center flex-col md:flex-row ">
-                    <div className="relative  flex-1 w-full h-[500px] max-h-[500px]">
+                <div className="flex items-center flex-col lg:flex-row ">
+                    <div className="relative  flex-1 w-full md:min-h-[350px] sm:min-h-[300px] min-h-[250px] h-[500px] max-h-[500px]">
                         <Image
                             src="/Home/about-auditorium.webp"
                             alt="Sviet auditorium"
                             fill
-                            className=" rounded-lg object-contain"
+                            className="  object-contain"
                         />
                     </div>
 

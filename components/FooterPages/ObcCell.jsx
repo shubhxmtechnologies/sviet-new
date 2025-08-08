@@ -1,5 +1,5 @@
 import React from 'react'
-import { CheckCircle, Settings } from 'lucide-react';
+import { CheckCircle, ChevronRight, Settings } from 'lucide-react';
 const qualityAssuranceActivities
     = [{
         id: 1,
@@ -45,8 +45,7 @@ const ObcCell = () => {
                         </h2>
                         <div className="space-y-4 text-gray-700 leading-relaxed">
                             <div className="flex items-start gap-3">
-                                <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                                <p>
+                                <p className='text-justify'>
                                     To adhere to the rules of Government of India and Following the directions issued by UGC and I.K. Gujral Punjab Technical University, the other backward Caste Committee in the Institution is constituted to ensure the continued welfare of the reserved category. The committee also acts as a redressal forum for the students and employees belonging to the OBC category to reach out in case of any grievances that they may face.                            </p>
                             </div>
 
@@ -65,7 +64,7 @@ const ObcCell = () => {
                         <div className="space-y-4 text-gray-700">
                             {qualityAssuranceActivities.map(item => (
                                 <div key={item.id} id={item.id} className="flex items-start gap-3">
-                                    <Settings className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
+                                    <ChevronRight className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                                     <p>
                                         {item.text}
                                     </p>

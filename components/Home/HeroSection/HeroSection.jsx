@@ -7,7 +7,7 @@ import {
     CarouselItem,
 } from "@/components/ui/carousel"
 import React from "react" // Import React for useState and useEffect
-export function HeroSection({ isShown = true ,images}) {
+export function HeroSection({ isShown = true, images }) {
 
     const [api, setApi] = React.useState()
     const [current, setCurrent] = React.useState(0)
@@ -43,10 +43,10 @@ export function HeroSection({ isShown = true ,images}) {
 
     return (
         <section className="relative w-full overflow-hidden">
-            {isShown && <div className="absolute inset-0 z-20 flex flex-col items-start justify-center p-8 text-white bg-black/50">
+            {isShown && <div className="absolute inset-0 z-20 flex flex-col items-start justify-center p-5 md:p-8 text-white bg-black/50">
                 {/* Inner div for text content: removed its background and padding */}
                 <div className="max-w-3xl h-full flex items-end text-left">
-                    <h2 className="text-3xl font-bold md:text-4xl lg:text-5xl">
+                    <h2 className="text-2xl sm:text-3xl font-bold md:text-4xl lg:text-5xl">
                         Shaping Visionaries Through Education and Innovation Since 2004
                     </h2>
                 </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { CheckCircle, CircleSmall, Dot, Settings } from 'lucide-react';
+import { ChevronRight, CircleSmall, } from 'lucide-react';
 const protocols = [{
     id: 1,
     text: "A formal complaint will be filed with the Anti-Ragging Committee, Chairman, member, or members of anti-ragging squads."
@@ -36,31 +36,45 @@ const majors = [
 
 const data = [
     {
-        srNo: 1, name: "Dr. Pertik Garg", Designation: "Presiding Officer",
+        srNo: 1,
+        name: "Dr. Pertik Garg",
+        designation: "Committee Convener"
     },
     {
-        srNo: 2, name: "Er. Manik Dhiman", Designation: "Coordinator",
+        srNo: 2,
+        name: "Er. Manik Dhiman",
+        designation: "Committee Coordinator"
     },
     {
-        srNo: 3, name: "Ms. Vandana", Designation: "Member",
+        srNo: 3,
+        name: "Er. Vandana",
+        designation: "Member"
     },
     {
-        srNo: 4, name: "Er. Ankur Gill", Designation: "Member",
+        srNo: 4,
+        name: "Er. Ankur Gill",
+        designation: "Member"
     },
     {
-        srNo: 5, name: "Ms. Gurwinder kaur", Designation: "Member",
+        srNo: 5,
+        name: "Ms. Gurwinder Kaur",
+        designation: "Member"
     },
     {
-        srNo: 6, name: "Mr. Mani Ram", Designation: "Member",
+        srNo: 6,
+        name: "Mr. Mani Ram",
+        designation: "Member"
     },
     {
-        srNo: 7, name: "Ms. Pushpa Goyal", Designation: "Member",
-    },
+        srNo: 7,
+        name: "Ms. Pushpa Goyal",
+        designation: "Member"
+    }
 ]
 const AntiRagging = () => {
     return (
         <>
-            
+
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto">
@@ -70,8 +84,7 @@ const AntiRagging = () => {
                         </h2>
                         <div className="space-y-4 text-gray-700 leading-relaxed">
                             <div className="flex items-start gap-3">
-                                <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                                <p>
+                                <p className='text-justify'>
                                     We, at Swami Vivekanand Institute of Engineering & Technology, strongly condemn any form of ragging. Our college campus is intended to foster meaningful friendships and create lasting memories. We prioritize the well-being of our students, particularly during the induction of new students into our institution. Ragging is defined as any disruptive behavior involving verbal or physical actions that include teasing, treating, or handling fellow students with rudeness. This includes engaging in unruly or undisciplined activities that result in annoyance, hardship, or psychological harm to junior students, causing feelings of shame and embarrassment. Such actions negatively impact the mental state of the affected individuals, and we are dedicated to maintaining a safe and respectful environment for everyone in our college community.                           </p>
                             </div>
 
@@ -90,9 +103,9 @@ const AntiRagging = () => {
                         </h2>
                         <div className="space-y-4 text-gray-700">
                             {protocols.map(item => (
-                                <div  key={item.id} className="flex items-start gap-3">
-                                    <Settings className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                                    <p>
+                                <div key={item.id} className="flex items-start gap-3">
+                                    <ChevronRight className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
+                                    <p className='text-justify'>
                                         {item.text}
                                     </p>
                                 </div>))}
@@ -105,20 +118,20 @@ const AntiRagging = () => {
             <section className="py-16 bg-gray-50">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-8">
+                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
                             Penalties The following are the penalties that may be imposed on a student.
                         </h2>
                         <div className="space-y-4 text-gray-700">
                             <section className="py-2 bg-gray-50">
                                 <div className="container mx-auto px-4">
                                     <div className="max-w-4xl mx-auto">
-                                        <h2 className="text-3xl flex items-center font-bold text-gray-900 mb-8 gap-3">
+                                        <h2 className="text-2xl flex items-center font-bold text-gray-800 mb-8 gap-3">
                                             <CircleSmall className='h-3 w-3 text-black bg-black rounded-full' />  Minor Penalties
                                         </h2>
                                         <div className="space-y-4 text-gray-700">
                                             {minors.map(item => (
                                                 <div key={item.id} className="flex items-start gap-3">
-                                                    <Settings className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
+                                                    <ChevronRight className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                                                     <p>
                                                         {item.text}
                                                     </p>
@@ -132,13 +145,13 @@ const AntiRagging = () => {
                             <section className="py-2 bg-gray-50">
                                 <div className="container mx-auto px-4">
                                     <div className="max-w-4xl mx-auto">
-                                        <h2 className="text-3xl flex items-center font-bold text-gray-900 mb-8 gap-3">
+                                        <h2 className="text-2xl flex items-center font-bold text-gray-800 mb-8 gap-3">
                                             <CircleSmall className='h-3 w-3 text-black bg-black rounded-full' />  Major Penalties
                                         </h2>
                                         <div className="space-y-4 text-gray-700">
                                             {majors.map(item => (
                                                 <div key={item.id} className="flex items-start gap-3">
-                                                    <Settings className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
+                                                    <ChevronRight className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                                                     <p>
                                                         {item.text}
                                                     </p>
@@ -184,19 +197,20 @@ const AntiRagging = () => {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {data.map(item => (<tr key={item.srNo}>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.srNo}
-                                        </td>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.name}
-                                        </td>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.Designation}
-                                        </td>
+                                    {data.map(item => (
+                                        <tr key={item.srNo}>
+                                            <td className="border border-gray-300 px-4 py-3">
+                                                {item.srNo}
+                                            </td>
+                                            <td className="border border-gray-300 px-4 py-3">
+                                                {item.name}
+                                            </td>
+                                            <td className="border border-gray-300 px-4 py-3">
+                                                {item.designation}
+                                            </td>
 
 
-                                    </tr>))}
+                                        </tr>))}
 
 
                                 </tbody>
@@ -205,7 +219,7 @@ const AntiRagging = () => {
                     </div>
                 </div>
             </section>
-           
+
         </>
     )
 }

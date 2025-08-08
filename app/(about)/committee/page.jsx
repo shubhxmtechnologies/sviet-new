@@ -21,10 +21,10 @@ const Page = () => {
                                             Sr. No.
                                         </th>
                                         <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
-                                            Name
+                                            Composition of SGRC
                                         </th>
                                         <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
-                                            Designation
+                                            Name & Designation
                                         </th>
 
 
@@ -32,20 +32,23 @@ const Page = () => {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {sgrcData.map(item => (<tr key={item.srNo}>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.srNo}
-                                        </td>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.name}
-                                        </td>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.Designation}
-                                        </td>
-
-                                    </tr>))}
-
-
+                                    {sgrcData.map((item, index) => (
+                                        <tr key={index}>
+                                            <td className="border border-gray-300 px-4 py-3 align-top">
+                                                {item.srNo}
+                                            </td>
+                                            <td className="border border-gray-300 px-4 py-3 align-top">
+                                                {item.composition}
+                                            </td>
+                                            <td className="border border-gray-300 px-4 py-3">
+                                                <ul className="list-disc pl-4">
+                                                    {item.members.map((member, idx) => (
+                                                        <li key={idx}>{member}</li>
+                                                    ))}
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    ))}
                                 </tbody>
                             </table>
                         </div>
@@ -188,7 +191,7 @@ const Page = () => {
                                             {item.name}
                                         </td>
                                         <td className="border border-gray-300 px-4 py-3">
-                                            {item.Designation}
+                                            {item.designation}
                                         </td>
 
 
@@ -213,41 +216,21 @@ const Page = () => {
                             <table className="w-full border-collapse border border-gray-300">
                                 <thead>
                                     <tr className="bg-gray-100">
-
-                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
-                                            Sr. No.
-                                        </th>
-                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
-                                            Name
-                                        </th>
-                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
-                                            Designation
-                                        </th>
-
-
-                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
-                                            Contact No
-                                        </th>
+                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Sr. No.</th>
+                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Position in ICC</th>
+                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Name & Designation of Member</th>
+                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Contact No.</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {internationalComplaintData.map(item => (<tr key={item.srNo}>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.srNo}
-                                        </td>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.name}
-                                        </td>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.Designation}
-                                        </td>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.Contact}
-                                        </td>
-
-                                    </tr>))}
-
-
+                                    {internationalComplaintData.map((item, index) => (
+                                        <tr key={index}>
+                                            <td className="border border-gray-300 px-4 py-3 align-top">{item.srNo}</td>
+                                            <td className="border border-gray-300 px-4 py-3 align-top">{item.position}</td>
+                                            <td className="border w-72 min-w-72 max-w-72 border-gray-300 px-4 py-3 whitespace-pre-line">{item.nameAndDesignation}</td>
+                                            <td className="border border-gray-300 px-4 py-3 whitespace-pre-line">{item.contact}</td>
+                                        </tr>
+                                    ))}
                                 </tbody>
                             </table>
                         </div>

@@ -40,7 +40,7 @@ const Highlights = ({ isShown = false, keyHighlights }) => {
 
     return (
 
-        <section className={`${isShown ? "bg-white" : "bg-gray-50"} py-12 md:py-16 lg:py-20`}  >
+        <section className={`${isShown ? "bg-white" : "bg-gray-50"} py-12 sm:pb-4 md:py-16 lg:py-20`}  >
             <div className="container mx-auto px-4  md:px-6">
                 <h2 className={`${isShown ? "mb-0" : "mb-10"} text-center text-3xl font-bold text-[#003366] md:text-4xl`}>Why Choose Us?</h2>
                 <Carousel
@@ -54,7 +54,7 @@ const Highlights = ({ isShown = false, keyHighlights }) => {
                     <CarouselContent className="-ml-6  py-6">
                         {keyHighlights.map((item, index) => (
                             <CarouselItem key={index} className="pl-6  basis-full sm:basis-1/2 lg:basis-1/3">
-                                <Card className="overflow-hidden min-h-80 h-80  max-h-80  pt-0 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 rounded-lg shadow-lg">
+                                <Card className="overflow-hidden sm:h-96 sm:min-h-96 sm:max-h-96 min-h-[22rem] h-[22rem]  max-h-[22rem]  pt-0 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 rounded-lg shadow-lg">
                                     <CardContent className="p-0">
                                         <div className="relative h-56 w-full">
                                             <Image

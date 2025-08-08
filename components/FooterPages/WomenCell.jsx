@@ -1,5 +1,5 @@
 import React from 'react'
-import { CheckCircle, Settings } from 'lucide-react';
+import { CheckCircle, ChevronRight, Settings } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 const objectives = [{
@@ -68,8 +68,7 @@ const WomenCell = () => {
                         </h2>
                         <div className="space-y-4 text-gray-700 leading-relaxed">
                             <div className="flex items-start gap-3">
-                                <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                                <p>
+                                <p className='text-justify'> 
                                     According to the Constitution of India, Equality is a Fundamental Right that includes the right to equality before law, forbidding discrimination and equality of opportunities in matters of public employment. Equality between men and women, right to work, education and to public assistance in case of unemployment, old age, sickness, disablement, provision of just and humane conditions for work and maternity relief, are important Directive Principles of State Policy.                            </p>
                             </div>
 
@@ -89,7 +88,7 @@ const WomenCell = () => {
                         <div className="space-y-4 text-gray-700">
                             {objectives.map(item => (
                                 <div key={item.id} className="flex items-start gap-3">
-                                    <Settings className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
+                                    <ChevronRight className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                                     <p>
                                         {item.text}
                                     </p>
@@ -109,7 +108,7 @@ const WomenCell = () => {
                         <div className="space-y-4 text-gray-700">
                             {roles.map(item => (
                                 <div key={item.id} className="flex items-start gap-3">
-                                    <Settings className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
+                                    <ChevronRight className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                                     <p>
                                         {item.text}
                                     </p>
@@ -129,7 +128,7 @@ const WomenCell = () => {
                         <div className="space-y-4 text-gray-700">
                             {complaints.map(item => (
                                 <div key={item.id} className="flex items-start gap-3">
-                                    <Settings className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
+                                    <ChevronRight className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                                     <p>
                                         {item.text}
                                     </p>

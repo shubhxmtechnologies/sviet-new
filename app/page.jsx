@@ -85,7 +85,7 @@ export default function HomePage() {
         <NewsEvents />
 
 
-        <section className="py-12 md:py-16 bg-gray-100 lg:py-20">
+        <section className="py-12  md:py-16 bg-gray-100 lg:pb-10">
           <div className="container mx-auto px-4 md:px-6">
             <h2 className="mb-4 text-center text-2xl font-bold text-[#003366] md:text-3xl">
               Overview              </h2>

@@ -17,35 +17,40 @@ export function Header() {
         <header className="bg-white border-b py-4 shadow-sm">
             <div className="px-4 flex items-center justify-between w-full  md:px-6">
                 {/* Left Section: Logo and College Name */}
-                <div className="flex items-center w-full justify-left gap-5 md:gap-0 md:justify-between md:px-10">
-                    <div className="flex items-center gap-4 ">
-                        <Image
-                            src="/SVIET.jpg"
-                            alt="College Logo 1"
-                            width={100}
-                            height={100}
-                        />
+                <div className="flex items-center w-full justify-left gap-5 md:gap-0 md:justify-between px-0 xl:px-10">
+                    <Link
+                    href={"/"}
+                    >
+                        <div className="flex items-center gap-4 ">
+                            <Image
+
+                                src="/SVIET.jpg"
+                                alt="College Logo 1"
+                                width={100}
+                                height={100}
+                            />
 
 
-                        <div className="hidden md:flex flex-col">
-                            {/* Punjabi Title */}
-                            <h2 className="text-base font-bold text-[#003366] ">
-                                ਸਵਾਮੀ ਵਿਵੇਕਾਨੰਦ ਇੰਸਟੀਚਿਊਟ ਆਫ਼ ਇੰਜੀਨੀਅਰਿੰਗ ਐਂਡ ਟੈਕਨਾਲੋਜੀ<br />
-                            </h2>
-                            <p className="text-xs text-gray-600">
+                            <div className="hidden lg:flex flex-col">
+                                {/* Punjabi Title */}
+                                <h2 className="text-base font-bold text-[#003366] ">
+                                    ਸਵਾਮੀ ਵਿਵੇਕਾਨੰਦ ਇੰਸਟੀਚਿਊਟ ਆਫ਼ ਇੰਜੀਨੀਅਰਿੰਗ ਐਂਡ ਟੈਕਨਾਲੋਜੀ<br />
+                                </h2>
+                                <p className="text-xs text-gray-600">
 
-                                ਸਥਾਪਿਤ 2004 | AICTE ਵੱਲੋਂ ਮਨਜ਼ੂਰਸ਼ੁਦਾ | IKGPTU ਨਾਲ ਸੰਬੰਧਤ
-                            </p>
+                                    ਸਥਾਪਿਤ 2004 | AICTE ਵੱਲੋਂ ਮਨਜ਼ੂਰਸ਼ੁਦਾ | IKGPTU ਨਾਲ ਸੰਬੰਧਤ
+                                </p>
 
-                            {/* English Title */}
-                            <h2 className="text-base font-bold text-[#003366]">
-                                Swami Vivekanand Institute of Engineering & Technology
-                            </h2>
-                            <p className="text-xs text-gray-600">
-                                ESTD. 2004 | Approved by AICTE | Affiliated to IKGPTU
-                            </p>
+                                {/* English Title */}
+                                <h2 className="text-base font-bold text-[#003366]">
+                                    Swami Vivekanand Institute of Engineering & Technology
+                                </h2>
+                                <p className="text-xs text-gray-600">
+                                    ESTD. 2004 | Approved by AICTE | Affiliated to IKGPTU
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                     <div className=" flex items-center ">
                         <Image
                             className="hidden sm:block"

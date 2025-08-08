@@ -1,4 +1,4 @@
-import { CheckCircle, Settings } from 'lucide-react';
+import { CheckCircle, ChevronRight, Settings } from 'lucide-react';
 import React from 'react'
 const qualityAssuranceActivities = [
     {
@@ -52,7 +52,7 @@ const Rti = () => {
         <>
             
 
-            <section className="py-16 bg-white">
+            <section className="py-8 bg-white">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto">
                         <h2 className="text-3xl font-bold text-gray-900 mb-8">
@@ -60,8 +60,7 @@ const Rti = () => {
                         </h2>
                         <div className="space-y-4 text-gray-700 leading-relaxed">
                             <div className="flex items-start gap-3">
-                                <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                                <p>
+                                <p className='text-justify'>
                                     Information sought under the Act would be scrutinized and considered if the RTI application received by Swami Vivekanand Institute of Engineering & Technology fulfils the criteria for providing the information sought and is in accordance with the provisions stipulated in the Act.                                </p>
                             </div>
 
@@ -70,7 +69,7 @@ const Rti = () => {
                     </div>
                 </div>
             </section>
-            <section className="py-16 bg-white">
+            <section className="py-8 bg-white">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto">
                         <h2 className="text-3xl font-bold text-gray-900 mb-8">
@@ -78,7 +77,6 @@ const Rti = () => {
                         </h2>
                         <div className="space-y-4 text-gray-700 leading-relaxed">
                             <div className="flex items-start gap-3">
-                                <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                                 <p>
                                     Under the Right to Information Act (RTI) 2005 section 4(1) (b), following information has been disclosed and complied with RTI act 2005.                               </p>
                             </div>
@@ -99,7 +97,7 @@ const Rti = () => {
                             {qualityAssuranceActivities.map(item => (
 
                                 <div key={item.id} className="flex items-start gap-3">
-                                    <Settings className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
+                                    <ChevronRight className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                                     <p>
                                         {item.text}
                                     </p>
@@ -114,7 +112,7 @@ const Rti = () => {
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-4">
                     <div className="max-w-6xl mx-auto">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-8">
+                        <h2 className="text-xl md:text-2xl  font-bold text-gray-900 mb-8">
                             Names, Designations and other particulars of the Public Information Officers (PIOs) and Assistant Publication Information Officers (APIOs):
                         </h2>
 

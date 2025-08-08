@@ -9,7 +9,7 @@ export const CurrentInitiative = () => {
                     <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
                         Current Initiatives & Achievements
                     </h2>
-                    <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+                    <p className="text-gray-600 text-[1.115rem]  max-w-3xl mx-auto">
                         Our  ongoing  initiatives  reflect  our  commitment  to  continuous  improvement  and  excellence  in  all aspects of education and student development.
                     </p>
                 </div>

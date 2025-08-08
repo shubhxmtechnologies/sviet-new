@@ -4,7 +4,7 @@ import React from 'react'
 
 const BoardOfManagement = ({ managementTeam, isInt = false }) => {
     return (
-        <section className={` ${isInt ? "bg-white pt-4" : "bg-gray-50 py-16"} `}>
+        <section className={` ${isInt ? " pt-4" : " py-16"} bg-white `}>
             <div className={`container mx-auto ${isInt ? "" : "px-4"}`}>
 
 
@@ -34,7 +34,7 @@ const BoardOfManagement = ({ managementTeam, isInt = false }) => {
                             </div>
 
                             <div
-                                className={`relative rounded-lg shadow-md w-full h-96 ${index % 2 === 1 ? "lg:col-start-1 lg:row-start-1" : ""
+                                className={`relative rounded-lg shadow-md w-full h-[23rem] ${index % 2 === 1 ? "lg:col-start-1 lg:row-start-1" : ""
                                     }`}
                             >
                                 <Image
@@ -43,7 +43,7 @@ const BoardOfManagement = ({ managementTeam, isInt = false }) => {
                                     fill
                                     className="   object-contain"
                                 />
-                                <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-lg ">
+                                <div className="absolute -bottom-7 -right-2 bg-gray-50 shadow-md p-4 rounded-lg ">
                                     <div className="text-center">
                                         <p className="font-bold text-blue-900 text-sm">
                                             {member.name}

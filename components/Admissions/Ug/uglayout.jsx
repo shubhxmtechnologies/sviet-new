@@ -26,7 +26,7 @@ const UgLayout = ({ eligibilityCriteria, title, overview }) => {
 
                     </h2>
                     <h2 className="text-sm font-medium text-red-600 mb-6">
-                        Notice:- Admissions for Management Quota seats are Closed for First Year B.E Courses for 2025-26 at SVIET.
+                        Notice:- Admissions for Management Quota seats are Closed for First Year   B.Tech courses for 2025-26 at SVIET.
 
                     </h2>
                     <div className="space-y-4 text-gray-700 leading-relaxed">

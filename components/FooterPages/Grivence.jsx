@@ -1,27 +1,34 @@
 import React from 'react'
-import { CheckCircle } from 'lucide-react';
 
 const data = [
     {
-        srNo: 1, name: "Dr.Pertik Garg", Designation: "CHAIRPERSON", Emails: "principal@sviet.ac.in"
+        srNo: 1,
+        composition: "Chairperson",
+        members: ["Mr. Sarabjeet Singh, Dean (Student Welfare)"],
     },
     {
-        srNo: 2, name: "Ms. Shivani Guleria", Designation: "CONVENER", Emails: "registrar@sviet.org.in"
+        srNo: 2,
+        composition: "Senior Faculty Members",
+        members: [
+            "Dr. Neeraj Kumar, Associate Professor & Head (MBA)",
+            "Dr. Indu Batra, Associate Professor (Applied Sciences)",
+            "Ms. Gurwinder Kaur, Assistant Professor & Head (Applied Sciences)"
+        ],
     },
     {
-        srNo: 3, name: "Mr. Tajamul Saqib", Designation: "Member", Emails: "registrar@sviet.org.in"
-    },
-    {
-        srNo: 4, name: "Mr. Mani Ram", Designation: "HOSTEL WARDEN (Boys)", Emails: "registrar@sviet.org.in"
-    },
-    {
-        srNo: 5, name: "Ms. Pushpa Goyal", Designation: "HOSTEL WARDEN (Girls)", Emails: "registrar@sviet.org.in"
-    },
+        srNo: 3,
+        composition: "Students as Members",
+        members: [
+            "Ms. Shital Kumari, B.TECH-CSE/6th Semester",
+            "Mr. Bibek Kumar Yadav, B.TECH-CE/6th Semester"
+        ],
+    }
 ]
+
 const Grivence = () => {
     return (
         <>
-            
+
 
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-4">
@@ -32,8 +39,7 @@ const Grivence = () => {
                         </h2>
                         <div className="space-y-4 text-gray-700 leading-relaxed">
                             <div className="flex items-start gap-3">
-                                <CheckCircle className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                                <p>
+                                <p className='text-justify'>
                                     Students Grievance Redressal Committee (SGRC) is established to listen to the grievances of student as well as to resolve it immediately based on the sensitivity of the problem. Students can express their grievance by Contact Us. They can meet the Chairman of the Redressal committee in person if they want to. The committee will take action immediately and assures the grievance within a week.                             </p>
                             </div>
 
@@ -64,31 +70,34 @@ const Grivence = () => {
                                             Sr. No.
                                         </th>
                                         <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
-                                            Name
+                                            Composition of SGRC
                                         </th>
                                         <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
-                                            Designation
+                                            Name & Designation
                                         </th>
 
 
-                                       
+
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {data.map(item => (<tr key={item.srNo}>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.srNo}
-                                        </td>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.name}
-                                        </td>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.Designation}
-                                        </td>
-
-                                    </tr>))}
-
-
+                                    {data.map((item, index) => (
+                                        <tr key={index}>
+                                            <td className="border border-gray-300 px-4 py-3 align-top">
+                                                {item.srNo}
+                                            </td>
+                                            <td className="border border-gray-300 px-4 py-3 align-top">
+                                                {item.composition}
+                                            </td>
+                                            <td className="border border-gray-300 px-4 py-3">
+                                                <ul className="list-disc pl-4">
+                                                    {item.members.map((member, idx) => (
+                                                        <li key={idx}>{member}</li>
+                                                    ))}
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    ))}
                                 </tbody>
                             </table>
                         </div>

@@ -125,7 +125,7 @@ const InternationalAdmissions = ({ overviews }) => {
                                         {/* Responsive basis and padding for gap */}
                                         <Card
                                             key={index}
-                                            className="shadow-md hover:shadow-lg h-72 min-h-72 max-h-72 transition-all duration-300 transform hover:-translate-y-2"
+                                            className="shadow-md hover:shadow-lg h-72  min-h-72 max-h-72  sm:h-[19rem]  sm:min-h-[19rem] sm:max-h-[19rem] transition-all duration-300 transform hover:-translate-y-2"
                                         >
                                             <CardContent className="p-6 text-center">
                                                 <div
@@ -163,9 +163,9 @@ const InternationalAdmissions = ({ overviews }) => {
                     </div>
                 </div>
             </section>
-            <section className="py-0 bg-white">
+            <section className="pt-5  md:py-0 md:pt-0 bg-white">
                 <div className="container mx-auto px-4">
-                    <div className="max-w-full rounded-md overflow-hidden mx-auto">
+                    <div className="max-w-full  overflow-visible mx-auto">
                         <h2 className="text-3xl py-0 font-bold text-gray-900">
                             Director –International Affairs
 
@@ -176,7 +176,7 @@ const InternationalAdmissions = ({ overviews }) => {
                 </div>
             </section>
 
-            <section className="pt-10 pb-5 md:pt-12  ">
+            <section className="pt-15  pb-5 md:pt-15  ">
                 <div className="container mx-auto px-4 md:px-6">
                     <h2 className="mb-4 text-center text-2xl font-bold text-[#003366] md:text-3xl">
                         Campus Life                </h2>
