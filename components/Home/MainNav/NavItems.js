@@ -20,13 +20,13 @@ export const navItems = [
         dropdown: [
             {
                 links: [
-                    { name: "COMPUTER SCIENCE AND ENGINEERING", href: "/academics/Civil-Engineering-About" },
-                    { name: "ELECTRONICS & COMMUNICATION ENGINEERING", href: "/Under-Graduation" },
-                    { name: "ELECTRICAL ENGINEERING", href: "/Under-Graduation" },
-                    { name: "MECHANICAL ENGINEERING", href: "/Under-Graduation" },
-                    { name: "CIVIL ENGINEERING", href: "/Under-Graduation" },
-                    { name: "COMPUTER APPLICATIONS", href: "/Under-Graduation" },
-                    { name: "BUSINESS ADMINISTRATION", href: "/Under-Graduation" },
+                    { name: "COMPUTER SCIENCE AND ENGINEERING", href: "/academics/Computer-Science-And-Engineering" },
+                    { name: "ELECTRONICS & COMMUNICATION ENGINEERING", href: "/academics/Electronics-And-Communication-Engineering" },
+                    { name: "ELECTRICAL ENGINEERING", href: "/academics/Electrical-Engineering" },
+                    { name: "MECHANICAL ENGINEERING", href: "/academics/Mechanical-Engineering" },
+                    { name: "CIVIL ENGINEERING", href: "/academics/Civil-Engineering" },
+                    { name: "COMPUTER APPLICATIONS", href: "/academics/Computer-Applications" },
+                    { name: "BUSINESS ADMINISTRATION", href: "/academics/Business-Administration" },
                 ]
             },
         ]

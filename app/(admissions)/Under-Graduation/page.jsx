@@ -50,13 +50,13 @@ const eligibilityCriteria = [
     },
 ]
 const data = [
-    "COMPUTER SCIENCE AND ENGINEERING",
-    "COMPUTER SCIENCE AND DESIGN",
-    "ARTIFICIAL INTELLIGENCE",
-    "ELECTRONICS & COMMUNICATION ENGINEERING",
-    "ELECTRICAL ENGINEERING",
-    "MECHANICAL ENGINEERING",
-    "CIVIL ENGINEERING"
+    { name: "COMPUTER SCIENCE AND ENGINEERING", href: "/academics/Computer-Science-And-Engineering" },
+    { name: "COMPUTER SCIENCE AND DESIGN", href: "/academics/Computer-Science-And-Engineering" },
+    { name: "ARTIFICIAL INTELLIGENCE", href: "/academics/Computer-Science-And-Engineering" },
+    { name: "ELECTRONICS & COMMUNICATION ENGINEERING", href: "/academics/Electronics-And-Communication-Engineering" },
+    { name: "ELECTRICAL ENGINEERING", href: "/academics/Electrical-Engineering" },
+    { name: "MECHANICAL ENGINEERING", href: "/academics/Mechanical-Engineering" },
+    { name: "CIVIL ENGINEERING", href: "/academics/Civil-Engineering" }
 ]
 
 const page = () => {

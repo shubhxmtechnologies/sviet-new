@@ -97,21 +97,21 @@ export const empowerUrFuture = [
     {
         title: "Global Seed Program",
         description:
-            "SVGOI's Global Seed initiative nurtures entrepreneurial dreams by providing a platform for students to cultivate their startup ideas. Under this program, we offer startup facilities to students, allowing them to bring their ideas to life. Our dedicated entrepreneurship team trains them on the life cycle of entrepreneurship and the startup journey. With support from SVGOI management, including funding and space, students can start their own companies while continuing their studies. By fostering innovation and entrepreneurship, SVGOI empowers students to launch successful careers and make a lasting impact on the global stage.",
+            "SVIET's Global Seed initiative nurtures entrepreneurial dreams by providing a platform for students to cultivate their startup ideas. Under this program, we offer startup facilities to students, allowing them to bring their ideas to life. Our dedicated entrepreneurship team trains them on the life cycle of entrepreneurship and the startup journey. With support from SVIET management, including funding and space, students can start their own companies while continuing their studies. By fostering innovation and entrepreneurship, SVIET empowers students to launch successful careers and make a lasting impact on the global stage.",
         imageQuery: "https://sviet.org.in/wp-content/uploads/IMG_1197-scaled-1.jpg",
 
     },
     {
         title: "Faculty Exchange Program",
         description:
-            "Our International Faculty Exchange Program brings experienced educators from around the world to SVGOI, enriching our academic environment with diverse perspectives and global expertise. This initiative not only enhances the quality of education but also provides students and faculty with unique opportunities for cross-cultural learning and collaboration. Participants in the program benefit from engaging with cutting-edge research, innovative teaching methodologies, and a broad network of international peers.",
+            "Our International Faculty Exchange Program brings experienced educators from around the world to SVIET, enriching our academic environment with diverse perspectives and global expertise. This initiative not only enhances the quality of education but also provides students and faculty with unique opportunities for cross-cultural learning and collaboration. Participants in the program benefit from engaging with cutting-edge research, innovative teaching methodologies, and a broad network of international peers.",
         imageQuery: "https://utfs.io/f/de690804-6f23-4d08-bb2b-d5504f8d7071-bsrrb6.jpg",
     },
 
     {
         title: "Earn While Learn Program",
         description:
-            "Explore a transformative educational journey with SVGOI's Earn While Learn program. Crafted to equip students with practical expertise, this innovative initiative guides participants through every aspect of professional development, from crafting compelling resumes to securing lucrative job opportunities. By seamlessly integrating flexible shifts with ongoing academic pursuits, students not only earn a steady income but also gain invaluable hands-on experience in fields like banking, pharmaceuticals, IT, marketing, and more. What sets this program apart is its international appeal, as the experiences gained here in India serve as valuable additions to resumes, paving the way for paid internship in foreign countries. Join us today and elevate your educational experience into a global pathway to success.",
+            "Explore a transformative educational journey with SVIET's Earn While Learn program. Crafted to equip students with practical expertise, this innovative initiative guides participants through every aspect of professional development, from crafting compelling resumes to securing lucrative job opportunities. By seamlessly integrating flexible shifts with ongoing academic pursuits, students not only earn a steady income but also gain invaluable hands-on experience in fields like banking, pharmaceuticals, IT, marketing, and more. What sets this program apart is its international appeal, as the experiences gained here in India serve as valuable additions to resumes, paving the way for paid internship in foreign countries. Join us today and elevate your educational experience into a global pathway to success.",
         imageQuery: "https://sviet.org.in/wp-content/uploads/IMG_1545-scaled-1.jpg",
     },
 ]

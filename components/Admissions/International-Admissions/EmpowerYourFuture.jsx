@@ -41,7 +41,7 @@ const EmpowerYourFuture = ({ isShown = false }) => {
 
     return (
 
-        <section className={`${isShown ? "bg-white" : "bg-gray-50"} py-12 sm:pb-4 md:py-16 lg:py-20`}  >
+        <section className={`${isShown ? "bg-white" : "bg-gray-50"} py-12 sm:pb-4 md:py-16 `}  >
             <div className="container mx-auto px-4  md:px-6">
                 <h2 className={`${isShown ? "mb-0" : "mb-10"} text-center text-3xl font-bold text-[#003366] md:text-4xl`}>Empower Your Future</h2>
                 <Carousel
@@ -55,7 +55,7 @@ const EmpowerYourFuture = ({ isShown = false }) => {
                     <CarouselContent className="-ml-6  py-6">
                         {empowerUrFuture.map((item, index) => (
                             <CarouselItem key={index} className="pl-6  basis-full sm:basis-1/2 ">
-                                <Card className="overflow-hidden lg:h-[35rem] lg:min-h-[35rem] lg:max-h-[35rem] md:h-[39rem] md:min-h-[39rem] md:max-h-[39rem] sm:h-[49rem] sm:min-h-[49rem] sm:max-h-[49rem] min-h-[40rem] h-[40rem]  max-h-[40rem]  pt-0 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 rounded-lg shadow-lg">
+                                <Card className="overflow-hidden lg:h-[40rem] lg:min-h-[40rem] lg:max-h-[40rem] md:h-[48rem] md:min-h-[48rem] md:max-h-[48rem] sm:h-[49rem] sm:min-h-[49rem] sm:max-h-[49rem] min-h-[40rem] h-[40rem]  max-h-[40rem]  pt-0 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 rounded-lg shadow-lg">
                                     <CardContent className="p-0">
                                         <div className="relative h-72 w-full">
                                             <Image
@@ -70,7 +70,7 @@ const EmpowerYourFuture = ({ isShown = false }) => {
                                             </div>
                                         </div>
                                         <div className="p-4">
-                                            <p className="text-sm text-gray-700">{item.description}</p>
+                                            <p className="text-sm text-justify text-gray-700">{item.description}</p>
                                         </div>
                                     </CardContent>
                                 </Card>

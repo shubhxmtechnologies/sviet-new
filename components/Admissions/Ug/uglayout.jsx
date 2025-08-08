@@ -39,8 +39,8 @@ const UgLayout = ({ eligibilityCriteria, title, overview }) => {
                                 <span className='font-medium'>
                                     {index + 1}
                                 </span>
-                                <Link href="/" className='text-blue-400 hover:underline'>
-                                    {overv}
+                                <Link href={overv.href} className='text-blue-400 hover:underline'>
+                                    {overv.name}
                                 </Link>
 
                             </div>

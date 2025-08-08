@@ -65,7 +65,7 @@ const PgLayout = ({ title, programs }) => {
                                                 {item.title}
                                             </AccordionTrigger>
                                             <AccordionContent className="bg-white px-4 py-4 text-sm text-gray-700">
-                                                
+
                                                 <div className="space-y-4 text-gray-700 leading-relaxed">
 
                                                     {item.data.length > 0 && item.data.map((overv, index) => (
@@ -74,8 +74,8 @@ const PgLayout = ({ title, programs }) => {
                                                             <span className='font-medium'>
                                                                 {index + 1}
                                                             </span>
-                                                            <Link href="/" className='text-blue-400 hover:underline'>
-                                                                {overv}
+                                                            <Link href={overv.href} className='text-blue-400 hover:underline'>
+                                                                {overv.name}
                                                             </Link>
 
                                                         </div>

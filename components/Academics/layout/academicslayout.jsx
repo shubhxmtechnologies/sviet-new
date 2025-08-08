@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Sidebar } from "./Sidebar"
+import { Sidebar } from "../Sidebar"
 
 function Academicslayout({
     teacherPic = "/placeholder.svg",
@@ -9,7 +9,9 @@ function Academicslayout({
     aboutDepartment,
     departmentProfile,
     vision,
-    mission
+    mission,
+    departmentNameForNav,
+    routeName,
 }) {
 
 
@@ -24,14 +26,14 @@ function Academicslayout({
                             <div className="bg-white rounded-lg shadow-sm">
                                 {/* HOD Section */}
                                 <div className="p-6 border-b border-gray-200">
-                                    <div className="flex flex-col items-center justify-center w-full gap-6">
-                                        <div className="flex-shrink-0">
+                                    <div className="flex flex-col  items-center justify-center w-full gap-6">
+                                        <div className="flex-shrink-0 ">
                                             <Image
                                                 src={teacherPic}
                                                 alt={teacherName + "-picture"}
-                                                width={200}
-                                                height={200}
-                                                className="rounded-lg border shadow-lg"
+                                                width={250}
+                                                height={250}
+                                                className="rounded-lg  max-h-[250px]"
                                             />
                                         </div>
                                         <div className="flex-1 flex flex-col w-full items-center justify-center">
@@ -118,14 +120,7 @@ function Academicslayout({
                         </div>
 
                         {/* Left Sidebar - Navigation */}
-                        <div className="lg:col-span-1">
-                            <div className="bg-white rounded-lg shadow-sm p-4">
-                                <h3 className="text-sm font-semibold text-[#003366] mb-4 border-b pb-2">
-                                    {Department}
-                                </h3>
-                                <Sidebar />
-                            </div>
-                        </div>
+                        <Sidebar departmentNameForNav={departmentNameForNav} routeName={routeName} />
                     </div>
                 </div>
             </main>

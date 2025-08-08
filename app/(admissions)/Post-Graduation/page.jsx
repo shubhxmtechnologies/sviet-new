@@ -7,10 +7,10 @@ const programs = [
         id: 1,
         title: "M.Tech",
         data: [
-            "COMPUTER SCIENCE AND ENGINEERING",
-            "ELECTRONICS & COMMUNICATION ENGINEERING",
-            "MECHANICAL ENGINEERING",
-            "CIVIL ENGINEERING"
+            { name: "COMPUTER SCIENCE AND ENGINEERING", href: "/academics/Computer-Science-And-Engineering" },
+            { name: "ELECTRONICS & COMMUNICATION ENGINEERING", href: "/academics/Electronics-And-Communication-Engineering" },
+            { name: "MECHANICAL ENGINEERING", href: "/academics/Mechanical-Engineering" },
+            { name: "CIVIL ENGINEERING", href: "/academics/Civil-Engineering" }
         ],
         eligibilityCriteria: [
 
