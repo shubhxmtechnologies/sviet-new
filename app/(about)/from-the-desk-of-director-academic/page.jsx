@@ -1,5 +1,5 @@
-import { BoardOfManagement } from '@/components/Home'
 import React from 'react'
+import { BoardOfManagement } from '../from-the-desk-of-principal/layout'
 const managementTeam = [
 
     {

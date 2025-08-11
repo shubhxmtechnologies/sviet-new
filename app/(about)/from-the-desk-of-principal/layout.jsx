@@ -1,0 +1,50 @@
+import Image from 'next/image'
+import React from 'react'
+
+const BoardOfManagement = ({ heading = "", managementTeam, isInt = false }) => {
+    return (
+        <section className={` ${isInt ? " pt-4" : " py-16"} bg-white `}>
+            <div className={`container mx-auto ${isInt ? "" : "px-4"}`}>
+                {heading != "" && <div div className="">
+                    <h2 className="text-3xl md:text-4xl text-center font-bold text-blue-900 mb-2">
+                        From the{" "}
+                        <span className="text-yellow-500">{heading}</span>
+                    </h2>
+                </div>}
+
+                <div className="">
+                    {managementTeam.map((member, index) => (
+                        <div key={index} className="p-6  border-gray-200">
+                            <div className="flex flex-col  items-center justify-center w-full gap-6">
+                                <div className="flex-shrink-0 ">
+                                    <Image
+                                        src={member.image}
+                                        alt={member.name + "-picture"}
+                                        width={300}
+                                        height={300}
+                                        className="rounded-lg max-h-[300px]"
+                                    />
+                                </div>
+                                <div className="flex-1 flex flex-col w-full items-center justify-center">
+                                    <h1 className="text-2xl font-bold text-[#003366] mb-2">
+                                        {member.name}
+                                    </h1>
+                                    <p className="text-lg text-gray-700 mb-4">
+                                        {member.position}</p>
+                                </div>
+
+                                <div className="flex-1 md:px-20 flex flex-col w-full items-center justify-center">
+
+                                    <p className="text-base text-justify text-gray-700 mb-4">
+                                        {member.message}</p>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section >
+    )
+}
+
+export { BoardOfManagement }
