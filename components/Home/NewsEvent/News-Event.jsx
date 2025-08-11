@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
 import { BellRingIcon } from "lucide-react"
@@ -8,6 +7,8 @@ import { notifications } from "./NewsEvent"
 import { NewsButton } from "./NewsButton"
 import { Fragment } from "react"
 const NewsEvents = () => {
+    console.log(newsItems.length);
+    
     return (
         <section className="container mx-auto px-4 py-8 md:px-6 lg:py-12">
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-12">
@@ -29,13 +30,11 @@ const NewsEvents = () => {
                                 <div className="flex-1">
                                     <p className="text-sm font-medium text-gray-800">
                                         {item.title}
-                                        {item.isNew && (
-                                            <Badge variant="destructive" className="ml-2 bg-red-500 text-white">
-                                                New
-                                            </Badge>
-                                        )}
+                                        <Badge variant="destructive" className="ml-2 bg-red-500 text-white">
+                                            New
+                                        </Badge>
                                     </p>
-                                    <Link href="#" className="text-sm text-[#007bff] hover:underline">
+                                    <Link href={item.href} className="text-sm text-[#007bff] hover:underline">
                                         read more &gt;
                                     </Link>
                                 </div>

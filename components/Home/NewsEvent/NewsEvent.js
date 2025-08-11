@@ -1,115 +1,133 @@
 export const newsItems = [
     {
-        date: { day: "05", month: "APR" },
-        title:
-            "Graduation Day - II Awarding Degree Certificate Graduates of 2024 on Saturday, 05th April 2025 at 4.30 PM",
-        isNew: true,
+        "title": "The Department of Business Administration organized an insightful Industrial Visit to the SEBI Center, Chandigarh, offering students a valuable exposure to financial regulatory practices.",
+        "date": {
+            "day": "04",
+            "month": "APR"
+        },
+        "href": "https://drive.google.com/file/d/1r3_R0Iz1AtNnNP1ZVrClTV4qU8D2-01v/view?usp=drive_link"
     },
     {
-        date: { day: "05", month: "APR" },
-        title:
-            "Graduation Day - II Awarding Degree Certificate Graduates of 2024 on Saturday, 05th April 2025 at 4.30 PM",
-        isNew: true,
+        "title": "Department of Electrical Engineering & Electronics and Communication Engineering organised Industrial Visit at Wonder Systems India Private Limited",
+        "date": {
+            "day": "28",
+            "month": "MAR"
+        },
+        "href": "https://drive.google.com/file/d/1JaaazQQLTEeSp5on1JujvW4o-0cXDcsx/view?usp=drive_link"
     },
     {
-        date: { day: "05", month: "APR" },
-        title:
-            "Graduation Day - II Awarding Degree Certificate Graduates of 2024 on Saturday, 05th April 2025 at 4.30 PM",
-        isNew: true,
+        "title": "Department of Applied Science hosted TECHATHOS 3.0",
+        "date": {
+            "day": "21",
+            "month": "MAR"
+        },
+        "href": "https://drive.google.com/file/d/1fv_3epNt0tS8umBAWc_ZrkA5nOe2gOtV/view?usp=drive_link"
     },
     {
-        date: { day: "05", month: "APR" },
-        title:
-            "Graduation Day - II Awarding Degree Certificate Graduates of 2024 on Saturday, 05th April 2025 at 4.30 PM",
-        isNew: true,
+        "title": "Department of Computer Appication Organised Guest lecture on \"Web Development\"",
+        "date": {
+            "day": "19",
+            "month": "MAR"
+        },
+        "href": "https://drive.google.com/file/d/1nIZ7TCp53l4MRplF5_l67kPpUg94spFs/view?usp=drive_link"
     },
     {
-        date: { day: "05", month: "APR" },
-        title:
-            "Graduation Day - II Awarding Degree Certificate Graduates of 2024 on Saturday, 05th April 2025 at 4.30 PM",
-        isNew: true,
+        "title": "Department of Civil Engineering organised one day Workshop on \"Latest Software in Civil Engineering\" ",
+        "date": {
+            "day": "17",
+            "month": "MAR"
+        },
+        "href": "https://drive.google.com/file/d/1zsuMBi9LhWMHPbCLUE3sV-9LWEnduRgB/view?usp=drive_link"
     },
     {
-        date: { day: "05", month: "APR" },
-        title:
-            "Graduation Day - II Awarding Degree Certificate Graduates of 2024 on Saturday, 05th April 2025 at 4.30 PM",
-        isNew: true,
+        "title": "Department of Computer Science & Engineering organised a session on “Artificial Intelligence”",
+        "date": {
+            "day": "13",
+            "month": "MAR"
+        },
+        "href": "https://drive.google.com/file/d/1IXFTmnY0OTa6JBA8-bosJdyHAvZwdgL2/view?usp=drive_link"
     },
     {
-        date: { day: "05", month: "APR" },
-        title:
-            "Graduation Day - II Awarding Degree Certificate Graduates of 2024 on Saturday, 05th April 2025 at 4.30 PM",
-        isNew: true,
+        "title": "Department of Civil Engineering organised  an Expert Talk on the “Latest Trends in Civil Engineering”",
+        "date": {
+            "day": "03",
+            "month": "DEC"
+        },
+        "href": "https://drive.google.com/file/d/1ZHcTH3RB_2sfzZCg95N6MPdeqk0olDMJ/view?usp=drive_link"
     },
     {
-        date: { day: "05", month: "APR" },
-        title:
-            "Graduation Day - II Awarding Degree Certificate Graduates of 2024 on Saturday, 05th April 2025 at 4.30 PM",
-        isNew: true,
+        "title": "Department of Computer Application organised Guest Lecture on \"Latest Trends in Artificial Intelligence and Machine Learning”",
+        "date": {
+            "day": "03",
+            "month": "DEC"
+        },
+        "href": "https://drive.google.com/file/d/1pWSZGLpzixY6JU4PfnDbJcHI7c07UKSh/view?usp=drive_link"
     },
     {
-        date: { day: "05", month: "APR" },
-        title:
-            "Graduation Day - II Awarding Degree Certificate Graduates of 2024 on Saturday, 05th April 2025 at 4.30 PM",
-        isNew: true,
+        "title": "Department of Mechanical Engineering organised Industrial Visit at Chawla Cold Storage ",
+        "date": {
+            "day": "03",
+            "month": "OCT"
+        },
+        "href": "https://drive.google.com/file/d/1P6jHgrW4DFvJt0WX13ADH7AhJVVM20bd/view?usp=drive_link"
     },
     {
-        date: { day: "05", month: "APR" },
-        title:
-            "Graduation Day - II Awarding Degree Certificate Graduates of 2024 on Saturday, 05th April 2025 at 4.30 PM",
-        isNew: true,
+        "title": "Department of Mechanical Engineering organised Seminar on Supporting Women’s Well-being: Breaking the Silence on Women’s Day",
+        "date": {
+            "day": "03",
+            "month": "JUL"
+        },
+        "href": "https://drive.google.com/file/d/1EfKhlgUMRUksK_lSo4MBrh_O4etO7TH0/view?usp=drive_link"
     },
     {
-        date: { day: "05", month: "APR" },
-        title:
-            "Graduation Day - II Awarding Degree Certificate Graduates of 2024 on Saturday, 05th April 2025 at 4.30 PM",
-        isNew: true,
+        "title": "Department of Computer Science and Engineering organised a Expert Talk on \" Cyber Crime Awarenesss\"",
+        "date": {
+            "day": "27",
+            "month": "FEB"
+        },
+        "href": "https://drive.google.com/file/d/1wmuWUBaAib5LnBq9cRaaTjNfTcEdv2wc/view?usp=drive_link"
     },
     {
-        date: { day: "05", month: "APR" },
-        title:
-            "Graduation Day - II Awarding Degree Certificate Graduates of 2024 on Saturday, 05th April 2025 at 4.30 PM",
-        isNew: true,
+        "title": "Department of Civil Engineering organised  an Industrial Visit at  Moti Bricks Klin,Rajgarh,Patiala",
+        "date": {
+            "day": "02",
+            "month": "DEC"
+        },
+        "href": "https://drive.google.com/file/d/170bhO8w6tQkAq1BuNw6pw842qaJGPKhL/view?usp=drive_link"
     },
     {
-        date: { day: "05", month: "APR" },
-        title:
-            "Graduation Day - II Awarding Degree Certificate Graduates of 2024 on Saturday, 05th April 2025 at 4.30 PM",
-        isNew: true,
+        "title": "Department of Business Administration organised One Day Workshop on “Effective Sales and Marketing Strategies for Entrepreneurs/Start-ups",
+        "date": {
+            "day": "02",
+            "month": "JUL"
+        },
+        "href": "https://drive.google.com/file/d/1yC9lrkmp_2E-bmkzIMz_rFiUnFbaL-D6/view?usp=drive_link"
     },
     {
-        date: { day: "05", month: "APR" },
-        title:
-            "Graduation Day - II Awarding Degree Certificate Graduates of 2024 on Saturday, 05th April 2025 at 4.30 PM",
-        isNew: true,
+        "title": "Department of Computer Appication Organised \"Innovation Showcase: Poster Presentation of Innovations” Inter-Department Competititon",
+        "date": {
+            "day": "30",
+            "month": "JAN"
+        },
+        "href": "https://drive.google.com/file/d/1O7Tp01RYc8kOZiFRTMrpG897NTZOGBYG/view?usp=drive_link"
     },
     {
-        date: { day: "21", month: "MAR" },
-        title: "Reg-Blood Donation Drive",
-        isNew: true,
+        "title": "Department of Civil Engineering organised a Seminar on Road & Safety Awareness in collaboration with the National Service Scheme (NSS)",
+        "date": {
+            "day": "30",
+            "month": "JAN"
+        },
+        "href": "https://drive.google.com/file/d/1TWntQkMZTUblJ6cf1owHkBxJwsp8wEsa/view?usp=drive_link"
     },
     {
-        date: { day: "21", month: "MAR" },
-        title: "Reg-Blood Donation Drive",
-        isNew: true,
-    },
-    {
-        date: { day: "05", month: "MAR" },
-        title: "IP awareness talk on 12th March 2025",
-        isNew: true,
-    },
-    {
-        date: { day: "01", month: "FEB" },
-        title: "Grand challenge impact lab (GCIL) with university of Washington : Sessions",
-        isNew: true,
-    },
-    {
-        date: { day: "16", month: "JAN" },
-        title: "UDYAMOTSAV 2025 - On Thursday 16th January 2025 at 9 AM in Auditorium I, PJ Block, BMSCE",
-        isNew: true,
-    },
+        "title": "Department of Civil Engineering hosted an enlightening Entrepreneurship Awareness Program for self-employment opportunities organized by the MSME - Development & Facilitation Office Ludhiana",
+        "date": {
+            "day": "23",
+            "month": "JAN"
+        },
+        "href": "https://drive.google.com/file/d/1aZNgK_aB1tfOXDs2UaSoL3iy_TEgcE3-/view?usp=drive_link"
+    }
 ]
-
 export const notifications = [
     {
         id: 1,
