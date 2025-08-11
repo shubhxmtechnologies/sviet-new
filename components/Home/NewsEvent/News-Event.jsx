@@ -61,9 +61,7 @@ const NewsEvents = () => {
                                             {notification.description && " : " + notification.description}
 
 
-                                            <Badge variant="destructive" className="ml-2 bg-red-500 text-white ">
-                                                New
-                                            </Badge>
+
 
                                         </p>
                                     </div>
@@ -74,7 +72,9 @@ const NewsEvents = () => {
 
                                             </Fragment>
                                         ))}
-
+                                        <Badge variant="destructive" className="ml-2 bg-red-500 text-white ">
+                                            New
+                                        </Badge>
                                     </div>
                                 </div>
                             ))}
