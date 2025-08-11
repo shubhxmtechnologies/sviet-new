@@ -15,7 +15,7 @@ const managementTeam = [
         message:
             "SVIET  has  experienced  remarkable  growth  in  recent  years,  earning  widespread  acclaim  for  its rapid advancement.  Our  journey  from  inception  to  our  current  standing  is  a  testament  to  our  unwavering dedication, exceptional faculty, and enriching learning environment. With a focus on quality education, we offer  diverse  programs  affiliated  with  both  national  and  international  universities.  We  celebrate  the achievements of our faculty, staff, and partners, employing modern teaching methods that empower students to realize their full potential. Emphasizing hands-on experience over mere theoretical knowledge, SVIET is dedicated   to   providing   practical   solutions   and   fostering   intellectual   brilliance   through   research   and development. Let's collaborate in building a skilled society together."
     },
-   
+
     {
         name: "Adv. Shubham Garg",
         position: "Secretary",
@@ -23,15 +23,32 @@ const managementTeam = [
         message:
             "At  Swami  Vivekanand  Institute  of  Engineering  &  Technology  (SVIET),  we  are  committed  to  building  a learning environment that not only imparts knowledge but also nurtures innovation, leadership,  and ethical values.  Since  our  inception  in  2004,  we  have  continuously  evolved  to  meet  the  changing  needs  of  the industry and society by offering forward-thinking, outcome-based academic programs. We believe that academic success is deeply rooted in a student-centric approach backed by strong academic planning, transparent systems, and digital integration.  To  ensure  holistic  development,  we  regularly  organize  national  and  international  conferences,  technical workshops, guest lectures, industrial visits, and cultural events.  At  SVIET,  we  are  not  just  teaching  subjects—we  are  shaping  futures.  Our  focus  remains  on  developing competent, confident, and socially conscious graduates who are ready to lead in an ever-changing world."
     },
+    {
+        name: "(Prof.) Dr. Sanjeev Saini",
+        position: "Director Academics",
+        image: "/Management/1.jpeg",
+        message: `Modern education must go beyond preparing students for jobs—it should equip them for lifelong learning, leadership, and meaningful contributions to society. Guided by this belief, Swami Vivekanand Institute of Engineering & Technology (SVIET) has built an academic ecosystem where knowledge meets innovation, and values shape vision.
+At Swami Vivekanand Institute of Engineering & Technology(SVIET), our vision goes beyond delivering academic content—we are committed to creating an environment where innovation, critical thinking, and lifelong learning flourish.Since our establishment in 2004, we have embraced the evolving demands of industry and society, designing academic programs that are practical, relevant, and future - ready.
+Our academic philosophy places students at the heart of every initiative.Through well - structured curricula, outcome - based teaching, and the integration of modern technology, we equip our learners with the knowledge and skills needed to excel in a competitive global landscape.Our faculty members, serving as mentors and role models, guide students to cultivate professional competence alongside integrity and social responsibility.
+We complement classroom learning with experiential opportunities—ranging from research projects and industrial training to seminars, cultural fests, and global collaborations—ensuring a well - rounded growth experience.
+At SVIET, education is not merely about degrees; it is about transforming potential into achievement.We remain dedicated to producing graduates who are not only job - ready but also future leaders, innovators, and change - makers in their chosen fields.`
+    },
+    {
+        name: "Dr. Pertik Garg",
+        position: "Principal",
+        image: "/Management/pertik.webp",
+        message:
+            "At SVIET, we stand at the threshold of excellence, driven by the spirit of innovation, integrity, and inclusivity. As the Principal, I am honored to lead this esteemed institution, where we nurture the minds that shape the future.Our commitment to academic excellence, coupled with a holistic approach to education, empowers our students to become not just engineers and technologists but leaders of tomorrow. We believe in providing a conducive environment where creativity thrives, ideas flourish, and aspirations take flight. As we embark on this journey together, let us remember the words of Swami Vivekananda, “Arise, awake, and stop not till the goal is reached.” Let us strive for excellence in all our endeavors, embracing challenges as opportunities for growth and learning."
+    },
 
-  
+
 
 
 ]
 const page = () => {
     return (
         <>
-            <BoardOfManagement managementTeam={managementTeam}/>
+            <BoardOfManagement managementTeam={managementTeam} />
         </>
     )
 }
