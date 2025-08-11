@@ -1,14 +1,12 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
 import { BellRingIcon } from "lucide-react"
-import Link from "next/link"
 import { coes, newsItems } from "./NewsEvent"
 import { notifications } from "./NewsEvent"
 import { NewsButton } from "./NewsButton"
 import { Fragment } from "react"
 import { EventsBtn } from "./EventsBtn"
 const NewsEvents = () => {
-    console.log(newsItems.length);
 
     return (
         <section className="container mx-auto px-4 py-8 md:px-6 lg:py-12">
