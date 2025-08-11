@@ -54,7 +54,7 @@ export const navItems = [
                     { name: "AICTE", href: "/AICTE" },
                     {
                         name: "Affiliation from University",
-                        href: ""
+                        href: "/Affiliation-from-University"
                     }
                 ],
             }
