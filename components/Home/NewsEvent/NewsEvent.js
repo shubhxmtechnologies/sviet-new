@@ -5,7 +5,7 @@ export const newsItems = [
             "day": "04",
             "month": "APR"
         },
-        "href": "https://drive.google.com/file/d/1r3_R0Iz1AtNnNP1ZVrClTV4qU8D2-01v/view?usp=drive_link"
+        "href": "/Event-Report/16.Industrial Visit SEBI, Chandigarh.pdf"
     },
     {
         "title": "Department of Electrical Engineering & Electronics and Communication Engineering organised Industrial Visit at Wonder Systems India Private Limited",
@@ -13,7 +13,7 @@ export const newsItems = [
             "day": "28",
             "month": "MAR"
         },
-        "href": "https://drive.google.com/file/d/1JaaazQQLTEeSp5on1JujvW4o-0cXDcsx/view?usp=drive_link"
+        "href": "/Event-Report/15.Industrial Visit-Wonder Systems India Private Limite.pdf"
     },
     {
         "title": "Department of Applied Science hosted TECHATHOS 3.0",
@@ -21,7 +21,7 @@ export const newsItems = [
             "day": "21",
             "month": "MAR"
         },
-        "href": "https://drive.google.com/file/d/1fv_3epNt0tS8umBAWc_ZrkA5nOe2gOtV/view?usp=drive_link"
+        "href": "/Event-Report/14.Techathon 3.0 Report.pdf"
     },
     {
         "title": "Department of Computer Appication Organised Guest lecture on \"Web Development\"",
@@ -29,7 +29,7 @@ export const newsItems = [
             "day": "19",
             "month": "MAR"
         },
-        "href": "https://drive.google.com/file/d/1nIZ7TCp53l4MRplF5_l67kPpUg94spFs/view?usp=drive_link"
+        "href": "/Event-Report/13.Guest Lecture on Web Development.pdf"
     },
     {
         "title": "Department of Civil Engineering organised one day Workshop on \"Latest Software in Civil Engineering\" ",
@@ -37,7 +37,7 @@ export const newsItems = [
             "day": "17",
             "month": "MAR"
         },
-        "href": "https://drive.google.com/file/d/1zsuMBi9LhWMHPbCLUE3sV-9LWEnduRgB/view?usp=drive_link"
+        "href": "/Event-Report/12.Workshop on Latest Software in Civil Engineering.pdf"
     },
     {
         "title": "Department of Computer Science & Engineering organised a session on “Artificial Intelligence”",
@@ -45,39 +45,39 @@ export const newsItems = [
             "day": "13",
             "month": "MAR"
         },
-        "href": "https://drive.google.com/file/d/1IXFTmnY0OTa6JBA8-bosJdyHAvZwdgL2/view?usp=drive_link"
+        "href": "/Event-Report/11.A Session on Artificial Intelligence.pdf"
     },
     {
         "title": "Department of Civil Engineering organised  an Expert Talk on the “Latest Trends in Civil Engineering”",
         "date": {
-            "day": "03",
-            "month": "DEC"
+            "day": "12",
+            "month": "MAR"
         },
-        "href": "https://drive.google.com/file/d/1ZHcTH3RB_2sfzZCg95N6MPdeqk0olDMJ/view?usp=drive_link"
+        "href": "/Event-Report/10.Expert Talk on Latest Trends in Civil Engineering.pdf"
     },
     {
         "title": "Department of Computer Application organised Guest Lecture on \"Latest Trends in Artificial Intelligence and Machine Learning”",
         "date": {
-            "day": "03",
-            "month": "DEC"
+            "day": "12",
+            "month": "MAR"
         },
-        "href": "https://drive.google.com/file/d/1pWSZGLpzixY6JU4PfnDbJcHI7c07UKSh/view?usp=drive_link"
+        "href": "/Event-Report/9.Guest Lecture on AI &  Machine Learning.pdf"
     },
     {
         "title": "Department of Mechanical Engineering organised Industrial Visit at Chawla Cold Storage ",
         "date": {
-            "day": "03",
-            "month": "OCT"
+            "day": "10",
+            "month": "MAR"
         },
-        "href": "https://drive.google.com/file/d/1P6jHgrW4DFvJt0WX13ADH7AhJVVM20bd/view?usp=drive_link"
+        "href": "/Event-Report/8.Industrial visit Report cold storage.pdf"
     },
     {
         "title": "Department of Mechanical Engineering organised Seminar on Supporting Women’s Well-being: Breaking the Silence on Women’s Day",
         "date": {
-            "day": "03",
-            "month": "JUL"
+            "day": "07",
+            "month": "MAR"
         },
-        "href": "https://drive.google.com/file/d/1EfKhlgUMRUksK_lSo4MBrh_O4etO7TH0/view?usp=drive_link"
+        "href": "/Event-Report/7.Seminar on Supporting Women Well-being.pdf"
     },
     {
         "title": "Department of Computer Science and Engineering organised a Expert Talk on \" Cyber Crime Awarenesss\"",
@@ -85,23 +85,23 @@ export const newsItems = [
             "day": "27",
             "month": "FEB"
         },
-        "href": "https://drive.google.com/file/d/1wmuWUBaAib5LnBq9cRaaTjNfTcEdv2wc/view?usp=drive_link"
+        "href": "/Event-Report/6.Expert Talk on Cyber Crime.pdf"
     },
     {
         "title": "Department of Civil Engineering organised  an Industrial Visit at  Moti Bricks Klin,Rajgarh,Patiala",
         "date": {
-            "day": "02",
-            "month": "DEC"
+            "day": "12",
+            "month": "FEB"
         },
-        "href": "https://drive.google.com/file/d/170bhO8w6tQkAq1BuNw6pw842qaJGPKhL/view?usp=drive_link"
+        "href": "/Event-Report/5.Industrial Visit Brick.pdf"
     },
     {
         "title": "Department of Business Administration organised One Day Workshop on “Effective Sales and Marketing Strategies for Entrepreneurs/Start-ups",
         "date": {
-            "day": "02",
-            "month": "JUL"
+            "day": "07",
+            "month": "FEB"
         },
-        "href": "https://drive.google.com/file/d/1yC9lrkmp_2E-bmkzIMz_rFiUnFbaL-D6/view?usp=drive_link"
+        "href": "/Event-Report/4.Effective Sales and Marketing Strategies.pdf"
     },
     {
         "title": "Department of Computer Appication Organised \"Innovation Showcase: Poster Presentation of Innovations” Inter-Department Competititon",
@@ -109,7 +109,7 @@ export const newsItems = [
             "day": "30",
             "month": "JAN"
         },
-        "href": "https://drive.google.com/file/d/1O7Tp01RYc8kOZiFRTMrpG897NTZOGBYG/view?usp=drive_link"
+        "href": "/Event-Report/3.Poster Presentation Competition- Innovation Showcase.pdf"
     },
     {
         "title": "Department of Civil Engineering organised a Seminar on Road & Safety Awareness in collaboration with the National Service Scheme (NSS)",
@@ -117,7 +117,7 @@ export const newsItems = [
             "day": "30",
             "month": "JAN"
         },
-        "href": "https://drive.google.com/file/d/1TWntQkMZTUblJ6cf1owHkBxJwsp8wEsa/view?usp=drive_link"
+        "href": "/Event-Report/2.Seminar on Road Safety Awareness.pdf"
     },
     {
         "title": "Department of Civil Engineering hosted an enlightening Entrepreneurship Awareness Program for self-employment opportunities organized by the MSME - Development & Facilitation Office Ludhiana",
@@ -125,7 +125,7 @@ export const newsItems = [
             "day": "23",
             "month": "JAN"
         },
-        "href": "https://drive.google.com/file/d/1aZNgK_aB1tfOXDs2UaSoL3iy_TEgcE3-/view?usp=drive_link"
+        "href": "/Event-Report/1.Entrepreneurship Awareness Program.pdf"
     }
 ]
 export const notifications = [

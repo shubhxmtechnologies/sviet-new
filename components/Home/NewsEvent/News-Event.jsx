@@ -6,9 +6,10 @@ import { coes, newsItems } from "./NewsEvent"
 import { notifications } from "./NewsEvent"
 import { NewsButton } from "./NewsButton"
 import { Fragment } from "react"
+import { EventsBtn } from "./EventsBtn"
 const NewsEvents = () => {
     console.log(newsItems.length);
-    
+
     return (
         <section className="container mx-auto px-4 py-8 md:px-6 lg:py-12">
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-12">
@@ -34,9 +35,7 @@ const NewsEvents = () => {
                                             New
                                         </Badge>
                                     </p>
-                                    <Link href={item.href} className="text-sm text-[#007bff] hover:underline">
-                                        read more &gt;
-                                    </Link>
+                                    <EventsBtn href={item.href} />
                                 </div>
                             </div>
                         ))}
