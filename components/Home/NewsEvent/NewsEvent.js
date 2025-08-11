@@ -319,9 +319,5 @@ export const coes = [
         "date": "28.03.2025",
         "href": "https://drive.google.com/file/d/1dkfW-_PN6pO7qF-fjb5m7lcDQtif60c0/view?usp=sharing"
     },
-    {
-        "title": "Notice Title",
-        "date": "Date of Notice",
-        "href": "Link"
-    }
+    
 ]
