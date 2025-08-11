@@ -1,5 +1,5 @@
 import React from 'react'
-import { BoardOfManagement } from '../from-the-desk-of-principal/layout'
+import { BoardOfManagement } from '../from-the-desk-of-principal/layut1'
 const managementTeam = [
 
     {
