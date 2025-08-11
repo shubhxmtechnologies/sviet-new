@@ -9,6 +9,8 @@ export const navItems = [
                     { name: "Governing Body", href: "/governing-body" },
                     { name: "Administration", href: "/administration" },
                     { name: "Statutory Committee", href: "/committee" },
+                    { name: "From the Desk of Director Academic", href: "/from-the-desk-of-director-academic" },
+                    { name: "From the Desk of Principal", href: "/from-the-desk-of-principal" },
                 ]
             },
 

@@ -45,10 +45,70 @@ At SVIET, education is not merely about degrees; it is about transforming potent
 
 
 ]
+const obcData = [
+    { name: "Sh. Ashwani Kumar Garg", designation: "Chairman" },
+    { name: "Sh. Ashok Kumar Garg", designation: "President" },
+    { name: "Sh. Shubham Garg", designation: "Secretary" },
+    { name: "Sh. Sahil Garg", designation: "Director Finance" },
+    { name: "Sh. Gaurav", designation: "Director Admissions" },
+    { name: "Ms. Niyati Bansal", designation: "Executive Member" },
+    { name: "Ms. Bharti Bansal", designation: "Executive Member" }
+];
 const page = () => {
     return (
         <>
             <BoardOfManagement managementTeam={managementTeam} />
+            <section className="py-8 bg-white">
+                <div className="container mx-auto px-4">
+                    <div className="max-w-6xl mx-auto">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-8">
+                            List Of Governing Body Members Of The Society                       </h2>
+                        <div className="overflow-x-auto">
+                            <table className="w-full border-collapse border border-gray-300">
+                                <thead>
+                                    <tr className="bg-gray-100">
+
+                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
+                                            Sr. No.
+                                        </th>
+                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
+                                            Name
+                                        </th>
+                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
+                                            Designation
+                                        </th>
+
+
+                                        {/* <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
+                                                        Email
+                                                    </th> */}
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {obcData.map((item, idx) => (
+                                        <tr key={idx}>
+                                            <td className="border border-gray-300 px-4 py-3">
+                                                {idx + 1}
+                                            </td>
+                                            <td className="border border-gray-300 px-4 py-3">
+                                                {item.name}
+                                            </td>
+                                            <td className="border border-gray-300 px-4 py-3">
+                                                {item.designation}
+                                            </td>
+                                            {/* <td className="border border-gray-300 px-4 py-3">
+                                                        {item.Emails}
+                                                    </td> */}
+
+                                        </tr>))}
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </>
     )
 }
