@@ -46,13 +46,24 @@ export const navItems = [
         ]
     },
     { name: "IQAC", href: "/iqac" },
-    { name: "NAAC", href: "#", dropdown: [] },
+    {
+        name: "Documents", href: "", dropdown: [
+            {
+                links: [
+                    { name: "NAAC", href: "/NAAC" },
+                    { name: "AICTE", href: "/AICTE" },
+                    {
+                        name: "Affiliation from University",
+                        href: ""
+                    }
+                ],
+            }
+        ]
+    },
     { name: "PLACEMENTS", href: "#", dropdown: [] },
     { name: "RESEARCH", href: "#", dropdown: [] },
     { name: "OUTREACH", href: "#", dropdown: [] },
-    { name: "FEEDBACK", href: "#", dropdown: [] },
     { name: "CONTACT US", href: "#", dropdown: [] },
-    { name: "GREEN & CLEAN CAMPUS", href: "#", dropdown: [] },
     { name: "HR MANUAL", href: "#", dropdown: [] },
 
 ]

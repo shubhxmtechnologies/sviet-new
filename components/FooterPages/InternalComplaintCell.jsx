@@ -1,38 +1,43 @@
 import React from 'react'
 
-const data = [
+export const internationalComplaintData = [
     {
         srNo: 1,
         position: "Presiding Officer",
-        nameAndDesignation: "Dr. Vandana\nAssociate Professor & Head-CA",
+        name: "Dr. Vandana",
+        Designation: "Associate Professor & Hod (CA)",
         contact: "9877797457"
     },
     {
         srNo: 2,
         position: "Member (Teaching Faculty Representatives)",
-        nameAndDesignation:
-            "Er. Jarnail Singh\nAssistant Professor & Head-CSE\n\nEr. Shivani Guleria\nAssistant Professor & Head-CE",
-        contact: "8437391235\n6239138362"
+        name:
+            "Er. Jarnail Singh\n\nEr. Shivani Guleria",
+        contact: "8437391235\n\n6239138362",
+        Designation: "Assistant Professor & Hod (CSE)\n\nAssistant Professor & Hod (CE)"
     },
     {
         srNo: 3,
+        Designation: "Admission Counsellor\n\nHR Manager",
         position: "Member (Non-Teaching Faculty Representatives)",
-        nameAndDesignation:
-            "Ms. Rupinder Kaur\nAdmission Counsellor\n\nMs. Jyotsna Duggal\nHR Manager",
-        contact: "7087421722\n7888744295"
+        name:
+            "Ms. Rupinder Kaur\n\nMs. Jyotsna Duggal",
+        contact: "7087421722\n\n7888744295"
     },
     {
         srNo: 4,
         position: "Member (Non-Govt. Organization)",
-        nameAndDesignation: "Mr. Manpreet Singh Brar\nAbroad Educare, Zirakpur",
-        contact: "9417431947"
+        name: "Mr. Manpreet Singh Brar",
+        contact: "9417431947",
+        Designation: "Abroad Educare, Zirakpur"
     },
     {
         srNo: 5,
         position: "Member (Student Representatives)",
-        nameAndDesignation:
-            "Ms. Swikrty Biswas\nB.TECH-CSD/4th Semester\n\nMr. Gaurav\nB.TECH-ECE/4th Semester",
-        contact: "9836214958\n7876680378"
+        name:
+            "Ms. Swikrty Biswas\n\nMr. Gaurav",
+        contact: "9836214958\n\n7876680378",
+        Designation: "Student (B.TECH-CSD,4th Semester)\n\nStudent (B.TECH-ECE,4th Semester)"
     }
 ]
 
@@ -55,16 +60,18 @@ const InternalComplaintCell = () => {
                                     <tr className="bg-gray-100">
                                         <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Sr. No.</th>
                                         <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Position in ICC</th>
-                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Name & Designation of Member</th>
+                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Name</th>
+                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Designation of Member</th>
                                         <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Contact No.</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {data.map((item, index) => (
+                                    {internationalComplaintData.map((item, index) => (
                                         <tr key={index}>
-                                            <td className="border border-gray-300 px-4 py-3 align-top">{item.srNo}</td>
-                                            <td className="border border-gray-300 px-4 py-3 align-top">{item.position}</td>
-                                            <td className="border w-72 min-w-72 max-w-72 border-gray-300 px-4 py-3 whitespace-pre-line">{item.nameAndDesignation}</td>
+                                            <td className="border border-gray-300 px-4 w-20 min-w-20 max-w-20 py-3 align-top">{item.srNo}</td>
+                                            <td className="border border-gray-300 px-4 py-3 w-56 max-w-56 min-w-56 align-top">{item.position}</td>
+                                            <td className="border border-gray-300 px-4 py-3 whitespace-pre-line w-72 min-w-72 max-w-72">{item.name}</td>
+                                            <td className="border border-gray-300 px-4 py-3 whitespace-pre-line w-96 min-w-96 max-w-96">{item.Designation}</td>
                                             <td className="border border-gray-300 px-4 py-3 whitespace-pre-line">{item.contact}</td>
                                         </tr>
                                     ))}
