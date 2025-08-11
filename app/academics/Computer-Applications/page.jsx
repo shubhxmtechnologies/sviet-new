@@ -43,6 +43,9 @@ apply emerging technologies.`,
     `To work with industries and professional groups for continuous growth and
 improvement`,
     `To support students in building successful careers as entrepreneurs.`]
+export const metadata = {
+    title: "Computer Applications"
+}
 const page = () => {
     return (
         <>

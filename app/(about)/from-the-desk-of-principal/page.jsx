@@ -1,5 +1,9 @@
 import { NewBoardOfManagement } from '@/components/Home/BoardOfManagement/NewBoardOfManagement'
 import React from 'react'
+export const metadata = {
+    title: "From the Desk of Principal"
+}
+
 const managementTeam = [
 
     {

@@ -1,6 +1,8 @@
 import { PgLayout } from '@/components/Admissions'
 import React from 'react'
-
+export const metadata = {
+    title: "Post Graduation"
+}
 
 const programs = [
     {

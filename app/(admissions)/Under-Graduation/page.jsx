@@ -1,5 +1,8 @@
 import { UgLayout } from '@/components/Admissions'
 import React from 'react'
+export const metadata = {
+    title: "Under Graduation"
+}
 const eligibilityCriteria = [
     {
         id: 1,

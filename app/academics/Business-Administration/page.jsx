@@ -40,7 +40,7 @@ interactions with industry experts. With access to advanced infrastructure, busi
 simulation tools, and a supportive innovation ecosystem, students are prepared to become
 capable business professionals, researchers, and entrepreneurs in a rapidly evolving global
 economy. `,
-    
+
 
 ]
 const vision = [
@@ -63,6 +63,9 @@ international business and academic communities.
 `,
     `To educate students on ethics, social issues, and environmental concerns.`
 ]
+export const metadata = {
+    title: "Business Administration"
+}
 const page = () => {
     return (
         <>

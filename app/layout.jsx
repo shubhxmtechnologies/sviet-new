@@ -13,7 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "SVIET",
+  title: {
+    default: "SVIET",
+    template: "%s - SVIET"
+  },
   description: "SVIET | Best Institution in North India",
 };
 

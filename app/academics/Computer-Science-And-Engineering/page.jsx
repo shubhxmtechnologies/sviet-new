@@ -45,6 +45,9 @@ enhance their readiness for the workforce.`, `Build strong partnerships with lea
 networks to create mentoring, internship, and employment opportunities for students.`, `Support students in their career aspirations, whether in tech companies, research institutions,
 or entrepreneurial ventures. Provide resources for career guidance, advanced studies, and
 ongoing professional development.`]
+export const metadata = {
+    title: "Computer Science & Engineering"
+}
 const page = () => {
     return (
         <>

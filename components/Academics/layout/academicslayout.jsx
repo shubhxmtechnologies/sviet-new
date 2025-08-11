@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Sidebar } from "../Sidebar"
 
+
 function Academicslayout({
     teacherPic = "/placeholder.svg",
     teacherName = "John doe",

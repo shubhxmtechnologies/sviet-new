@@ -4,6 +4,9 @@ import { Card, CardContent } from "@/components/ui/card" // Import Card componen
 import { Separator } from "@/components/ui/separator" // Import Separator
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Links } from "./Links"
+export const metadata = {
+    title:"IQAC"
+}
 
 export default function IqacPage() {
     const coreFunctions = [

@@ -47,6 +47,9 @@ const mission = [`To impart quality education to students with technical experti
 solving`, `To inculcate a strong sense of ethics, responsibility, and professionalism in students and
 faculty`, `To encourage innovation and entrepreneurship by integrating entrepreneurship training,
 projects and mentorship into the program. `]
+export const metadata = {
+    title: "Civil Engineering"
+}
 const page = () => {
     return (
         <>

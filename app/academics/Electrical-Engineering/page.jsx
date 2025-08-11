@@ -41,6 +41,9 @@ creativity and innovation.
     `To provide them a platform for developing new products and systems that can help
 industry and society as a whole.`
 ]
+export const metadata = {
+    title: "Electrical Engineering"
+}
 const page = () => {
     return (
         <>

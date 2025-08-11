@@ -1,4 +1,7 @@
 import { AicteLayout } from '@/components/Documents/AicteLayout'
+export const metadata = {
+    title:"Affiliation from University"
+}
 const resultsData = [
     {
         results: [

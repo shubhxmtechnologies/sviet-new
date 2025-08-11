@@ -1,5 +1,8 @@
 import React from 'react'
 import { antiraggingdata, internationalComplaintData, obcData, scstdata, sgrcData, womenData } from './Members';
+export const metadata = {
+    title: "Statutory Committee"
+}
 
 const Page = () => {
     return (

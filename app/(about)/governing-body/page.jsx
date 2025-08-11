@@ -1,5 +1,9 @@
 import { BoardOfManagement } from '@/components/Home'
 import React from 'react'
+
+export const metadata = {
+    title: "Governing Body ",
+};
 const managementTeam = [
     {
         name: "Mr. Ashwani Garg",

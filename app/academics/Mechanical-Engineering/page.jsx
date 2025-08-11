@@ -1,7 +1,9 @@
 import { Academicslayout } from '@/components/Academics'
 import React from 'react'
 // academics-teachers
-
+export const metadata = {
+    title: "Mechanical Engineering"
+}
 const about = [
     `The Mechanical Engineering Department is a leading academic unit that blends foundational
 engineering knowledge with modern technological advancements to prepare students for future

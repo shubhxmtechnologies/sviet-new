@@ -50,6 +50,10 @@ the research orientations and encourage the academic growth.
     `To encourage students and engrain professional norms, human virtues and supportive
 attitude in the students.`
 ]
+
+export const metadata = {
+    title: "Electronics & Communication Engineering"
+}
 const page = () => {
     return (
         <>

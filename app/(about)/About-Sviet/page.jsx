@@ -1,6 +1,8 @@
 import { Timeline, VisonAndMission } from '@/components/About'
 import React from 'react'
-
+export const metadata = {
+  title: "About ",
+};
 const AboutSviet = () => {
   return (
     <>
