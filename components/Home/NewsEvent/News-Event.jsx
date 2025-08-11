@@ -12,7 +12,7 @@ const NewsEvents = () => {
 
     return (
         <section className="container mx-auto px-4 py-8 md:px-6 lg:py-12">
-            <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-12">
+            <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12">
                 {/* News & Events Column */}
                 <div>
                     <h2 className="mb-6 flex items-center gap-2 text-2xl font-bold text-[#003366]">

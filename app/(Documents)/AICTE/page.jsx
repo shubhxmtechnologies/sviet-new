@@ -1,0 +1,26 @@
+import { AicteLayout } from '@/components/Documents/AicteLayout'
+const resultsData = [
+    {
+        results: [
+            { id: 3, description: "EOA Report 2021-22 SVIET", downloadUrl: "/Documents/AICTE/3.pdf" },
+            { id: 4, description: "EOA Report 2022-23 SVIET", downloadUrl: "/Documents/AICTE/4.pdf" },
+            { id: 5, description: "EOA Report 2023-24 SVIET", downloadUrl: "/Documents/AICTE/5.pdf" },
+            { id: 1, description: "EOA Report 2024-25 SVIET", downloadUrl: "/Documents/AICTE/1.pdf" },
+            { id: 2, description: "EOA Report 2025-26 SVIET", downloadUrl: "/Documents/AICTE/2.pdf" },
+
+        ]
+    },
+
+
+
+]
+const page = () => {
+    return (
+        <AicteLayout
+            resultsData={resultsData}
+            heading={"AICTE"}
+        />
+    )
+}
+
+export default page

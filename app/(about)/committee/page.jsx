@@ -20,7 +20,7 @@ const Page = () => {
                                         <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
                                             Sr. No.
                                         </th>
-                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
+                                        <th className="border border-gray-300 px-4 py-3 w-32 max-w-32 text-left font-semibold">
                                             Composition of SGRC
                                         </th>
                                         <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
@@ -40,20 +40,20 @@ const Page = () => {
                                             <td className="border border-gray-300 px-4 py-3 align-top">
                                                 {item.srNo}
                                             </td>
-                                            <td className="border border-gray-300 px-4 py-3 align-top">
+                                            <td className="border border-gray-300 w-32 max-w-32 px-4 py-3 align-top">
                                                 {item.composition}
                                             </td>
                                             <td className="border border-gray-300 px-4 py-3">
                                                 <ul className="">
                                                     {item.members.map((member, idx) => (
-                                                        <li className='mb-2' key={idx}>{member}</li>
+                                                        <li className='mb-7 md:mb-10.5' key={idx}>{member}</li>
                                                     ))}
                                                 </ul>
                                             </td>
                                             <td className="border border-gray-300 px-4 py-3">
                                                 <ul className="">
                                                     {item.designation.map((des, idx) => (
-                                                        <li className='mb-2' key={idx}>{des}</li>
+                                                        <li className='mb-3 md:mb-8 sm:mb-6' key={idx}>{des}</li>
                                                     ))}
                                                 </ul>
                                             </td>

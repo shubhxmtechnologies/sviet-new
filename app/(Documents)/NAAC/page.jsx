@@ -1,9 +1,9 @@
-import { NAACHome } from '@/components/Naac/Home/Home'
+import { NaacHome } from '@/components/Documents'
 import React from 'react'
 
 const page = () => {
     return (
-        <NAACHome />
+        <NaacHome />
     )
 }
 

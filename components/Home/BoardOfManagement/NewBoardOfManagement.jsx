@@ -1,7 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 
-const BoardOfManagement = ({ heading = "", managementTeam, isInt = false }) => {
+const NewBoardOfManagement = ({
+    heading = "",
+    managementTeam
+    ,
+    isInt = false
+}) => {
     return (
         <section className={` ${isInt ? " pt-4" : " py-16"} bg-white `}>
             <div className={`container mx-auto ${isInt ? "" : "px-4"}`}>
@@ -35,8 +40,13 @@ const BoardOfManagement = ({ heading = "", managementTeam, isInt = false }) => {
 
                                 <div className="flex-1 md:px-20 flex flex-col w-full items-center justify-center">
 
-                                    <p className="text-base text-justify text-gray-700 mb-4">
-                                        {member.message}</p>
+                                    {
+                                        member.message.map((m, i) => (
+                                            <p key={i} className="text-base text-justify text-gray-700 mb-4">
+                                                {m}
+                                            </p>
+                                        ))
+                                    }
                                 </div>
                             </div>
                         </div>
@@ -47,4 +57,4 @@ const BoardOfManagement = ({ heading = "", managementTeam, isInt = false }) => {
     )
 }
 
-export { BoardOfManagement }
+export { NewBoardOfManagement }
