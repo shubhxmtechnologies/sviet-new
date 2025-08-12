@@ -57,7 +57,7 @@ const data = [
 const WomenCell = () => {
     return (
         <>
-            
+
 
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-4">
@@ -68,7 +68,7 @@ const WomenCell = () => {
                         </h2>
                         <div className="space-y-4 text-gray-700 leading-relaxed">
                             <div className="flex items-start gap-3">
-                                <p className='text-justify'> 
+                                <p className='text-justify'>
                                     According to the Constitution of India, Equality is a Fundamental Right that includes the right to equality before law, forbidding discrimination and equality of opportunities in matters of public employment. Equality between men and women, right to work, education and to public assistance in case of unemployment, old age, sickness, disablement, provision of just and humane conditions for work and maternity relief, are important Directive Principles of State Policy.                            </p>
                             </div>
 
@@ -195,22 +195,22 @@ const WomenCell = () => {
                             Link to the UGC Saksham Portal
                         </h2>
                         <div className="flex gap-4 w-full items-center justify-center  text-gray-700">
-                            <Button variant={"outline"}>
-                                <Link href="https://saksham.ugc.ac.in/" target='_blank'>
+                            <Link className='cursor-pointer' href="https://saksham.ugc.ac.in/" target='_blank'>
+                                <Button className='cursor-pointer' variant={"outline"}>
                                     Click here
-                                </Link>
-                            </Button>
-                            <Button variant={"secondary"}>
-                                <Link href="https://sviet.org.in/wp-content/uploads/2023/11/Women-Complaint-Form.pdf" target='_blank'>
+                                </Button>
+                            </Link>
+                            <Link className='cursor-pointer' href="https://sviet.org.in/wp-content/uploads/2023/11/Women-Complaint-Form.pdf" target='_blank'>
+                                <Button variant={"secondary"} className='cursor-pointer'>
                                     Download Complaint Form
-                                </Link>
-                            </Button>
+                                </Button>
+                            </Link>
 
 
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
         </>
     )
 }
