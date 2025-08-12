@@ -59,7 +59,7 @@ const statutoryCells = [
     { title: "Women Grievances Cell", href: "/womens-cell" },
     { title: "Anti-ragging Committee", href: "/anti-ragging-policy" },
     { title: "Internal Complaints Cell", href: "/internal-complaint-cell" },
-    { title: "Women Helpline", href: "https://sviet.org.in/wp-content/uploads/WhatsApp-Image-2024-04-09-at-19.17.31_881ebde6.jpg", target: true },
+    { title: "Women Helpline", href: "/empoweryourfuture/4.jpeg", target: true },
 ];
 
 const socialLinks = [

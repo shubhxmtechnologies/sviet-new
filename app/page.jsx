@@ -141,7 +141,7 @@ export default function HomePage() {
         <CollegeOverview />
         <CurrentInitiative />
         <Highlights keyHighlights={keyHighlights} />
-        <BoardOfManagement managementTeam={managementTeam} />
+        <BoardOfManagement headingInceter={true} heading="Our Visionaries" managementTeam={managementTeam} />
         <Recruter />
         <StudentTestimonials testimonials={testimonials} />
         <DistinguishedLeaders />

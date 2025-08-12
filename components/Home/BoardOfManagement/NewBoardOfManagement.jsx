@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 
 const NewBoardOfManagement = ({
+    headingInceter = false,
     heading = "",
     managementTeam
     ,
@@ -11,9 +12,8 @@ const NewBoardOfManagement = ({
         <section className={` ${isInt ? " pt-4" : " py-16"} bg-white `}>
             <div className={`container mx-auto ${isInt ? "" : "px-4"}`}>
                 {heading != "" && <div div className="">
-                    <h2 className="text-3xl md:text-4xl text-center font-bold text-blue-900 mb-2">
-                        From the{" "}
-                        <span className="text-yellow-500">{heading}</span>
+                    <h2 className={`text-3xl md:text-4xl font-bold text-blue-900 mb-2 ${headingInceter ? "text-center" : "text-left"}`} >
+                        {heading}
                     </h2>
                 </div>}
 

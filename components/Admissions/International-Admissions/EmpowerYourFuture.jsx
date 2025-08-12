@@ -55,7 +55,7 @@ const EmpowerYourFuture = ({ isShown = false }) => {
                     <CarouselContent className="-ml-6  py-6">
                         {empowerUrFuture.map((item, index) => (
                             <CarouselItem key={index} className="pl-6  basis-full sm:basis-1/2 ">
-                                <Card className="overflow-hidden lg:h-[40rem] lg:min-h-[40rem] lg:max-h-[40rem] md:h-[48rem] md:min-h-[48rem] md:max-h-[48rem] sm:h-[49rem] sm:min-h-[49rem] sm:max-h-[49rem] min-h-[40rem] h-[40rem]  max-h-[40rem]  pt-0 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 rounded-lg shadow-lg">
+                                <Card className="overflow-hidden lg:h-[40rem] lg:min-h-[40rem] lg:max-h-[40rem] md:h-[48rem] md:min-h-[48rem] md:max-h-[48rem] sm:h-[51rem] sm:min-h-[51rem] sm:max-h-[51rem] min-h-[40rem] h-[40rem]  max-h-[40rem]  pt-0 bg-white/80 backdrop-blur-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 rounded-lg shadow-lg">
                                     <CardContent className="p-0">
                                         <div className="relative h-72 w-full">
                                             <Image

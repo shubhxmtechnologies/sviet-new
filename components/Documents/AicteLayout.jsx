@@ -6,7 +6,7 @@ const AicteLayout = ({ resultsData, heading }) => {
     return (
         <div className="mb-10">
 
-            <div className="container mx-auto px-4 py-8 md:px-6">
+            <div className="container mx-auto px-4 py-8 md:px-6 lg:px-28">
                 <div div className="mb-8">
                     <h2 className="text-3xl md:text-4xl  font-bold text-blue-900 mb-2">
                         {heading}

@@ -27,7 +27,7 @@ const managementTeam = [
 const page = () => {
     return (
         <>
-            <NewBoardOfManagement heading='Desk of Director Academic' managementTeam={managementTeam} />
+            <NewBoardOfManagement heading='Our Academic Visionaries' managementTeam={managementTeam} />
 
         </>
     )

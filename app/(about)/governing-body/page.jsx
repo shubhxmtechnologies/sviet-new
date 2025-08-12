@@ -44,7 +44,7 @@ const obcData = [
 const page = () => {
     return (
         <>
-            <BoardOfManagement managementTeam={managementTeam} />
+            <BoardOfManagement  heading="Our Visionaries" managementTeam={managementTeam} />
             <section className="py-8 bg-white">
                 <div className="container mx-auto px-4">
                     <div className="max-w-6xl mx-auto">

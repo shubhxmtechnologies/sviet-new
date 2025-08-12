@@ -169,11 +169,8 @@ const InternationalAdmissions = ({ overviews }) => {
             <section className="pt-5  md:pb-0  bg-white">
                 <div className="container mx-auto px-4">
                     <div className="max-w-full  overflow-visible mx-auto">
-                        <h2 className="text-3xl py-0 font-bold text-gray-900">
-                            Director –International Affairs
 
-                        </h2>
-                        <BoardOfManagement isInt={true} managementTeam={managementTeam} />
+                        <BoardOfManagement heading='Director –International Affairs' isInt={true} managementTeam={managementTeam} />
 
                     </div>
                 </div>
