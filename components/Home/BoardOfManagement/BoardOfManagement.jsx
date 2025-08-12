@@ -2,14 +2,26 @@ import { Badge } from '@/components/ui/badge'
 import Image from 'next/image'
 import React from 'react'
 
-const BoardOfManagement = ({ headingInceter = false, heading = "", managementTeam, isInt = false }) => {
+const BoardOfManagement = ({ inleft = false, headingInceter = false, heading = "", managementTeam, isInt = false }) => {
     return (
-        <section className={` ${isInt ? " pt-4" : " py-16"} bg-white `}>
+        <section className={` ${isInt ? " pt-4" : " py-10"} bg-white `}>
             <div className={`container mx-auto ${isInt ? "" : "px-4"}`}>
-                {heading != "" && <div div className="mb-12">
-                    <h2 className={`text-3xl md:text-4xl font-bold text-blue-900 mb-2 ${headingInceter ? "text-center" : "text-left"}`} >
-                        {heading}
-                    </h2>
+                {heading != "" && <div div className="mb-10">
+                    {inleft ?
+                        <div className="bg-gray-300  text-blue-900  p-6 rounded-md">
+                            <h2
+                                className={`text-3xl md:text-4xl font-bold  mb-2 ${headingInceter ? "text-center" : "text-left"
+                                    }`}
+                            >
+                                {heading}
+                            </h2>
+                        </div>
+                        :
+                        <h2 className={`text-3xl md:text-4xl font-bold text-blue-900 mb-2 ${headingInceter ? "text-center" : "text-left"}`} >
+                            {heading}
+                        </h2>
+                    }
+
                 </div>}
 
                 <div className="space-y-16">

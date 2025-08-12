@@ -10,7 +10,7 @@ import {
 const quickLinks = [
     { title: "About", href: "/About-Sviet" },
     { title: "Courses", href: "/academics/Computer-Science-And-Engineering" },
-    { title: "Contact Us", href: "https://www.sviet.ac.in/contact-us", target: true },
+    { title: "Contact Us", href: "#", target: true },
     {
         title: "Student ERP Login",
         href: "https://uj.servergi.com:8079/ISIMSVIET/login",
@@ -23,14 +23,14 @@ const quickLinks = [
     },
     {
         title: "E-Governance",
-        href: "https://sviet.org.in/wp-content/uploads/E-Governance-Policy-_SVIET.pdf",
+        href: "#",
         target: true
     },
     { title: "SVGOI", href: "http://sviet.ac.in/", target: true },
-    { title: "Examination Cell", href: "/exam-committee" },
-    {   
+    { title: "Examination Cell", href: "#" },
+    {
         title: "Mandatory Disclosure",
-        href: "https://sviet.org.in/wp-content/uploads/Mandatory-Disclosure-SVIET-1-1.pdf",
+        href: "#",
         target: true
     },
 ];
@@ -45,7 +45,7 @@ const importantLinks = [
     { title: "NAAC", href: "http://naac.gov.in/index.php/en/", target: true },
     {
         title: "SSR",
-        href: "https://sviet.org.in/wp-content/uploads/PBCOGN114641-Latest.pdf",
+        href: "#",
         target: true
     },
     { title: "NAD", href: "https://nad.gov.in/", target: true },
@@ -72,7 +72,7 @@ export default function Footer() {
     return (
         <footer className="w-full">
             {/* Top Section - Call to Action */}
-           
+
 
             {/* Main Footer Section */}
             <div className="bg-slate-800 text-white py-12 md:py-16">

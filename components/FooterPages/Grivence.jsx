@@ -90,9 +90,9 @@ const Grivence = () => {
                                                 {item.composition}
                                             </td>
                                             <td className="border border-gray-300 px-4 py-3">
-                                                <ul className="list-disc pl-4">
+                                                <ul className=" ">
                                                     {item.members.map((member, idx) => (
-                                                        <li key={idx}>{member}</li>
+                                                        <l key={idx}>{member}</l>
                                                     ))}
                                                 </ul>
                                             </td>

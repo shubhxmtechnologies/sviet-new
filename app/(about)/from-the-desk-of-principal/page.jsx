@@ -22,7 +22,7 @@ const managementTeam = [
 const page = () => {
     return (
         <>
-            <NewBoardOfManagement heading='Our Academic Visionaries' managementTeam={managementTeam} />
+            <NewBoardOfManagement inleft={true} heading='Our Academic Leaders' managementTeam={managementTeam} />
 
         </>
     )

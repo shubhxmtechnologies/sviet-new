@@ -138,15 +138,7 @@ export const notifications = [
             { text: "Read More", variant: "outline", link: "https://drive.google.com/file/d/1Gb0XsfFNThLUvhKak-OBUH25DStsZZNA/view?usp=sharing" },
         ],
     },
-    {
-        id: 2,
-        title: "Formulation of research committee",
-        description:
-            "",
-        buttons: [
-            { text: "Read More", variant: "outline", link: "https://drive.google.com/file/d/1SNzOKgwoi2ZfqpPqVa2inNEyKOJFqvvf/view?usp=sharing" },
-        ],
-    },
+   
     {
         id: 3,
         title:
