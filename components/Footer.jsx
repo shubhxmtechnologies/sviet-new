@@ -6,11 +6,10 @@ import {
     Instagram,
     Youtube,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 const quickLinks = [
     { title: "About", href: "/About-Sviet" },
-    { title: "Courses", href: "/computer-science-engineering" },
+    { title: "Courses", href: "/academics/Computer-Science-And-Engineering" },
     { title: "Contact Us", href: "https://www.sviet.ac.in/contact-us", target: true },
     {
         title: "Student ERP Login",

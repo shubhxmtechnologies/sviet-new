@@ -5,10 +5,10 @@ const resultsData = [
         title: "Under Graduation",
         courseName: "",
         results: [
-            { id: 1, description: "UG Syllabus 2023", downloadUrl: "/syllabus/ece/UG/B.Tech-CSE-2023.pdf" },
-            { id: 2, description: "UG Syllabus 2021", downloadUrl: "/syllabus/ece/UG/B.Tech-CSE-2021.pdf" },
-            { id: 3, description: "UG Syllabus 2019", downloadUrl: "/syllabus/ece/UG/B.Tech-CSE-2019.pdf" },
-            { id: 4, description: "UG Syllabus 2018", downloadUrl: "/syllabus/ece/UG/B.Tech-CSE-2018.pdf" },
+            { id: 1, description: "UG Syllabus 2023", downloadUrl: "/syllabus/ece/UG/B.Tech-ECE-2023.pdf" },
+            { id: 2, description: "UG Syllabus 2021", downloadUrl: "/syllabus/ece/UG/B.Tech-ECE-2021.pdf" },
+            { id: 3, description: "UG Syllabus 2019", downloadUrl: "/syllabus/ece/UG/B.Tech-ECE-2019.pdf" },
+            { id: 4, description: "UG Syllabus 2018", downloadUrl: "/syllabus/ece/UG/B.Tech-ECE-2018.pdf" },
             { id: 5, description: "UG Syllabus 2011", downloadUrl: "/syllabus/ece/UG/B.Tech-ECE-2011.pdf" },
             { id: 6, description: "UG Syllabus 2003", downloadUrl: "/syllabus/ece/UG/B.Tech-ECE-2003.pdf" },
 

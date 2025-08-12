@@ -5,4 +5,6 @@ ssr : footer
 woment helpline : footer
 lobal Seed Program : international program
 Earn While Learn Program : international program
-icons for website in titlbar
+icons for website in titlebar
+content for examination cell : footer
+
