@@ -63,10 +63,10 @@ export const navItems = [
             }
         ]
     },
+    { name: "Autonomous", href: "/" },
     { name: "PLACEMENTS", href: "#", dropdown: [] },
     { name: "RESEARCH", href: "#", dropdown: [] },
-    { name: "OUTREACH", href: "#", dropdown: [] },
-    { name: "CONTACT US", href: "#", dropdown: [] },
-    { name: "HR MANUAL", href: "#", dropdown: [] },
+    { name: "CONTACT US", href: "/contact-us", dropdown: [] },
+    { name: "HR MANUAL", href: "/HR-Manual.pdf", dropdown: [] },
 
 ]

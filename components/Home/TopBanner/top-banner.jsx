@@ -61,13 +61,13 @@ const TopBanner = ({ skills = skillList }) => {
         <div className="flex gap-8 lg:gap-24">
           {[...skills, ...skills].map((skill, index) => (
             <span key={index} className="flex items-center text-sm whitespace-nowrap">
-              {skill.title && <span className="text-red-400 font-medium">
+              {skill.title != "" && <span className="text-red-400 font-medium">
                 {skill.title} :
               </span>}
-              {skill.description && <span className="ml-1 text-[#28a745] font-normal">
+              {skill.description != "" && <span className="ml-1 text-[#28a745] font-normal">
                 {skill.description}
               </span>}
-              {skill.linkRef && <Link href={skill.linkRef} className="ml-1 underline font-light text-[#007bff] hover:underline">
+              {skill.linkRef != "" && <Link href={skill.linkRef} className="ml-1 underline font-light text-[#007bff] hover:underline">
                 click here to see.
               </Link>}
             </span>

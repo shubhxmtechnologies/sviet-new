@@ -10,7 +10,7 @@ import {
 const quickLinks = [
     { title: "About", href: "/About-Sviet" },
     { title: "Courses", href: "/academics/Computer-Science-And-Engineering" },
-    { title: "Contact Us", href: "#", target: true },
+    { title: "Contact Us", href: "/contact-us", },
     {
         title: "Student ERP Login",
         href: "https://uj.servergi.com:8079/ISIMSVIET/login",
@@ -24,15 +24,10 @@ const quickLinks = [
     {
         title: "E-Governance",
         href: "#",
-        target: true
     },
     { title: "SVGOI", href: "http://sviet.ac.in/", target: true },
     { title: "Examination Cell", href: "#" },
-    {
-        title: "Mandatory Disclosure",
-        href: "#",
-        target: true
-    },
+
 ];
 
 const importantLinks = [
@@ -45,7 +40,7 @@ const importantLinks = [
     { title: "NAAC", href: "http://naac.gov.in/index.php/en/", target: true },
     {
         title: "SSR",
-        href: "#",
+        href: "/ssr.pdf",
         target: true
     },
     { title: "NAD", href: "https://nad.gov.in/", target: true },
@@ -147,10 +142,10 @@ export default function Footer() {
                                 Quick Links
                             </h3>
                             <nav className="space-y-2">
-                                {quickLinks.map((link) => (
+                                {quickLinks.map((link, idx) => (
                                     <a
                                         target={link.target ? "_blank" : undefined}
-                                        key={link.href}
+                                        key={idx}
                                         href={link.href}
                                         className="block text-sm text-slate-300 hover:text-blue-400 transition-colors"
                                     >
@@ -166,10 +161,10 @@ export default function Footer() {
                                 Important Links
                             </h3>
                             <nav className="space-y-2">
-                                {importantLinks.map((link) => (
+                                {importantLinks.map((link, idx) => (
                                     <a
                                         target={link.target ? "_blank" : undefined}
-                                        key={link.href}
+                                        key={idx}
                                         href={link.href}
                                         className="block text-sm text-slate-300 hover:text-blue-400 transition-colors"
                                     >
@@ -185,10 +180,10 @@ export default function Footer() {
                                 Statutory Cells
                             </h3>
                             <nav className="space-y-2">
-                                {statutoryCells.map((link) => (
+                                {statutoryCells.map((link, idx) => (
                                     <a
                                         target={link.target ? "_blank" : undefined}
-                                        key={link.href}
+                                        key={idx}
                                         href={link.href}
                                         className="block text-sm text-slate-300 hover:text-blue-400 transition-colors"
                                     >
@@ -203,12 +198,12 @@ export default function Footer() {
                     <div className="mt-12 pt-8 border-t border-slate-700">
                         <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
                             <div className="flex space-x-4">
-                                {socialLinks.map((social) => {
+                                {socialLinks.map((social, idx) => {
                                     const Icon = social.icon;
                                     return (
                                         <a
                                             target={social.target ? "_blank" : undefined}
-                                            key={social.href}
+                                            key={idx}
                                             href={social.href}
                                             className="p-2 rounded-full bg-slate-700 hover:bg-blue-600 transition-colors"
                                             aria-label={social.label}

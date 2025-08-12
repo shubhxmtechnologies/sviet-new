@@ -39,20 +39,43 @@ const complaints = [{
 { id: 3, text: "A written complaint to the Women Cell may be addressed to the Convener of the Women Cell. If a written complaint is made to the Director, Dean, Registrar or any of the SVIET members, the complaint shall be forwarded to the Convener of the Women Cell." }]
 const data = [
     {
-        srNo: 1, name: "Dr. Meena Thakur", Designation: "Convenor",
+        srNo: 1, name: "Dr. Meena Thakur", Position: "Convener",
+        Desigination: "Associate Professor, CSE"
     },
     {
-        srNo: 2, name: "Ms. Roopshikha", Designation: "Co-Ordinator",
+        srNo: 2, name: "Ms. Roop Shikha", Position: "Coordinator",
+        Desigination: "Assistant Professor, ECE"
     },
     {
-        srNo: 3, name: "Dr. Savita", Designation: "Member",
+        srNo: 4, name: "Dr. Indu Batra", Position: "Member",
+        Desigination: "Associate Professor, EE"
+    },
+
+    {
+        srNo: 5, name: "Dr. Manpreet Kaur", Position: "Member",
+        Desigination: "Associate Professor, MBA"
     },
     {
-        srNo: 4, name: "Dr. Indu Batra", Designation: "Member",
+        name: "Ms. Sandeep Kaur",
+        Desigination: "Dealing Assistant, ECE",
+        Position: "Member"
     },
     {
-        srNo: 5, name: "Dr. Manpreet Kaur", Designation: "Member",
+        name: "Ms. Pushpa Goyal",
+        Desigination: "Head Hostel Warden, Girls",
+        Position: "Member"
     },
+    {
+        name: "Akansha Rana",
+        Desigination: "Student, MBA",
+        Position: "Student Member"
+    },
+    {
+        name: "Vaishnavi Kumari",
+        Desigination: "Student, B.Tech(CSE)",
+        Position: "Student Member"
+    }
+
 ]
 const WomenCell = () => {
     return (
@@ -77,8 +100,6 @@ const WomenCell = () => {
                     </div>
                 </div>
             </section>
-
-
             <section className="py-16 bg-gray-50">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto">
@@ -144,7 +165,8 @@ const WomenCell = () => {
                 <div className="container mx-auto px-4">
                     <div className="max-w-6xl mx-auto">
                         <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                            Members of Women Grievances Cell                       </h2>
+                            Members of Women Grievances Cell
+                        </h2>
 
 
                         <div className="overflow-x-auto">
@@ -152,14 +174,17 @@ const WomenCell = () => {
                                 <thead>
                                     <tr className="bg-gray-100">
 
-                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
+                                        <th className="border w-14 min-w-14 max-w-14 border-gray-300 px-4 py-3 text-left font-semibold">
                                             Sr. No.
                                         </th>
                                         <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
                                             Name
                                         </th>
                                         <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
-                                            Designation
+                                            Designation & Department
+                                        </th>
+                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
+                                            Position
                                         </th>
 
 
@@ -167,19 +192,23 @@ const WomenCell = () => {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {data.map(item => (<tr key={item.srNo}>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.srNo}
-                                        </td>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.name}
-                                        </td>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.Designation}
-                                        </td>
+                                    {data.map((item, idx) => (
+                                        <tr key={idx}>
+                                            <td className="border w-14 min-w-14 max-w-14 border-gray-300 px-4 py-3">
+                                                {idx + 1}
+                                            </td>
+                                            <td className="border border-gray-300 px-4 py-3">
+                                                {item.name}
+                                            </td>
+                                            <td className="border border-gray-300 px-4 py-3">
+                                                {item.Desigination}
+                                            </td>
+                                            <td className="border border-gray-300 px-4 py-3">
+                                                {item.Position}
+                                            </td>
 
 
-                                    </tr>))}
+                                        </tr>))}
 
 
                                 </tbody>
@@ -200,11 +229,11 @@ const WomenCell = () => {
                                     Click here
                                 </Button>
                             </Link>
-                            <span className='cursor-pointer' href="#" target='_blank'>
+                            <Link className='cursor-pointer' href="/Women-Grievance-Form.pdf" target='_blank'>
                                 <Button variant={"secondary"} className='cursor-pointer'>
                                     Download Complaint Form
                                 </Button>
-                            </span>
+                            </Link>
 
 
                         </div>
