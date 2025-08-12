@@ -3,7 +3,7 @@ import React from 'react'
 const resultsData = [
     {
         title: "Under Graduation",
-        courseName: "B.Tech Civil Engineering",
+        courseName: "",
         results: [
             { id: 1, description: "UG Syllabus 2023", downloadUrl: "/syllabus/civil/UG/BTech-CE-2023.pdf" },
             { id: 2, description: "UG Syllabus 2021", downloadUrl: "/syllabus/civil/UG/B.Tech-CE-2021.pdf" },
@@ -14,7 +14,7 @@ const resultsData = [
     },
     {
         title: "Post Graduation",
-        courseName: "M.Tech Civil Engineering",
+        courseName: "",
         results: [
             { id: 1, description: "PG Syllabus-2016", downloadUrl: "/syllabus/civil/PG/M.Tech-CE-2016.pdf" },
 
@@ -22,7 +22,7 @@ const resultsData = [
     },
     {
         title: "First Year Syllabus",
-        courseName: "Civil Engineering",
+        courseName: "",
         results: [
             { id: 1, description: "PG Syllabus-2016", downloadUrl: "/syllabus/First-Year-Syllabus/B.Tech (1st and 2nd Semester) Batch 2025 & Onwards.pdf" },
 

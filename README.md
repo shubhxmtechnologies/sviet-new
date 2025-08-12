@@ -8,3 +8,5 @@ Earn While Learn Program : international program
 icons for website in titlebar
 content for examination cell : footer
 
+ug syllabus 2021 me
+footer courses links
