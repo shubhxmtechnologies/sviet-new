@@ -14,9 +14,9 @@ const NewBoardOfManagement = ({
             <div className={`container mx-auto ${isInt ? "" : "px-4"}`}>
                 {heading != "" && <div div className="mb-6">
                     {inleft ?
-                        <div className="bg-gray-300  text-blue-900  p-6 rounded-md">
+                        <div className="bg-gray-300  text-blue-900  p-4 rounded-md">
                             <h2
-                                className={`text-3xl md:text-4xl font-bold  mb-2 ${headingInceter ? "text-center" : "text-left"
+                                className={`text-3xl md:text-4xl font-bold  ${headingInceter ? "text-center" : "text-left"
                                     }`}
                             >
                                 {heading}
