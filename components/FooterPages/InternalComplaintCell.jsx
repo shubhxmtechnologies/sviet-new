@@ -69,9 +69,9 @@ const InternalComplaintCell = () => {
                                     {internationalComplaintData.map((item, index) => (
                                         <tr key={index}>
                                             <td className="border border-gray-300 px-4 w-20 min-w-20 max-w-20 py-3 align-top">{item.srNo}</td>
-                                            <td className="border border-gray-300 px-4 py-3 w-56 max-w-56 min-w-56 align-top">{item.position}</td>
-                                            <td className="border border-gray-300 px-4 py-3 whitespace-pre-line w-72 min-w-72 max-w-72">{item.name}</td>
-                                            <td className="border border-gray-300 px-4 py-3 whitespace-pre-line w-96 min-w-96 max-w-96">{item.Designation}</td>
+                                            <td className="border border-gray-300 px-4 py-3 w-56 max-w-96 min-w-96 align-top">{item.position}</td>
+                                            <td className="border border-gray-300 px-4 py-3 whitespace-pre-line w-60 min-w-60 max-w-72">{item.name}</td>
+                                            <td className="border border-gray-300 px-4 py-3 whitespace-pre-line w-72 min-w-72 max-w-96">{item.Designation}</td>
                                             <td className="border border-gray-300 px-4 py-3 whitespace-pre-line">{item.contact}</td>
                                         </tr>
                                     ))}

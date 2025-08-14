@@ -26,7 +26,7 @@ const quickLinks = [
         href: "#",
     },
     { title: "SVGOI", href: "http://sviet.ac.in/", target: true },
-    { title: "Examination Cell", href: "#" },
+    { title: "Examination Cell", href: "/exam-committee" },
 
 ];
 

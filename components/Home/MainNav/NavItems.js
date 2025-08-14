@@ -11,7 +11,7 @@ export const navItems = [
                     { name: "From the Desk of Principal", href: "/from-the-desk-of-principal" },
                     { name: "Administration", href: "/administration" },
                     { name: "Statutory Committee", href: "/committee" },
-                   
+
                 ]
             },
 
@@ -64,8 +64,8 @@ export const navItems = [
         ]
     },
     { name: "Autonomous", href: "/" },
+    { name: "RESEARCH", href: "/Research", dropdown: [] },
     { name: "PLACEMENTS", href: "#", dropdown: [] },
-    { name: "RESEARCH", href: "#", dropdown: [] },
     { name: "CONTACT US", href: "/contact-us", dropdown: [] },
     { name: "HR MANUAL", href: "/HR-Manual.pdf", dropdown: [] },
 

@@ -26,7 +26,7 @@ export const overviewItems = [
     {
         title: "Start-Ups",
         description:
-            "Incubate innovative entrepreneurship with more than 15 successful startups launched at SVGOI.",
+            "Incubate innovative entrepreneurship with more than 15 successful startups launched at SVIET.",
         imageQuery: "/Collegeoverview/startups.JPG",
     },
     {

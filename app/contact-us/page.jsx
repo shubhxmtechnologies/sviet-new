@@ -89,7 +89,7 @@ export default function ContactUsPage() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-r from-gray-900 to-gray-700 py-16 md:py-24">
+        <section className="relative bg-gradient-to-r from-gray-300 to-gray-400 py-10 md:py-14">
           <div className="absolute inset-0 bg-black/50"></div>
           <div className="container relative mx-auto px-4 md:px-6">
             <div className="text-center text-white">
@@ -136,12 +136,12 @@ export default function ContactUsPage() {
 
               {/* Contact Form - Right Side on Desktop */}
               <div className="lg:col-span-2">
-                <div className="bg-white rounded-lg p-6 shadow-lg">
+                <div className="bg-white rounded-lg p-6 md:px-10 shadow-lg">
                   <h2 className="mb-6 text-2xl font-bold text-[#003366]">
                     Enquire Now!
                   </h2>
-                  <form className="space-y-4">
-                    <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                  <form className="space-y-4 space-x-4">
+                    <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
                       <Input
                         placeholder="Enter Your Name"
                         className="border-gray-300"
@@ -152,7 +152,7 @@ export default function ContactUsPage() {
                         className="border-gray-300"
                       />
                     </div>
-                    <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                    <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
                       <Input
                         placeholder="Enter Your Number"
                         type="tel"

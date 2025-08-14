@@ -55,22 +55,44 @@ export const sgrcData = [
 
 export const womenData = [
     {
-        srNo: 1, name: "Dr. Meena Thakur", Designation: "Convenor",
+        srNo: 1, name: "Dr. Meena Thakur", Position: "Convener",
+        Desigination: "Associate Professor, CSE"
     },
     {
-        srNo: 2, name: "Ms. Roopshikha", Designation: "Co-Ordinator",
+        srNo: 2, name: "Ms. Roop Shikha", Position: "Coordinator",
+        Desigination: "Assistant Professor, ECE"
     },
     {
-        srNo: 3, name: "Dr. Savita", Designation: "Member",
+        srNo: 4, name: "Dr. Indu Batra", Position: "Member",
+        Desigination: "Associate Professor, EE"
     },
-    {
-        srNo: 4, name: "Dr. Indu Batra", Designation: "Member",
-    },
-    {
-        srNo: 5, name: "Dr. Manpreet Kaur", Designation: "Member",
-    },
-]
 
+    {
+        srNo: 5, name: "Dr. Manpreet Kaur", Position: "Member",
+        Desigination: "Associate Professor, MBA"
+    },
+    {
+        name: "Ms. Sandeep Kaur",
+        Desigination: "Dealing Assistant, ECE",
+        Position: "Member"
+    },
+    {
+        name: "Ms. Pushpa Goyal",
+        Desigination: "Head Hostel Warden, Girls",
+        Position: "Member"
+    },
+    {
+        name: "Akansha Rana",
+        Desigination: "Student, MBA",
+        Position: "Student Member"
+    },
+    {
+        name: "Vaishnavi Kumari",
+        Desigination: "Student, B.Tech(CSE)",
+        Position: "Student Member"
+    }
+
+]
 export const antiraggingdata = [
     {
         srNo: 1,
@@ -146,7 +168,7 @@ export const internationalComplaintData = [
         name:
             "Ms. Swikrty Biswas\n\nMr. Gaurav",
         contact: "9836214958\n\n7876680378",
-        Designation:"Student (B.TECH-CSD,4th Semester)\n\nStudent (B.TECH-ECE,4th Semester)"
+        Designation: "Student (B.TECH-CSD,4th Semester)\n\nStudent (B.TECH-ECE,4th Semester)"
     }
 ]
 export const obcData = [

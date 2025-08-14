@@ -10,25 +10,26 @@ const NewBoardOfManagement = ({
     isInt = false
 }) => {
     return (
-        <section className={` ${isInt ? " pt-4" : " py-10"} bg-white `}>
-            <div className={`container mx-auto ${isInt ? "" : "px-4"}`}>
-                {heading != "" && <div div className="mb-6">
-                    {inleft ?
-                        <div className="bg-gray-300  text-blue-900  p-4 rounded-md">
-                            <h2
-                                className={`text-3xl md:text-4xl font-bold  ${headingInceter ? "text-center" : "text-left"
-                                    }`}
-                            >
-                                {heading}
-                            </h2>
-                        </div>
-                        :
-                        <h2 className={`text-3xl md:text-4xl font-bold text-blue-900 mb-2 ${headingInceter ? "text-center" : "text-left"}`} >
+        <section className={` ${isInt ? " pt-4" : " pb-10"} bg-white `}>
+            {heading != "" && <div div className="mb-6 mt-0">
+                {inleft ?
+                    <div className="bg-gray-300  text-blue-900  p-5 ">
+                        <h2
+                            className={`text-3xl md:text-4xl font-bold  ${headingInceter ? "text-center" : "text-left"
+                                }`}
+                        >
                             {heading}
                         </h2>
-                    }
+                    </div>
+                    :
+                    <h2 className={`text-3xl md:text-4xl font-bold text-blue-900 mb-2 ${headingInceter ? "text-center" : "text-left"}`} >
+                        {heading}
+                    </h2>
+                }
 
-                </div>}
+            </div>}
+            <div className={`container mx-auto ${isInt ? "" : "px-4"}`}>
+
 
                 <div className="">
                     {managementTeam.map((member, index) => (
