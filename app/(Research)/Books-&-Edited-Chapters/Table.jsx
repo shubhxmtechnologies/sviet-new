@@ -19,9 +19,9 @@ const DataTable = () => {
         return publicationData.filter((item) => {
             const searchLower = searchTerm.toLowerCase()
             return (
-                item["Title of Paper"].toLowerCase().includes(searchLower) ||
+                item["Title of the Book/Chapters published"].toLowerCase().includes(searchLower) ||
                 item["Name of the Author/s"].toLowerCase().includes(searchLower) ||
-                item["ISSN Number"].toLowerCase().includes(searchLower)
+                item["ISBN Number"].toLowerCase().includes(searchLower)
             )
         })
     }, [searchTerm])
@@ -49,7 +49,7 @@ const DataTable = () => {
         <main className="flex-1 ">
             {/* Header Section */}
             <div className=" p-6 ">
-                <h1 className="text-4xl font-bold text-[#003366] mb-4">Publications</h1>
+                <h1 className="text-4xl font-bold text-[#003366] mb-4">Books & Edited Chapters </h1>
 
             </div>
 
@@ -60,7 +60,7 @@ const DataTable = () => {
                     <div className="md:col-span-2 relative">
                         <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-4 w-4" />
                         <Input
-                            placeholder="Search by title, author, or ISSN..."
+                            placeholder="Search by title, author, or ISBN..."
                             value={searchTerm}
                             onChange={(e) => handleSearchChange(e.target.value)}
                             className="pl-10"
@@ -96,14 +96,14 @@ const DataTable = () => {
                         <TableRow className="bg-blue-50">
                             <TableHead className="font-bold py-4 px-6 text-[#003366] max-w-[44px] w-[44px] min-w-[44px]">Sr. No</TableHead>
                             <TableHead className="font-bold py-4 px-6 text-[#003366] min-w-[300px] w-[300px] max-w-[300px]">
-                                Title of Paper
+                                Title of the Book/Chapters published
                             </TableHead>
                             <TableHead className="font-bold py-4 px-6 text-[#003366] w-[200px]max-w-[200px] min-w-[200px]">
                                 Name of the Author/s
                             </TableHead>
                             <TableHead className="font-bold py-4 px-6 text-[#003366] min-w-[80px]">Year</TableHead>
                             <TableHead className="font-bold py-4 px-6 text-[#003366] min-w-[120px]">
-                                ISSN Number
+                                ISBN Number
                             </TableHead>
                             {/* <TableHead className="font-bold py-4 px-6 text-[#003366] min-w-[100px]">
                                 Link for Papers 
@@ -117,14 +117,14 @@ const DataTable = () => {
                                     {(currentPage - 1) * itemsPerPage + index + 1}
                                 </TableCell>
                                 <TableCell className="py-4 break-words whitespace-normal min-w-[300px] w-[300px] max-w-[300px] px-6 font-medium">
-                                    {item["Title of Paper"]}
+                                    {item["Title of the Book/Chapters published"]}
                                 </TableCell>
                                 <TableCell className="font-semibold  break-words whitespace-normal w-[200px]max-w-[200px] min-w-[200px]  py-4 px-6">
                                     {item["Name of the Author/s"]}
 
                                 </TableCell>
                                 <TableCell className="font-semibold py-4 px-6">{item["Year "]}</TableCell>
-                                <TableCell className="font-semibold py-4 px-6">{item["ISSN Number"]}</TableCell>
+                                <TableCell className="font-semibold py-4 px-6">{item["ISBN Number"]}</TableCell>
                                 {/* <TableCell className="text-center py-4 px-6">
                                     <Button
                                         variant="link"

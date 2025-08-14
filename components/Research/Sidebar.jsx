@@ -8,7 +8,7 @@ const Sidebar = ({ activeRoute = 0 }) => {
         { name: "Our Innovative Projects", href: "/Projects" },
         { name: "Journal Publications", href: "/Publications" },
         // { name: "Patents", href: "/academics/" +  "#mission" },
-        // { name: "Books & Edited Chapters", href: "/Programmes/" },
+        { name: "Books & Edited Chapters", href: "/Books-&-Edited-Chapters" },
         // { name: "MOUs with Industries", href: "/syllabus/" + },
     ]
     const [activeIndex, setActiveIndex] = React.useState(activeRoute)
