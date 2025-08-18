@@ -72,7 +72,7 @@ const page = () => {
             <Academicslayout
                 teacherPic='/academics-teachers/mba.jpeg'
                 teacherName='Dr. Neeraj Kumar'
-                Designation='Assistant Professor & Head'
+                Designation='Head'
                 Department='Department of Business Administration'
                 aboutDepartment={about}
                 departmentProfile={profile}

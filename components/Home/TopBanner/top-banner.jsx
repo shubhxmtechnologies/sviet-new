@@ -68,7 +68,7 @@ const TopBanner = ({ skills = skillList }) => {
                 {skill.description}
               </span>}
               {skill.linkRef != "" && <Link href={skill.linkRef} className="ml-1 underline font-light text-[#007bff] hover:underline">
-                click here to see.
+                View Details
               </Link>}
             </span>
           ))}

@@ -54,7 +54,7 @@ const page = () => {
             <Academicslayout
                 teacherPic='/academics-teachers/cse.jpeg'
                 teacherName='Dr. Vandana'
-                Designation='Assistant Professor & Head'
+                Designation='Head'
                 Department='Department of Computer Science & Engineering'
                 aboutDepartment={about}
                 departmentProfile={profile}

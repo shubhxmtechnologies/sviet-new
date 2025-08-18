@@ -19,9 +19,8 @@ const DataTable = () => {
         return publicationData.filter((item) => {
             const searchLower = searchTerm.toLowerCase()
             return (
-                item["Title of Paper"].toLowerCase().includes(searchLower) ||
-                item["Name of the Author(s)"].toLowerCase().includes(searchLower) ||
-                item["ISSN Number"].toLowerCase().includes(searchLower)
+                item["applicationNo"].toLowerCase().includes(searchLower) ||
+                item["title"].toLowerCase().includes(searchLower)
             )
         })
     }, [searchTerm])
@@ -49,7 +48,7 @@ const DataTable = () => {
         <main className="flex-1 ">
             {/* Header Section */}
             <div className=" p-6 ">
-                <h1 className="text-4xl font-bold text-[#003366] mb-4">Publications</h1>
+                <h1 className="text-4xl font-bold text-[#003366] mb-4">Patents</h1>
 
             </div>
 
@@ -58,9 +57,10 @@ const DataTable = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     {/* Search Field */}
                     <div className="md:col-span-2 relative">
+
                         <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-4 w-4" />
                         <Input
-                            placeholder="Search by title, author, or ISSN..."
+                            placeholder="Search by application no., title..."
                             value={searchTerm}
                             onChange={(e) => handleSearchChange(e.target.value)}
                             className="pl-10"
@@ -88,52 +88,42 @@ const DataTable = () => {
 
             </div>
 
-            {/* Publications Table */}
+            {/* Patents Table */}
 
             <div className="overflow-x-auto rounded-md border">
+
+
                 <Table>
                     <TableHeader>
                         <TableRow className="bg-blue-50">
                             <TableHead className="font-bold py-4 px-6 text-[#003366] max-w-[44px] w-[44px] min-w-[44px]">Sr. No</TableHead>
-                            <TableHead className="font-bold py-4 px-6 text-[#003366] min-w-[300px] w-[300px] max-w-[300px]">
-                                Title of Paper
+                            <TableHead className="font-bold py-4 px-6 text-[#003366] min-w-[100px] w-[100px] max-w-[100px]">
+                                Application No
                             </TableHead>
-                            <TableHead className="font-bold py-4 px-6 text-[#003366] w-[200px] max-w-[200px] min-w-[200px]">
-                                Name of the Author(s)
+                            <TableHead className="font-bold py-4 px-6 text-[#003366] w-[100px]max-w-[100px] min-w-[100px]">
+                                Name of Title
                             </TableHead>
-                            <TableHead className="font-bold py-4 px-6 text-[#003366] min-w-[80px]">Year</TableHead>
-                            <TableHead className="font-bold py-4 px-6 text-[#003366] min-w-[120px]">
-                                ISSN Number
-                            </TableHead>
-                            {/* <TableHead className="font-bold py-4 px-6 text-[#003366] min-w-[100px]">
-                                Link for Papers 
-                            </TableHead> */}
+                            <TableHead className="font-bold py-4 px-6 text-[#003366] w-[200px]max-w-[200px] min-w-[200px]">Applicant Names</TableHead>
+
+
                         </TableRow>
                     </TableHeader>
                     <TableBody>
+
                         {currentData.map((item, index) => (
-                            <TableRow key={item.id} className="hover:bg-gray-50">
+                            <TableRow key={index} className="hover:bg-gray-50">
                                 <TableCell className="max-w-[44px] w-[44px] min-w-[44px] font-semibold py-4 px-6">
                                     {(currentPage - 1) * itemsPerPage + index + 1}
                                 </TableCell>
-                                <TableCell className="py-4 break-words whitespace-normal min-w-[300px] w-[300px] max-w-[300px] px-6 font-medium">
-                                    {item["Title of Paper"]}
+                                <TableCell className="py-4 break-words whitespace-normal min-w-[100px] w-[100px] max-w-[100px] px-6 font-medium">
+                                    {item["applicationNo"]}
                                 </TableCell>
-                                <TableCell className="font-semibold  break-words whitespace-normal w-[200px] max-w-[200px] min-w-[200px]  py-4 px-6">
-                                    {item["Name of the Author(s)"]}
+                                <TableCell className="font-semibold  break-words whitespace-normal w-[100px] max-w-[100px]   min-w-[100px]  py-4 px-6">
+                                    {item["title"]}
 
                                 </TableCell>
-                                <TableCell className="font-semibold py-4 px-6">{item["Year "]}</TableCell>
-                                <TableCell className="font-semibold py-4 px-6">{item["ISSN Number"]}</TableCell>
-                                {/* <TableCell className="text-center py-4 px-6">
-                                    <Button
-                                        variant="link"
-                                        className="text-[#007bff] hover:text-[#0056b3] p-0"
-                                        onClick={() => window.open(item["Link for Papers"], "_blank")}
-                                    >
-                                        View
-                                    </Button>
-                                </TableCell> */}
+                                <TableCell className="font-semibold py-4  break-words whitespace-normal w-[200px] max-w-[200px] min-w-[200px] px-6">{item["applicants"].map(((i, idx) => i + ", "))}</TableCell>
+
                             </TableRow>
                         ))}
                     </TableBody>

@@ -20,7 +20,7 @@ const DataTable = () => {
             const searchLower = searchTerm.toLowerCase()
             return (
                 item["Title of the Book/Chapters published"].toLowerCase().includes(searchLower) ||
-                item["Name of the Author/s"].toLowerCase().includes(searchLower) ||
+                item["Name of the Author(s)"].toLowerCase().includes(searchLower) ||
                 item["ISBN Number"].toLowerCase().includes(searchLower)
             )
         })
@@ -98,8 +98,8 @@ const DataTable = () => {
                             <TableHead className="font-bold py-4 px-6 text-[#003366] min-w-[300px] w-[300px] max-w-[300px]">
                                 Title of the Book/Chapters published
                             </TableHead>
-                            <TableHead className="font-bold py-4 px-6 text-[#003366] w-[200px]max-w-[200px] min-w-[200px]">
-                                Name of the Author/s
+                            <TableHead className="font-bold py-4 px-6 text-[#003366] w-[200px] max-w-[200px] min-w-[200px]">
+                                Name of the Author(s)
                             </TableHead>
                             <TableHead className="font-bold py-4 px-6 text-[#003366] min-w-[80px]">Year</TableHead>
                             <TableHead className="font-bold py-4 px-6 text-[#003366] min-w-[120px]">
@@ -119,8 +119,8 @@ const DataTable = () => {
                                 <TableCell className="py-4 break-words whitespace-normal min-w-[300px] w-[300px] max-w-[300px] px-6 font-medium">
                                     {item["Title of the Book/Chapters published"]}
                                 </TableCell>
-                                <TableCell className="font-semibold  break-words whitespace-normal w-[200px]max-w-[200px] min-w-[200px]  py-4 px-6">
-                                    {item["Name of the Author/s"]}
+                                <TableCell className="font-semibold  break-words whitespace-normal w-[200px] max-w-[200px] min-w-[200px]  py-4 px-6">
+                                    {item["Name of the Author(s)"]}
 
                                 </TableCell>
                                 <TableCell className="font-semibold py-4 px-6">{item["Year "]}</TableCell>

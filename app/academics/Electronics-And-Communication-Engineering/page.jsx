@@ -60,7 +60,7 @@ const page = () => {
             <Academicslayout
                 teacherPic='/academics-teachers/ece.jpeg'
                 teacherName='Er. Navneet Kumar'
-                Designation='Assistant Professor & Head'
+                Designation='Head'
                 Department='Department of Electronics & Communication Engineering'
                 aboutDepartment={about}
                 departmentProfile={profile}

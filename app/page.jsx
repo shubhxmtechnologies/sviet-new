@@ -48,6 +48,7 @@ const keyHighlights = [
 ]
 export const images = [
   "/Herosection/12.jpeg",
+  "/Herosection/13.jpeg",
   "/Herosection/1.jpeg",
   "/Herosection/2.jpeg",
   "/Herosection/3.jpeg",

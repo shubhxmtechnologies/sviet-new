@@ -52,7 +52,7 @@ const page = () => {
             <Academicslayout
                 teacherPic='/academics-teachers/mca.jpeg'
                 teacherName='Er. Jarnail Singh'
-                Designation='Assistant Professor & Head'
+                Designation='Head'
                 Department='Department of Computer Applications'
                 aboutDepartment={about}
                 departmentProfile={profile}

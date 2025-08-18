@@ -7,7 +7,7 @@ const Sidebar = ({ activeRoute = 0 }) => {
         { name: "Research & Development Committee", href: "/Research" + "#Research" },
         { name: "Our Innovative Projects", href: "/Projects" },
         { name: "Journal Publications", href: "/Publications" },
-        // { name: "Patents", href: "/academics/" +  "#mission" },
+        { name: "Patents", href: "/patents"  },
         { name: "Books & Edited Chapters", href: "/Books-&-Edited-Chapters" },
         // { name: "MOUs with Industries", href: "/syllabus/" + },
     ]

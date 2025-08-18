@@ -12,6 +12,7 @@ const about = [
 const page = () => {
     return (
         <ResearchLayout
+            
             aboutDepartment={about}
         />
     )
