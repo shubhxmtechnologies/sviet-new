@@ -95,12 +95,12 @@ const DataTable = () => {
 
                 <Table>
                     <TableHeader>
-                        <TableRow className="bg-blue-50">
-                            <TableHead className="font-bold py-4 px-6 text-[#003366] max-w-[44px] w-[44px] min-w-[44px]">Sr. No</TableHead>
-                            <TableHead className="font-bold py-4 px-6 text-[#003366] min-w-[100px] w-[100px] max-w-[100px]">
+                        <TableRow className="bg-blue-50 ">
+                            <TableHead className="font-bold py-4 sm:px-6 text-[#003366] max-w-[44px] w-[44px] min-w-[44px]">Sr. No</TableHead>
+                            <TableHead className="font-bold py-4 sm:px-6 text-[#003366] min-w-[150px] w-[150px] max-w-[150px]  break-words whitespace-normal">
                                 Application No
                             </TableHead>
-                            <TableHead className="font-bold py-4 px-6 text-[#003366] w-[100px]max-w-[100px] min-w-[100px]">
+                            <TableHead className="font-bold py-4 sm:px-6 text-[#003366] w-[90px]max-w-[90px] min-w-[90px]">
                                 Name of Title
                             </TableHead>
                             <TableHead className="font-bold py-4 px-6 text-[#003366] w-[200px]max-w-[200px] min-w-[200px]">Applicant Names</TableHead>

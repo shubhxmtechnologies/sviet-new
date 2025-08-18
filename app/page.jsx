@@ -59,6 +59,8 @@ export const images = [
   "/Herosection/9.jpg",
   "/Herosection/10.jpg",
   "/Herosection/11.jpeg",
+  "/Herosection/14.jpeg",
+  "/Herosection/15.jpeg",
 ]
 export const testimonials = [
   {
