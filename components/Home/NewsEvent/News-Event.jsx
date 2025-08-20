@@ -50,8 +50,8 @@ const NewsEvents = () => {
                         <TabsContent value="notifications" className="mt-4 max-h-[600px] overflow-y-auto rounded-md border p-2 space-y-6">
                             {" "}
                             {/* Added max-h and overflow-y-auto */}
-                            {notifications.map((notification) => (
-                                <div key={notification.id} className="rounded-lg border p-4 mb-3 shadow-sm">
+                            {notifications.map((notification,idx) => (
+                                <div key={idx} className="rounded-lg border p-4 mb-3 shadow-sm">
                                     <div className="flex items-start gap-2">
                                         <BellRingIcon className="h-5 w-5 flex-shrink-0 text-red-500" />
                                         <p className="text-sm text-gray-700">

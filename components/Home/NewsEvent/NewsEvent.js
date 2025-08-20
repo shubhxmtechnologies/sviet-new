@@ -1,4 +1,4 @@
-export const newsItems = [ 
+export const newsItems = [
     // 
     {
         "title": "Department of Computer Science & Engineering, in collaboration with the Institution's Innovation Council (IIC), is organizing an event on Igniting Innovation: Accelerator and Incubation Pathways for Campus Entrepreneurs.",
@@ -163,6 +163,27 @@ export const newsItems = [
 ]
 export const notifications = [
     {
+        title: "NCC Cadets have meeting with authorities regarding NCC activities",
+        buttons: [
+            { text: "Read More", variant: "outline", link: "https://drive.google.com/file/d/1x52u79uV7zfopltbr31-kJLY73zf4qbv/view" },
+        ],
+    },
+    {
+        title: `	All students and staff members are cordially invited to celebrate 79th Independence Day named "Azadi ka Amritkal"`,
+        buttons: [
+            { text: "Read More", variant: "outline", link: "https://drive.google.com/file/d/1QK6IC8w06ayVExPG8cTnekj8FlubjCD4/view" },
+        ],
+    },
+    {
+
+        title: "	Department of Computer Science & Engineering, in collaboration with Institute's Innovative Council (IIC) organizing an event named igniting Innovation: Accelerator and Incubation Pathways for Campus Entrepreneurs.",
+        buttons: [
+            { text: "Read More", variant: "outline", link: "https://drive.google.com/file/d/1ZKgYCspAfkmlRDEaZ9qwgosu03A9ERtX/view" },
+        ],
+
+    },
+
+    {
         id: 1,
         title: "Regarding Auditions",
         description:
@@ -255,7 +276,17 @@ export const notifications = [
 
 export const coes = [
     {
-        "title": "Final updated list of examination centre for reappear exams starting from 16.6.25 onwards Ppril 2025",
+        "title": "Notice Regarding Semester Upgradation.",
+        "date": "6.08.2025",
+        "href": ""
+    },
+    {
+        "title": "Regarding last date of Admission for sssion 2025-26.",
+        "date": "13.8.2025",
+        "href": ""
+    },
+    {
+        "title": "Final updated list of examination centre for reappear exams starting from 16.6.25 onwards April 2025",
         "date": "13.06.2025",
         "href": "https://drive.google.com/file/d/1u8MLBPnIuhx1R6s5DSg_nq33WFb0jq55/view?usp=sharing"
     },
