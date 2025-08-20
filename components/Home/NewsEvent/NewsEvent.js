@@ -278,12 +278,7 @@ export const coes = [
     {
         "title": "Notice Regarding Semester Upgradation.",
         "date": "6.08.2025",
-        "href": ""
-    },
-    {
-        "title": "Regarding last date of Admission for sssion 2025-26.",
-        "date": "13.8.2025",
-        "href": ""
+        "href": "/Event-Report/noticeforsemesterupgradationbyIKGPTU.pdf"
     },
     {
         "title": "Final updated list of examination centre for reappear exams starting from 16.6.25 onwards April 2025",
