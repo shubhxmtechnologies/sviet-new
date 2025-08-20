@@ -8,7 +8,7 @@ export const metadata = {
 const managementTeam = [
 
     {
-        name: "(Prof.) Dr. Sanjeev Saini",
+        name: "Prof. (Dr.) Sanjeev Saini",
         position: "Director Academics",
         image: "/Management/1.jpeg",
         message: [

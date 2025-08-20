@@ -1,4 +1,37 @@
-export const newsItems = [
+export const newsItems = [ 
+    // 
+    {
+        "title": "Department of Computer Science & Engineering, in collaboration with the Institution's Innovation Council (IIC), is organizing an event on Igniting Innovation: Accelerator and Incubation Pathways for Campus Entrepreneurs.",
+        "date": {
+            "day": "13",
+            "month": "AUG"
+        },
+        "href": "/Event-Report/13.pdf"
+    },
+    {
+        "title": "IQAC Department Organised Workshop on Virtual labs.",
+        "date": {
+            "day": "14",
+            "month": "JUL"
+        },
+        "href": "/Event-Report/EventReportonvirtualLabs.pdf"
+    },
+    {
+        "title": "Podcast Series on Rashtra Pratham and Celebrating Failures.",
+        "date": {
+            "day": "04",
+            "month": "JUL"
+        },
+        "href": "/Event-Report/ReportonRashtraPratham&CelebratingFailures.pdf"
+    },
+    {
+        "title": "NCC department Organised Yoga Day Celebration Program in collaboration with HR and Student Welfare Department under the Ministry of AYUSH, Government of India.",
+        "date": {
+            "day": "21",
+            "month": "JUN"
+        },
+        "href": "/Event-Report/InternationalYogaDay.pdf"
+    },
     {
         "title": "The Department of Business Administration organized an insightful Industrial Visit to the SEBI Center, Chandigarh, offering students a valuable exposure to financial regulatory practices.",
         "date": {
@@ -138,7 +171,7 @@ export const notifications = [
             { text: "Read More", variant: "outline", link: "https://drive.google.com/file/d/1Gb0XsfFNThLUvhKak-OBUH25DStsZZNA/view?usp=sharing" },
         ],
     },
-   
+
     {
         id: 3,
         title:
@@ -311,5 +344,5 @@ export const coes = [
         "date": "28.03.2025",
         "href": "https://drive.google.com/file/d/1dkfW-_PN6pO7qF-fjb5m7lcDQtif60c0/view?usp=sharing"
     },
-    
+
 ]

@@ -70,7 +70,7 @@ const page = () => {
     return (
         <>
             <Academicslayout
-                teacherPic='/academics-teachers/mba.jpeg'
+                teacherPic='/academics-teachers/mba.jpg'
                 teacherName='Dr. Neeraj Kumar'
                 Designation='Head'
                 Department='Department of Business Administration'

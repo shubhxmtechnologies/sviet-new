@@ -17,7 +17,6 @@ export const navItems = [
 
         ]
     },
-
     {
         name: "Academics", href: "",
         dropdown: [
@@ -49,6 +48,9 @@ export const navItems = [
         ]
     },
     { name: "IQAC", href: "/iqac" },
+    { name: "RESEARCH", href: "/Research", dropdown: [] },
+    { name: "PLACEMENTS", href: "#", dropdown: [] },
+
     {
         name: "Documents", href: "", dropdown: [
             {
@@ -64,9 +66,7 @@ export const navItems = [
         ]
     },
     { name: "Autonomous", href: "/" },
-    { name: "RESEARCH", href: "/Research", dropdown: [] },
-    { name: "PLACEMENTS", href: "#", dropdown: [] },
-    { name: "CONTACT US", href: "/contact-us", dropdown: [] },
     { name: "HR MANUAL", href: "/HR-Manual.pdf", dropdown: [] },
+    { name: "CONTACT US", href: "/contact-us", dropdown: [] },
 
 ]
