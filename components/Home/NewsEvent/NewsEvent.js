@@ -3,7 +3,7 @@ export const newsItems = [
     {
         "title": "Department of Computer Science & Engineering, in collaboration with the Institution's Innovation Council (IIC), is organizing an event on Igniting Innovation: Accelerator and Incubation Pathways for Campus Entrepreneurs.",
         "date": {
-            "day": "13",
+            "day": "14",
             "month": "AUG"
         },
         "href": "/Event-Report/13.pdf"
