@@ -49,7 +49,7 @@ export const navItems = [
     },
     { name: "IQAC", href: "/iqac" },
     { name: "RESEARCH", href: "/Research", dropdown: [] },
-    { name: "PLACEMENTS", href: "#", dropdown: [] },
+    { name: "PLACEMENTS", href: "/Placements", dropdown: [] },
 
     {
         name: "Documents", href: "", dropdown: [

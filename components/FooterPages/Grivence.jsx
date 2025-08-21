@@ -4,27 +4,37 @@ const data = [
     {
         srNo: 1,
         composition: "Chairperson",
-        members: ["Mr. Sarabjeet Singh, Dean (Student Welfare)"],
+        members: ["Mr. Sarabjeet Singh"],
+        designation: ["Dean (Student Welfare)"]
     },
     {
         srNo: 2,
         composition: "Senior Faculty Members",
         members: [
-            "Dr. Neeraj Kumar, Associate Professor & Head (MBA)",
-            "Dr. Indu Batra, Associate Professor (Applied Sciences)",
-            "Ms. Gurwinder Kaur, Assistant Professor & Head (Applied Sciences)"
+            "Dr. Neeraj Kumar",
+            "Dr. Indu Batra",
+            "Ms. Gurwinder Kaur"
         ],
+        designation: [
+
+            "Associate Professor & Hod (MBA)",
+            "Associate Professor (Applied Sciences)"
+            , "Assistant Professor & Hod (Applied Sciences)"
+        ]
     },
     {
         srNo: 3,
         composition: "Students as Members",
         members: [
-            "Ms. Shital Kumari, B.TECH-CSE/6th Semester",
-            "Mr. Bibek Kumar Yadav, B.TECH-CE/6th Semester"
+            "Ms. Shital Kumari",
+            "Mr. Bibek Kumar Yadav"
         ],
+        designation: [
+            "Student (B.TECH-CSE,6th Semester)",
+            "Student (B.TECH-CE,6th Semester)"
+        ]
     }
 ]
-
 const Grivence = () => {
     return (
         <>
@@ -69,11 +79,14 @@ const Grivence = () => {
                                         <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
                                             Sr. No.
                                         </th>
-                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
+                                        <th className="border border-gray-300 px-4 py-3 w-32 max-w-32 text-left font-semibold">
                                             Composition of SGRC
                                         </th>
                                         <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
-                                            Name & Designation
+                                            Name
+                                        </th>
+                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
+                                            Designation
                                         </th>
 
 
@@ -83,16 +96,23 @@ const Grivence = () => {
                                 <tbody>
                                     {data.map((item, index) => (
                                         <tr key={index}>
-                                            <td className="border border-gray-300 px-4 py-3 align-top">
+                                            <td className="border border-gray-300 w-14 max-w-14 px-4 py-3 align-top">
                                                 {item.srNo}
                                             </td>
-                                            <td className="border border-gray-300 px-4 py-3 align-top">
+                                            <td className="border border-gray-300 w-80 max-w-80 px-4 py-3 align-top">
                                                 {item.composition}
                                             </td>
-                                            <td className="border border-gray-300 px-4 py-3">
-                                                <ul className=" ">
+                                            <td className="border w-52 max-w-52 border-gray-300 px-4 py-3">
+                                                <ul className="">
                                                     {item.members.map((member, idx) => (
-                                                        <l key={idx}>{member}</l>
+                                                        <li className='mb-7 md:mb-10.5' key={idx}>{member}</li>
+                                                    ))}
+                                                </ul>
+                                            </td>
+                                            <td className="border border-gray-300 px-4 py-3">
+                                                <ul className="">
+                                                    {item.designation.map((des, idx) => (
+                                                        <li className='mb-3 md:mb-8 sm:mb-6' key={idx}>{des}</li>
                                                     ))}
                                                 </ul>
                                             </td>

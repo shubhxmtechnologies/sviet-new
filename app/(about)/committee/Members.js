@@ -106,7 +106,7 @@ export const antiraggingdata = [
     },
     {
         srNo: 3,
-        name: "Er. Vandana",
+        name: "Dr. Vandana",
         designation: "Member"
     },
     {

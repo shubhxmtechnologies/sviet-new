@@ -113,9 +113,7 @@ const ScSt = () => {
                                         </th>
 
 
-                                        <th className="border border-gray-300 px-4 py-3 text-left font-semibold">
-                                            Email
-                                        </th>
+                                      
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -129,9 +127,7 @@ const ScSt = () => {
                                         <td className="border border-gray-300 px-4 py-3">
                                             {item.Designation}
                                         </td>
-                                        <td className="border border-gray-300 px-4 py-3">
-                                            {item.Emails}
-                                        </td>
+                                      
 
                                     </tr>))}
 
