@@ -17,9 +17,9 @@ export function MainNav() {
 
     return (
         <nav className="bg-[#007bff] md:py-3 text-white">
-            <div className="container mx-auto flex items-center justify-between px-4 md:px-6">
+            <div className="container mx-auto flex items-center justify-between  ">
                 {/* Desktop Navigation */}
-                <ul className="hidden  flex-wrap justify-center  gap-x-0 gap-y-2 text-xs font-medium md:flex lg:gap-x-0 w-full">
+                <ul className="hidden flex-wrap justify-center  gap-x-0 gap-y-2 text-xs font-medium md:flex lg:gap-x-0 w-full">
                     {navItems.map(item => (
                         <li
                             onMouseEnter={() => setActiveDropdown(item.name)}

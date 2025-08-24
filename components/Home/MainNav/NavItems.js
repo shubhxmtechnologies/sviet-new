@@ -68,5 +68,7 @@ export const navItems = [
     { name: "Autonomous", href: "/" },
     { name: "HR MANUAL", href: "/HR-Manual.pdf", dropdown: [] },
     { name: "CONTACT US", href: "/contact-us", dropdown: [] },
+    { name: "Gallery", href: "/CollegeGallery", dropdown: [] },
+
 
 ]
