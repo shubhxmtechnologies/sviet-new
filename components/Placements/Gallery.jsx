@@ -69,8 +69,10 @@ const latestPlacementDrive = [
     },
     {
         id: 10,
-        imgSrc: "/Recruiters/WhatsApp Image 2024-12-03 at 14.12.00_2a0c48cc.jpg",
+        imgSrc: "/Recruiters/l&t.jpeg",
         "title": "L & T",
+        title: "Strategic Collaboration with L&T EduTech",
+        description: "L&T EduTech team visited SVIET and signed a Memorandum of Understanding (MoU), paving the way for collaborative initiatives, industry-aligned training, and enhanced career opportunities for our students."
 
     }
 ]
@@ -155,9 +157,9 @@ const GalleryItems = () => {
                                 <p className="text-gray-700 text-sm mb-4">
                                     {item.description}
                                 </p>
-                                <Badge className="bg-blue-100 text-blue-800">
+                                {item.date && <Badge className="bg-blue-100 text-blue-800">
                                     {item.date}
-                                </Badge>
+                                </Badge>}
                             </CardContent>
                         </Card>
                     ))}

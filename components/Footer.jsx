@@ -21,10 +21,7 @@ const quickLinks = [
         href: "https://uj.servergi.com:8079/SIMWEBSVIET/Login",
         target: true
     },
-    {
-        title: "E-Governance",
-        href: "#",
-    },
+   
     { title: "SVGOI", href: "http://sviet.ac.in/", target: true },
     { title: "Examination Cell", href: "/exam-committee" },
 

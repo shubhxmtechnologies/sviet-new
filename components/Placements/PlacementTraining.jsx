@@ -24,11 +24,10 @@ const PlacementsTrainingLayout = () => {
                                     className="p-6 border-b border-gray-200"
                                 >
                                     <h2 className="text-xl font-bold text-[#003366] mb-4">
-                                        Training Methodology
-                                    </h2>
+                                        Placement Training                                    </h2>
                                     <div className="space-y-4 text-gray-700 text-sm leading-relaxed">
                                         <p className="text-justify">
-                                            Comprehensive programs designed to equip students with essential skills for the workforce
+                                            Our placement training programs prepare students to confidently step into the professional world with the right mix of skills, knowledge, and experience.
                                         </p>
 
                                         <div className="grid md:grid-cols-2 px-10 pt-2  gap-10">

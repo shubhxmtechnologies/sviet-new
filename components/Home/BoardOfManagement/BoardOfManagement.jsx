@@ -32,7 +32,7 @@ const BoardOfManagement = ({ self = true, inleft = false, headingInceter = false
                             {managementTeam.map((member, index) => (
                                 <div
                                     key={index}
-                                    className={`grid lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? "lg:grid-flow-col-dense" : ""
+                                    className={`grid lg:grid-cols-2 lg:px-20 gap-12 items-center ${index % 2 === 1 ? "lg:grid-flow-col-dense" : ""
                                         }`}
                                 >
                                     <div
@@ -102,7 +102,7 @@ const BoardOfManagement = ({ self = true, inleft = false, headingInceter = false
                             {managementTeam.map((member, index) => (
                                 <div
                                     key={index}
-                                    className={`grid lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? "lg:grid-flow-col-dense" : ""
+                                    className={`grid lg:grid-cols-2 lg:px-20 gap-12 items-center ${index % 2 === 1 ? "lg:grid-flow-col-dense" : ""
                                         }`}
                                 >
                                     <div
