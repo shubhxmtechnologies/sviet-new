@@ -1,14 +1,7 @@
 import { Badge } from '@/components/ui/badge'
 import { Card, CardContent } from '@/components/ui/card'
 const latestPlacementDrive = [
-    {
-        id: 1,
-        imgSrc: "/Recruiters/aamil.18daa7b7.png",
-        title: "Aimil Ayouthveda Ltd",
-        description: "Aimil Ayouthveda Ltd. conducted a dynamic campus placement drive today at SVGOI for the B.Pharm 2024 batch, with 30 enthusiastic participants.The event showcased a fusion of talent and ambition, setting the stage for promising opportunities in the pharmaceutical industry.",
-        date: "08th February 2024"
-
-    },
+   
     {
         id: 2,
         imgSrc: "/Recruiters/ocean.2fd7a9db.png",
@@ -46,13 +39,7 @@ const latestPlacementDrive = [
         "date": "23rd March 2024",
         imgSrc: "/Recruiters/summit.a2de6a4f.webp"
     },
-    {
-        id: 7,
-        imgSrc: "/Recruiters/Fair.adaf068c.jpg",
-        "title": "Pharma Career Fair 2024",
-        "description": "Today was an incredible day at SVGOI’s Pharma Career Fair 2024! Students had the chance to explore various job opportunities, network with industry leaders, and learn valuable insights about the pharmaceutical industry. The event...",
-        "date": "09th February 2024"
-    },
+
     {
         id: 8,
         imgSrc: "/Recruiters/asdf.jpeg",

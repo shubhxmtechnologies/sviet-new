@@ -30,7 +30,7 @@ const PlacementsTrainingLayout = () => {
                                             Our placement training programs prepare students to confidently step into the professional world with the right mix of skills, knowledge, and experience.
                                         </p>
 
-                                        <div className="grid md:grid-cols-2 px-10 pt-2  gap-10">
+                                        <div className="grid lg:grid-cols-3 px-4 sm:px-0 sm:grid-cols-2  pt-2  gap-10">
                                             {trainingPrograms.map((program, index) => {
                                                 const Icon = program.icon
                                                 return (
